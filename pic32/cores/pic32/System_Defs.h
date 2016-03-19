@@ -41,7 +41,7 @@
 #if !defined(SYSTEM_DEFS_H)
 #define SYSTEM_DEFS_H
 
-#include "System_Config.h"
+#include "system_config.h"
 #include "cpudefs.h"
 
 /* ------------------------------------------------------------ */
