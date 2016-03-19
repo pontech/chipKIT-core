@@ -1,0 +1,219 @@
+Source: chipkit-harmony
+Section: cores
+XBSC-Family: pic32
+Priority: extra
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+XBSC-TieCore: chipkit-harmony
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: http://chipkit.net
+
+Package: chipkit-harmony
+Section: cores
+Architecture: all
+XBSC-Group: PIC32
+Depends: pic32-tools
+Recommends: libdspi-chipkit-harmony, libspi-chipkit-harmony, libsoftspi-chipkit-harmony, libdeipck-chipkit-harmony, libdewfck-chipkit-harmony, libim8720phy-chipkit-harmony, libmrf24g-chipkit-harmony, libhttpserver-chipkit-harmony, libethernet-chipkit-harmony, libfirmata-chipkit-harmony, libwire-chipkit-harmony, libonewire-chipkit-harmony, libsoftwareserial-chipkit-harmony, libeeprom-chipkit-harmony, libsd-chipkit-harmony, libliquidcrystal-chipkit-harmony, libservo-chipkit-harmony, libsoftpwmservo-chipkit-harmony, libstepper-chipkit-harmony
+Description: chipKIT (Harmony Testing)
+ The chipKIT core provides an Arduino 1.x API interface to
+ Microchip's PIC32 family of microcontrollers.  This version is
+ for testing the new Harmony framework integration.
+
+Package: libdspi-chipkit-harmony
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: SPI
+Depends: chipkit-harmony
+Provides: DSPI.h
+Description: chipKIT DSPI Library (Harmony Testing)
+ The DSPI library is an alternative to the normal SPI library.  It provides
+ advanced access to all the SPI ports available on a chipKIT board.
+
+Package: libspi-chipkit-harmony
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: SPI
+Depends: chipkit-harmony
+Provides: SPI.h
+Description: chipKIT SPI Library (Harmony Testing)
+ The SPI library is the traditional Arduino version.  It only allows
+ the use of the primary SPI port on a chipKIT board.
+
+Package: libsoftspi-chipkit-harmony
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: SPI
+Depends: chipkit-harmony
+Provides: SoftSPI.h
+Description: chipKIT SoftSPI Library (Harmony Testing)
+ The SoftSPI library emulates SPI over any pins you choose to use.
+ It is, of course, slower than hardware SPI, but gives great flexibility
+ for those times when you need an extra SPI channel for some low speed
+ occasional use.
+
+Package: libdeipck-chipkit-harmony
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: Networking
+Depends: chipkit-harmony
+Provides: DEIPcK.h
+Description: chipKIT Core Networking Library (Harmony Testing)
+ This library provides the core networking functionality of the chipKIT
+ networking stack.
+
+Package: libdewfck-chipkit-harmony
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: Networking
+Depends: chipkit-harmony, libdeipck-chipkit-harmony
+Provides: DEWFcK.h
+Description: chipKIT WiFi networking layer (Harmony Testing)
+ This adds WiFi capability to the chipKIT networking stack.
+
+Package: libim8720phy-chipkit-harmony
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: Networking
+Depends: chipkit-harmony, libdeipck-chipkit-harmony
+Provides: IM8720PHY.h
+Description: chipKIT IM8720PHY Ethernet Adapter (Harmony Testing)
+ Allows use of the internal PIC32 Ethernet device with an IM8720PHY
+ Ethernet interface.
+
+Package: libmrf24g-chipkit-harmony
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: Networking
+Depends: chipkit-harmony, libdeipck-chipkit-harmony, libdewfck-chipkit-harmony, libdspi-chipkit-harmony
+Provides: MRF29G.h
+Description: chipKIT MRF24G WiFi Adapter (Harmony Testing)
+ Use the MRF24G WiFi adapter module with the chipKIT networking stack.
+
+Package: libhttpserver-chipkit-harmony
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: Networking
+Depends: chipkit-harmony, libdeipck-chipkit-harmony
+Provides: HTTPServer.h
+Description: chipKIT HTTP Server Library (Harmony Testing)
+ Simple abstraction layer for implementing an HTTP server with the chipKIT
+ networking stack.
+
+Package: libethernet-chipkit-harmony
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: Networking
+Depends: chipkit-harmony, libspi-chipkit-harmony
+Provides: Ethernet.h
+Description: chipKIT W5100 Ethernet Library (Harmony Testing)
+ This is the traditional Arduino Ethernet interface library.
+
+Package: libfirmata-chipkit-harmony
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: Protocols
+Depends: chipkit-harmony
+Provides: Firmata.h
+Description: chipKIT Firmata (Harmony Testing)
+ The Firmata system is a method to control a board through a generic
+ serial protocol.
+
+Package: libwire-chipkit-harmony
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: I2C
+Depends: chipkit-harmony
+Provides: Wire.h
+Description: chipKIT Wire I2C Library (Harmony Testing)
+ The traditional Arduino I2C library
+
+Package: libonewire-chipkit-harmony
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+Depends: chipkit-harmony
+Provides: OneWire.h
+Description: chipKIT Dallas OneWire Library (Harmony Testing)
+ Communicate with Dallas OneWire sensors.
+
+Package: libsoftwareserial-chipkit-harmony
+Section: libraries
+Architecture: all
+XBSC-Group: Communications
+XBSC-Subgroup: Serial
+Depends: chipkit-harmony
+Provides: SoftwareSerial.h
+Description: chipKIT Software Serial (Harmony Testing)
+ Primitive bit-banged serial emulation.
+
+Package: libeeprom-chipkit-harmony
+Section: libraries
+Architecture: all
+XBSC-Group: Storage
+XBSC-Subgroup: EEPROM
+Depends: chipkit-harmony
+Provides: EEPROM.h
+Description: PIC32 EEPROM Emulation (Harmony Testing)
+ Use a block of reserved Flash as if it were EEPROM memory.
+ Emulates the Arduino EEPROM class.
+
+Package: libsd-chipkit-harmony
+Section: libraries
+Architecture: all
+XBSC-Group: Storage
+XBSC-Subgroup: SD and MMC 
+Depends: chipkit-harmony
+Provides: SD.h
+Description: SD Card Library (Harmony Testing)
+ Access SD cards using the PIC32
+
+Package: libliquidcrystal-chipkit-harmony
+Section: libraries
+Architecture: all
+XBSC-Group: Display
+XBSC-Subgroup: LCD
+Depends: chipkit-harmony
+Provides: LiquidCrystal.h
+Description: HD44780 LCD Display (Harmony Testing)
+ Control standard HD44780 text LCD displays
+
+Package: libservo-chipkit-harmony
+Section: libraries
+Architecture: all
+XBSC-Group: Motor
+XBSC-Subgroup: Servo
+Depends: chipkit-harmony
+Provides: Servo.h
+Description: Servo Library (Harmony Testing)
+ Drive servo motors with hardware PWM from the chipKIT boards.
+
+Package: libsoftpwmservo-chipkit-harmony
+Section: libraries
+Architecture: all
+XBSC-Group: Motor
+XBSC-Subgroup: Servo
+Depends: chipkit-harmony
+Provides: SoftPWMServo.h
+Description: Software PWM Servo Library (Harmony Testing)
+ Drive servo motors with software PWM from the chipKIT boards.
+
+Package: libstepper-chipkit-harmony
+Section: libraries
+Architecture: all
+XBSC-Group: Motor
+XBSC-Subgroup: Stepper
+Depends: chipkit-harmony
+Provides: Stepper.h
+Description: Stepper Motors (Harmony Testing)
+ Control stepper motors.

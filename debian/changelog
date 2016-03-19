@@ -1,0 +1,5424 @@
+chipkit-harmony (9.0.3) uecide; urgency=low
+
+  * mx1xx/2xx interrupt bug fix
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Sat, 19 Mar 2016 22:28:29 +0000
+
+chipkit-harmony (9.0.2) uecide; urgency=low
+
+  * Renamed libraries
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Sat, 19 Mar 2016 18:24:01 +0000
+
+chipkit-harmony (9.0.1) uecide; urgency=low
+
+  * Clean up groups
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 9 Feb 2016 19:28:34 +0000
+
+chipkit-harmony (9.0.0) uecide; urgency=low
+
+  * Updated description
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 21 Sep 2015 14:28:42 +0100
+
+chipkit-harmony (8.9.9) uecide; urgency=low
+
+  * Clobbering the billions of warnings in the Harmony code
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 21 Sep 2015 14:19:37 +0100
+
+chipkit-harmony (8.9.8) uecide; urgency=low
+
+  * Imported harmony changes
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 21 Sep 2015 01:31:45 +0100
+
+chipkit-harmony (8.9.7) uecide; urgency=low
+
+  * Fixed missing DLL file
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Thu, 17 Sep 2015 20:21:02 +0100
+
+chipkit-harmony (8.9.6) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT-core
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Sun, 13 Sep 2015 22:11:22 +0100
+
+chipkit-harmony (8.9.5) uecide; urgency=low
+
+  * Merge pull request #70 from majenkotech/add-printf
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 13 Sep 2015 16:49:22 -0400
+
+chipkit-harmony (8.9.4) uecide; urgency=low
+
+  * Ported _doprnt() from RetroBSD for Print class
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Sun, 13 Sep 2015 21:32:47 +0100
+
+chipkit-harmony (8.9.3) uecide; urgency=low
+
+  * Merge pull request #69 from ricklon/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 13 Sep 2015 11:26:39 -0400
+
+chipkit-harmony (8.9.2) uecide; urgency=low
+
+  * Merge pull request #62 from majenkotech/fix-serial-warnings
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 13 Sep 2015 11:26:15 -0400
+
+chipkit-harmony (8.9.1) uecide; urgency=low
+
+  * Issue #68 extra flags updated -MDD
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sun, 13 Sep 2015 11:24:54 -0400
+
+chipkit-harmony (8.9.0) uecide; urgency=low
+
+  * Merge pull request #1 from chipKIT32/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 13 Sep 2015 11:23:14 -0400
+
+chipkit-harmony (8.8.9) uecide; urgency=low
+
+  * Added missing icons and remove verify from pickit2 command
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Fri, 11 Sep 2015 14:39:42 +0100
+
+chipkit-harmony (8.8.8) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT-core
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Thu, 10 Sep 2015 21:58:53 +0100
+
+chipkit-harmony (8.8.7) uecide; urgency=low
+
+  * Added missing avrdude.exe
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Thu, 10 Sep 2015 21:57:19 +0100
+
+chipkit-harmony (8.8.6) uecide; urgency=low
+
+  * Merge pull request #65 from EmbeddedMan/master
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 10 Sep 2015 13:29:29 -0500
+
+chipkit-harmony (8.8.5) uecide; urgency=low
+
+  * Another test of chipkit bot. No source changes.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 10 Sep 2015 13:23:29 -0500
+
+chipkit-harmony (8.8.4) uecide; urgency=low
+
+  * Simple test of chipkitbot - no changes to source.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 10 Sep 2015 12:40:37 -0500
+
+chipkit-harmony (8.8.3) uecide; urgency=low
+
+  * Simple test of chipkitbot build. No changes made.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 10 Sep 2015 12:04:28 -0500
+
+chipkit-harmony (8.8.2) uecide; urgency=low
+
+  * Fixed some compilation warnings in the Hardware Serial and CDC drivers
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Fri, 4 Sep 2015 20:25:04 +0100
+
+chipkit-harmony (8.8.1) uecide; urgency=low
+
+  * Updated changelog
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Fri, 4 Sep 2015 13:48:08 +0100
+
+chipkit-harmony (8.8.0) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT31/chipKIT-core
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Thu, 3 Sep 2015 16:41:32 +0100
+
+chipkit-harmony (8.7.9) uecide; urgency=low
+
+  * Issue #61  removed the Sprite and Matrix libraries.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Thu, 3 Sep 2015 11:05:15 -0400
+
+chipkit-harmony (8.7.8) uecide; urgency=low
+
+  * Updated changelog
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 1 Sep 2015 21:24:02 +0100
+
+chipkit-harmony (8.7.7) uecide; urgency=low
+
+  * Added UECIDE files to gitignore
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 1 Sep 2015 21:23:25 +0100
+
+chipkit-harmony (8.7.6) uecide; urgency=low
+
+  * Moved UECIDE packaging system to single folder under upstream repository
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 1 Sep 2015 14:31:02 +0100
+
+chipkit-harmony (8.7.5) uecide; urgency=low
+
+  * Merge pull request #57 from majenkotech/fix-spi-transaction
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 1 Sep 2015 09:05:56 -0400
+
+chipkit-harmony (8.7.4) uecide; urgency=low
+
+  * Merge pull request #58 from majenkotech/upgrade-ethernet
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 1 Sep 2015 09:05:46 -0400
+
+chipkit-harmony (8.7.3) uecide; urgency=low
+
+  * Merge pull request #59 from EmbeddedMan/SoftwareSerial
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 1 Sep 2015 09:05:28 -0400
+
+chipkit-harmony (8.7.2) uecide; urgency=low
+
+  * Small adjustment to intro spiel
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 1 Sep 2015 13:52:00 +0100
+
+chipkit-harmony (8.7.1) uecide; urgency=low
+
+  * Added SVG graphing demonstration
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 1 Sep 2015 13:47:18 +0100
+
+chipkit-harmony (8.7.0) uecide; urgency=low
+
+  * Parallel commit to new SoftwareSerial library for chipKIT32-MAX. Adds new Software Serial library with updated Arduino 1.6.x Software Serial compatibility.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Tue, 1 Sep 2015 07:36:39 -0500
+
+chipkit-harmony (8.6.9) uecide; urgency=low
+
+  * Re-write Ethernet library from upstream Arduino repository
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 1 Sep 2015 11:16:10 +0100
+
+chipkit-harmony (8.6.8) uecide; urgency=low
+
+  * Fixed problem where SPI transaction settings weren't getting applied
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 1 Sep 2015 11:12:32 +0100
+
+chipkit-harmony (8.6.7) uecide; urgency=low
+
+  * Merge pull request #56 from majenkotech/fix-onewire
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 31 Aug 2015 21:32:55 -0400
+
+chipkit-harmony (8.6.6) uecide; urgency=low
+
+  * Merge pull request #55 from majenkotech/fix-dspi-examples
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 31 Aug 2015 21:32:29 -0400
+
+chipkit-harmony (8.6.5) uecide; urgency=low
+
+  * Merge pull request #54 from majenkotech/fix-dtwi
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 31 Aug 2015 21:32:11 -0400
+
+chipkit-harmony (8.6.4) uecide; urgency=low
+
+  * Expand OneWire to cover all PIC32 devices not just MX devices
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 31 Aug 2015 22:18:12 +0100
+
+chipkit-harmony (8.6.3) uecide; urgency=low
+
+  * Found another badly formatted example
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 31 Aug 2015 22:11:43 +0100
+
+chipkit-harmony (8.6.2) uecide; urgency=low
+
+  * Fixed DSPI example formatting
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 31 Aug 2015 21:43:33 +0100
+
+chipkit-harmony (8.6.1) uecide; urgency=low
+
+  * Fixed DTWI OPT_BOARD_INTERNAL problem
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 31 Aug 2015 21:17:51 +0100
+
+chipkit-harmony (8.6.0) uecide; urgency=low
+
+  * Merge pull request #53 from majenkotech/upgrade-spi
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 31 Aug 2015 16:04:09 -0400
+
+chipkit-harmony (8.5.9) uecide; urgency=low
+
+  * Fixed 16 bit transfer bug and constructor typo
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 31 Aug 2015 20:12:14 +0100
+
+chipkit-harmony (8.5.8) uecide; urgency=low
+
+  * Merge pull request #52 from majenkotech/add-udp
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 31 Aug 2015 14:51:13 -0400
+
+chipkit-harmony (8.5.7) uecide; urgency=low
+
+  * Re-written SPI from Arduino upstream
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 31 Aug 2015 19:34:57 +0100
+
+chipkit-harmony (8.5.6) uecide; urgency=low
+
+  * Added missing Udp.h file from upstream Arduino core
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 31 Aug 2015 18:38:07 +0100
+
+chipkit-harmony (8.5.5) uecide; urgency=low
+
+  * Merge pull request #50 from majenkotech/fix_ethernet_client
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 30 Aug 2015 18:08:17 -0400
+
+chipkit-harmony (8.5.4) uecide; urgency=low
+
+  * Fixed mismatched types in example
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Sun, 30 Aug 2015 22:23:06 +0100
+
+chipkit-harmony (8.5.3) uecide; urgency=low
+
+  * Added missing bracket in Client
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Sun, 30 Aug 2015 22:08:55 +0100
+
+chipkit-harmony (8.5.2) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT31/chipKIT-core
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Sun, 30 Aug 2015 22:08:06 +0100
+
+chipkit-harmony (8.5.1) uecide; urgency=low
+
+  * Verified fix for chipKIT32-MAX issue #563, and just bringing it over into core.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sat, 29 Aug 2015 10:16:34 -0500
+
+chipkit-harmony (8.5.0) uecide; urgency=low
+
+  * Fix for https://github.com/chipKIT32/chipKIT32-MAX/pull/592 but bringing it across to chipKIT-core.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Fri, 28 Aug 2015 15:36:59 -0500
+
+chipkit-harmony (8.4.9) uecide; urgency=low
+
+  * Added delay stubs to alias custom AVR delay functions
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Fri, 28 Aug 2015 15:20:47 +0100
+
+chipkit-harmony (8.4.8) uecide; urgency=low
+
+  * Merge pull request #48 from majenkotech/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Fri, 28 Aug 2015 09:52:30 -0400
+
+chipkit-harmony (8.4.7) uecide; urgency=low
+
+  * Added PGM_P pointer type to AVR pgmspace compatibility
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Fri, 28 Aug 2015 11:47:51 +0100
+
+chipkit-harmony (8.4.6) uecide; urgency=low
+
+  * Merge pull request #47 from jasonkajita/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Wed, 26 Aug 2015 17:39:33 -0400
+
+chipkit-harmony (8.4.5) uecide; urgency=low
+
+  * Group .sdata input sections into the .sdata output section
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Mon, 24 Aug 2015 11:00:37 -0700
+
+chipkit-harmony (8.4.4) uecide; urgency=low
+
+  * Issue #46 cmod ldpath applied.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sat, 22 Aug 2015 17:31:32 -0700
+
+chipkit-harmony (8.4.3) uecide; urgency=low
+
+  * Issue #43 example tests added. Issue #44 comment out chipkit_WiFire_80MHz
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sat, 22 Aug 2015 17:00:38 -0700
+
+chipkit-harmony (8.4.2) uecide; urgency=low
+
+  * Issue #10 fixed typo/
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sat, 22 Aug 2015 15:42:03 -0700
+
+chipkit-harmony (8.4.1) uecide; urgency=low
+
+  * Issue #10 MZ WiFire board is compiling correctly.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sat, 22 Aug 2015 15:35:27 -0700
+
+chipkit-harmony (8.4.0) uecide; urgency=low
+
+  * Merge pull request #39 from EmbeddedMan/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 22 Aug 2015 08:37:55 -0700
+
+chipkit-harmony (8.3.9) uecide; urgency=low
+
+  * Partial fix for issue #31 - removed two #include statements from WiFire/Board_Data.c that were including other .c files.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sat, 22 Aug 2015 08:34:34 -0700
+
+chipkit-harmony (8.3.8) uecide; urgency=low
+
+  * Issue #34 created a clean and a clean all target.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sat, 22 Aug 2015 08:05:26 -0700
+
+chipkit-harmony (8.3.7) uecide; urgency=low
+
+  * Merge pull request #37 from EmbeddedMan/master
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sun, 9 Aug 2015 15:08:15 -0500
+
+chipkit-harmony (8.3.6) uecide; urgency=low
+
+  * Updated Firmata to v2.4.4
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sun, 9 Aug 2015 15:07:13 -0500
+
+chipkit-harmony (8.3.5) uecide; urgency=low
+
+  * Merge pull request #36 from EmbeddedMan/master
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sun, 9 Aug 2015 13:19:43 -0500
+
+chipkit-harmony (8.3.4) uecide; urgency=low
+
+  * Fix for #35 - bringing our Firmata library up to date with latest chipKIT support.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sun, 9 Aug 2015 13:17:08 -0500
+
+chipkit-harmony (8.3.3) uecide; urgency=low
+
+  * Merge pull request #33 from majenkotech/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Thu, 6 Aug 2015 23:35:53 -0400
+
+chipkit-harmony (8.3.2) uecide; urgency=low
+
+  * Fixed incorrect file path separator and bad capitalization
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Thu, 6 Aug 2015 15:19:41 +0100
+
+chipkit-harmony (8.3.1) uecide; urgency=low
+
+  * Issue #30 added the dist-all target. Problem is it uses the same os name for all builds. Fixing.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Sat, 1 Aug 2015 17:16:14 -0400
+
+chipkit-harmony (8.3.0) uecide; urgency=low
+
+  * Issue #29 Fixed more of the build.board issues.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 31 Jul 2015 20:10:13 -0400
+
+chipkit-harmony (8.2.9) uecide; urgency=low
+
+  * Issue #29 first set of updates related to build.board
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 31 Jul 2015 19:12:54 -0400
+
+chipkit-harmony (8.2.8) uecide; urgency=low
+
+  * Issue #15 added build version increments in dist file name.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 31 Jul 2015 14:53:34 -0400
+
+chipkit-harmony (8.2.7) uecide; urgency=low
+
+  * Issue #15 added the first portion of autoincrement build and version information.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 31 Jul 2015 11:40:43 -0400
+
+chipkit-harmony (8.2.6) uecide; urgency=low
+
+  * Issue #25 Adding the .ino files that were newly named.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 31 Jul 2015 11:38:20 -0400
+
+chipkit-harmony (8.2.5) uecide; urgency=low
+
+  * Issue #25 renamed all *.pde examples to *.ino
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 31 Jul 2015 10:21:49 -0400
+
+chipkit-harmony (8.2.4) uecide; urgency=low
+
+  * Issue #25 first part of INO vs PDE cleanup
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 31 Jul 2015 10:09:55 -0400
+
+chipkit-harmony (8.2.3) uecide; urgency=low
+
+  * Temp fixed USB_SERIAL flag issues. Added the boards.build key.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Mon, 27 Jul 2015 16:00:13 -0400
+
+chipkit-harmony (8.2.2) uecide; urgency=low
+
+  * Removed ArduinoTestSute need to plan successor.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 24 Jul 2015 21:14:21 -0400
+
+chipkit-harmony (8.2.1) uecide; urgency=low
+
+  * Issue #22 fixed the submodule problem.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Thu, 23 Jul 2015 21:22:58 -0400
+
+chipkit-harmony (8.2.0) uecide; urgency=low
+
+  * Issue #21 Sub Module update fixed.
+
+ -- Rick Anderson <rianders@docs.rutgers.edu>  Thu, 23 Jul 2015 11:16:46 -0400
+
+chipkit-harmony (8.1.9) uecide; urgency=low
+
+  * Updated the readme.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Sun, 19 Jul 2015 18:30:03 -0400
+
+chipkit-harmony (8.1.8) uecide; urgency=low
+
+  * Issue #17 everything is set executable. Now it works properly. Maybe, in future fine tune permissions.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Sun, 19 Jul 2015 18:27:58 -0400
+
+chipkit-harmony (8.1.7) uecide; urgency=low
+
+  * Updated the readme to include dist functions.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Sun, 19 Jul 2015 13:12:01 -0400
+
+chipkit-harmony (8.1.6) uecide; urgency=low
+
+  * Issue #16  added the git submodule init command to updatepic32prog
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Sun, 19 Jul 2015 13:10:01 -0400
+
+chipkit-harmony (8.1.5) uecide; urgency=low
+
+  * Issue #14 added the localplatform variable. Fixes crossplatform compile erros.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Sun, 19 Jul 2015 12:50:32 -0400
+
+chipkit-harmony (8.1.4) uecide; urgency=low
+
+  * Issue #12 found a problem with submodules. Also, platform property does not get overwritten by local property. Introudcing localplatform variable.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Sun, 19 Jul 2015 12:08:20 -0400
+
+chipkit-harmony (8.1.3) uecide; urgency=low
+
+  * Updated deployment instructions
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 19 Jul 2015 11:23:43 -0400
+
+chipkit-harmony (8.1.2) uecide; urgency=low
+
+  * Updated to include requirement for ANT
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 19 Jul 2015 11:20:13 -0400
+
+chipkit-harmony (8.1.1) uecide; urgency=low
+
+  * updated the readme file.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 17 Jul 2015 14:39:00 -0400
+
+chipkit-harmony (8.1.0) uecide; urgency=low
+
+  * added the dist target
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 17 Jul 2015 14:34:49 -0400
+
+chipkit-harmony (8.0.9) uecide; urgency=low
+
+  * Initial compression and git revision collection.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 17 Jul 2015 14:24:55 -0400
+
+chipkit-harmony (8.0.8) uecide; urgency=low
+
+  * added the arm property
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 17 Jul 2015 13:42:39 -0400
+
+chipkit-harmony (8.0.7) uecide; urgency=low
+
+  * Updated core files form MPIDE project. Issues with the MZ compile.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 17 Jul 2015 11:47:23 -0400
+
+chipkit-harmony (8.0.6) uecide; urgency=low
+
+  * Update README.md
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 9 Jun 2015 11:24:18 -0400
+
+chipkit-harmony (8.0.5) uecide; urgency=low
+
+  * Update README.md
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Fri, 22 May 2015 08:55:10 -0600
+
+chipkit-harmony (8.0.4) uecide; urgency=low
+
+  * Update README.md
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Fri, 22 May 2015 08:54:42 -0600
+
+chipkit-harmony (8.0.3) uecide; urgency=low
+
+  * Update README.md
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Fri, 22 May 2015 08:54:09 -0600
+
+chipkit-harmony (8.0.2) uecide; urgency=low
+
+  * Fixed an issue with property so you can build in platform for any OS.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Tue, 21 Apr 2015 00:20:34 -0400
+
+chipkit-harmony (8.0.1) uecide; urgency=low
+
+  * Issue #3 always fetch pic32prog from master for Windows.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Tue, 21 Apr 2015 00:15:40 -0400
+
+chipkit-harmony (8.0.0) uecide; urgency=low
+
+  * Issue #3 fixed tpypo module vs modules.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Mon, 20 Apr 2015 23:41:12 -0400
+
+chipkit-harmony (7.9.9) uecide; urgency=low
+
+  * Issue #3 update pic32prog copy to copy windows executable.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Mon, 20 Apr 2015 23:32:44 -0400
+
+chipkit-harmony (7.9.8) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipkit-core
+
+ -- ricklon <rick.rickanderson@gmail.com>  Mon, 20 Apr 2015 23:13:43 -0400
+
+chipkit-harmony (7.9.7) uecide; urgency=low
+
+  * Fixed bad unzip src directory.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Mon, 20 Apr 2015 23:13:35 -0400
+
+chipkit-harmony (7.9.6) uecide; urgency=low
+
+  * Update README.md
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 20 Apr 2015 23:05:44 -0400
+
+chipkit-harmony (7.9.5) uecide; urgency=low
+
+  * Update README.md
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 20 Apr 2015 23:05:12 -0400
+
+chipkit-harmony (7.9.4) uecide; urgency=low
+
+  * Issue #2 openbci board added.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Mon, 20 Apr 2015 23:02:16 -0400
+
+chipkit-harmony (7.9.3) uecide; urgency=low
+
+  * ant setup and clean task is working properly.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Mon, 20 Apr 2015 22:55:54 -0400
+
+chipkit-harmony (7.9.2) uecide; urgency=low
+
+  * Issue #1 problem resolved by updating all boards with upload.tool=pic32prog
+
+ -- ricklon <rick.rickanderson@gmail.com>  Mon, 20 Apr 2015 22:33:58 -0400
+
+chipkit-harmony (7.9.1) uecide; urgency=low
+
+  * Appears to work properly with submodules
+
+ -- ricklon <rick.rickanderson@gmail.com>  Mon, 20 Apr 2015 22:24:29 -0400
+
+chipkit-harmony (7.9.0) uecide; urgency=low
+
+  * Still figuring out submodules
+
+ -- ricklon <rick.rickanderson@gmail.com>  Mon, 20 Apr 2015 22:23:03 -0400
+
+chipkit-harmony (7.8.9) uecide; urgency=low
+
+  * Issue #1 several more boards updated to pic32prog.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Mon, 20 Apr 2015 20:40:36 -0400
+
+chipkit-harmony (7.8.8) uecide; urgency=low
+
+  * added rest of build tasks for each os platform. Added a feature to update submodule pic32prog
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Mon, 20 Apr 2015 20:04:41 -0400
+
+chipkit-harmony (7.8.7) uecide; urgency=low
+
+  * Updated so Fubarino Mini Compiles and Uploads in Arduino.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Mon, 20 Apr 2015 19:47:16 -0400
+
+chipkit-harmony (7.8.6) uecide; urgency=low
+
+  * mac osx builds properly.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Mon, 20 Apr 2015 18:31:08 -0400
+
+chipkit-harmony (7.8.5) uecide; urgency=low
+
+  * update platform.txt pic32prog options.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Mon, 20 Apr 2015 18:11:10 -0400
+
+chipkit-harmony (7.8.4) uecide; urgency=low
+
+  * added macosx copy commands, updated .gitignore.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Mon, 20 Apr 2015 18:07:06 -0400
+
+chipkit-harmony (7.8.3) uecide; urgency=low
+
+  * Updated the submodule and mac os x packaging.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Mon, 20 Apr 2015 17:48:39 -0400
+
+chipkit-harmony (7.8.2) uecide; urgency=low
+
+  * Added README.md
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 20 Apr 2015 16:51:56 -0400
+
+chipkit-harmony (7.8.1) uecide; urgency=low
+
+  * added compiler license back.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Wed, 1 Apr 2015 16:53:27 -0400
+
+chipkit-harmony (7.8.0) uecide; urgency=low
+
+  * Updated directories for creating OS specific distributions.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Wed, 1 Apr 2015 16:49:25 -0400
+
+chipkit-harmony (7.7.9) uecide; urgency=low
+
+  * fixed the gitignore again.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Mon, 30 Mar 2015 22:39:30 -0400
+
+chipkit-harmony (7.7.8) uecide; urgency=low
+
+  * added the .gitignore file.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Mon, 30 Mar 2015 22:37:08 -0400
+
+chipkit-harmony (7.7.7) uecide; urgency=low
+
+  * Updated build.xml to get latest compiler and extract to pic32/compiler. Might need a tmp directory for the downloaded zip
+
+ -- ricklon <rick.rickanderson@gmail.com>  Mon, 30 Mar 2015 22:26:28 -0400
+
+chipkit-harmony (7.7.6) uecide; urgency=low
+
+  * added a build.xml file to fetch the dependent projects pic32 compiler, and pic32prog
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Mon, 30 Mar 2015 19:23:38 -0400
+
+chipkit-harmony (7.7.5) uecide; urgency=low
+
+  * Removed arduino hardware folder.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Mon, 30 Mar 2015 18:55:33 -0400
+
+chipkit-harmony (7.7.4) uecide; urgency=low
+
+  * Merge github.com:chipKIT32/chipkit-core
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Mon, 30 Mar 2015 18:54:04 -0400
+
+chipkit-harmony (7.7.3) uecide; urgency=low
+
+  * Initial commit
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 30 Mar 2015 18:50:34 -0400
+
+chipkit-harmony (7.7.2) uecide; urgency=low
+
+  * Issue #560 added boards.txt back. It's ignored from what I can tell is good. Removed the :: for Arduino compatibility. Should have added makeboards.txt to auatomate boards.txt building.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sun, 29 Mar 2015 20:48:06 -0400
+
+chipkit-harmony (7.7.1) uecide; urgency=low
+
+  * Issue #560 added starter files for chipKIT-core and fixed issue with Blink sketch.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Thu, 26 Mar 2015 07:08:37 -0500
+
+chipkit-harmony (7.7.0) uecide; urgency=low
+
+  * Bumped version number, did windows test build.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Wed, 18 Mar 2015 18:52:19 -0500
+
+chipkit-harmony (7.6.9) uecide; urgency=low
+
+  * Added some missing _P definitions
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Thu, 26 Feb 2015 13:38:34 +0000
+
+chipkit-harmony (7.6.8) uecide; urgency=low
+
+  * changed C5IO2 define in quick240 variant to correct pin
+
+ -- Michael Skoczen <mike@pontech.com>  Tue, 24 Feb 2015 17:17:59 -0800
+
+chipkit-harmony (7.6.7) uecide; urgency=low
+
+  * USB handshaking fix for issue #466:   We now refrain from sending any USB data up to the PC until one or more of the following happens:     * The PC has sent some data to us or tries to read some data from us (i.e. an application has opened the part and sent some data out or is trying to read data in)     * The PC has activated a hardware handshaking line (i.e. an application has opened the port - most apps do this)   Once we are sending data to the PC, we will continue to do so until one of the following things happens:     * The PC has deactivated the hardware handshaking line (i.e. the app has closed the port)     * The PC has not asked for any data from us for 50ms (this indicates that there is no application consuming the data on the PC side, and the PC's buffer is full, and it doesn't want any more data) I also bumped up the number of USB buffers to 16 (from 4), which seemed to help smooth things out somewhat
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Tue, 17 Feb 2015 17:24:22 -0600
+
+chipkit-harmony (7.6.6) uecide; urgency=low
+
+  * Merge pull request #548 from UECIDE/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Fri, 13 Feb 2015 18:48:55 -0500
+
+chipkit-harmony (7.6.5) uecide; urgency=low
+
+  * Removed (commented out) include which was last vestige of PLIB in our core.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Fri, 13 Feb 2015 17:28:55 -0600
+
+chipkit-harmony (7.6.4) uecide; urgency=low
+
+  * Bumped DMPIDEVER for new test build.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Wed, 4 Feb 2015 15:36:34 -0600
+
+chipkit-harmony (7.6.3) uecide; urgency=low
+
+  * Added unsetSpeed() and unsetMode() functions
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Wed, 4 Feb 2015 19:30:47 +0000
+
+chipkit-harmony (7.6.2) uecide; urgency=low
+
+  * move deWebServer Example to the HTTP Server library
+
+ -- KeithV <KeithV@KRVogel.com>  Mon, 2 Feb 2015 15:15:53 -0800
+
+chipkit-harmony (7.6.1) uecide; urgency=low
+
+  * fix getIntVector
+
+ -- KeithV <KeithV@KRVogel.com>  Mon, 2 Feb 2015 14:23:23 -0800
+
+chipkit-harmony (7.6.0) uecide; urgency=low
+
+  * Merge pull request #545 from UECIDE/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Fri, 30 Jan 2015 10:25:52 -0500
+
+chipkit-harmony (7.5.9) uecide; urgency=low
+
+  * Merge pull request #543 from AquaPic/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Fri, 30 Jan 2015 10:25:39 -0500
+
+chipkit-harmony (7.5.8) uecide; urgency=low
+
+  * Fixed shift out typo
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Thu, 29 Jan 2015 23:15:44 +0000
+
+chipkit-harmony (7.5.7) uecide; urgency=low
+
+  * create wrapper class for Wire
+
+ -- KeithV <KeithV@KRVogel.com>  Thu, 29 Jan 2015 14:11:15 -0800
+
+chipkit-harmony (7.5.6) uecide; urgency=low
+
+  * Added support RS485 addressing and fixed merging
+
+ -- Skyler Brandt <brandtsa@live.com>  Wed, 28 Jan 2015 16:32:52 -0500
+
+chipkit-harmony (7.5.5) uecide; urgency=low
+
+  * Added support for RS485 addressing
+
+ -- Skyler Brandt <brandtsa@live.com>  Wed, 28 Jan 2015 15:50:23 -0500
+
+chipkit-harmony (7.5.4) uecide; urgency=low
+
+  * Corrected typos in pgmspace and added forced undefs.
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Fri, 23 Jan 2015 11:29:33 +0000
+
+chipkit-harmony (7.5.3) uecide; urgency=low
+
+  * Saved a double handful of precious flash bytes
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Thu, 22 Jan 2015 00:50:49 +0000
+
+chipkit-harmony (7.5.2) uecide; urgency=low
+
+  * shiftIn() missing from the prototype list.
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Thu, 22 Jan 2015 00:21:41 +0000
+
+chipkit-harmony (7.5.1) uecide; urgency=low
+
+  * Switched define name list to pins count define
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 20 Jan 2015 14:49:22 +0000
+
+chipkit-harmony (7.5.0) uecide; urgency=low
+
+  * Removed Atmel chip names
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 20 Jan 2015 14:13:45 +0000
+
+chipkit-harmony (7.4.9) uecide; urgency=low
+
+  * Removed hard tabs and fixed formatting
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 20 Jan 2015 14:10:40 +0000
+
+chipkit-harmony (7.4.8) uecide; urgency=low
+
+  * Fixed DSPI for MZ enhanced buffers
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 20 Jan 2015 13:37:18 +0000
+
+chipkit-harmony (7.4.7) uecide; urgency=low
+
+  * Added 64-pin MZ support. Fixed numerous warnings.
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 20 Jan 2015 13:25:53 +0000
+
+chipkit-harmony (7.4.6) uecide; urgency=low
+
+  * Added support for 64-pin MZ pin remapping differences
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Thu, 15 Jan 2015 16:58:40 +0000
+
+chipkit-harmony (7.4.5) uecide; urgency=low
+
+  * Added method to get current baud rate from USB serial
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Wed, 14 Jan 2015 00:59:09 +0000
+
+chipkit-harmony (7.4.4) uecide; urgency=low
+
+  * add unsupported_boards.txt
+
+ -- KeithV <KeithV@KRVogel.com>  Fri, 2 Jan 2015 16:40:35 -0800
+
+chipkit-harmony (7.4.3) uecide; urgency=low
+
+  * add unsuportted_boards.txt
+
+ -- KeithV <KeithV@KRVogel.com>  Fri, 2 Jan 2015 16:32:17 -0800
+
+chipkit-harmony (7.4.2) uecide; urgency=low
+
+  * break out boards.txt into variants
+
+ -- KeithV <KeithV@KRVogel.com>  Fri, 2 Jan 2015 16:16:09 -0800
+
+chipkit-harmony (7.4.1) uecide; urgency=low
+
+  * Recapitalized CDCACM product to match bootloader
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 30 Dec 2014 20:02:28 +0000
+
+chipkit-harmony (7.4.0) uecide; urgency=low
+
+  * Added Serial (both Hardware and USB) receive interrupt callback support
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Sun, 21 Dec 2014 20:46:59 +0000
+
+chipkit-harmony (7.3.9) uecide; urgency=low
+
+  * Added read() for Wire and deprecated receive()
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Fri, 5 Dec 2014 18:30:21 +0000
+
+chipkit-harmony (7.3.8) uecide; urgency=low
+
+  * Merge pull request #531 from KeithV/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 8 Nov 2014 10:15:38 -0500
+
+chipkit-harmony (7.3.7) uecide; urgency=low
+
+  * fix SPI speed for MZ
+
+ -- KeithV <KeithV@KRVogel.com>  Fri, 7 Nov 2014 16:24:00 -0800
+
+chipkit-harmony (7.3.6) uecide; urgency=low
+
+  * Merge pull request #530 from KeithV/master
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Tue, 4 Nov 2014 19:34:28 -0600
+
+chipkit-harmony (7.3.5) uecide; urgency=low
+
+  * update to at_vector interrupts
+
+ -- KeithV <KeithV@KRVogel.com>  Tue, 4 Nov 2014 17:16:27 -0800
+
+chipkit-harmony (7.3.4) uecide; urgency=low
+
+  * Increased version number and build number. Issue #528
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Wed, 29 Oct 2014 14:33:53 -0400
+
+chipkit-harmony (7.3.3) uecide; urgency=low
+
+  * Merge pull request #526 from KeithV/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Fri, 24 Oct 2014 16:07:42 -0700
+
+chipkit-harmony (7.3.2) uecide; urgency=low
+
+  * add MAX32 and NetworkShield support
+
+ -- KeithV <KeithV@KRVogel.com>  Fri, 24 Oct 2014 16:01:55 -0700
+
+chipkit-harmony (7.3.1) uecide; urgency=low
+
+  * Issue #523 added the folder to the repo
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Fri, 24 Oct 2014 09:27:33 -0700
+
+chipkit-harmony (7.3.0) uecide; urgency=low
+
+  * Merge pull request #524 from KeithV/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Fri, 24 Oct 2014 09:18:06 -0700
+
+chipkit-harmony (7.2.9) uecide; urgency=low
+
+  * fix the deIP network stack and HTTP server examples
+
+ -- KeithV <KeithV@KRVogel.com>  Thu, 23 Oct 2014 17:12:49 -0700
+
+chipkit-harmony (7.2.8) uecide; urgency=low
+
+  * Merge pull request #521 from ricklon/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Wed, 22 Oct 2014 14:27:41 -0700
+
+chipkit-harmony (7.2.7) uecide; urgency=low
+
+  * add DTWI and fix interrupts
+
+ -- KeithV <KeithV@KRVogel.com>  Tue, 21 Oct 2014 18:11:22 -0700
+
+chipkit-harmony (7.2.6) uecide; urgency=low
+
+  * Removed wiring.h pgmspace.h variables and replace with avr/pgmspace.h
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Sun, 28 Sep 2014 16:30:06 -0400
+
+chipkit-harmony (7.2.5) uecide; urgency=low
+
+  * Fix to compile Adafruit cc3300 libraries.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Wed, 24 Sep 2014 15:28:05 -0400
+
+chipkit-harmony (7.2.4) uecide; urgency=low
+
+  * FIx for #516 - re-wrote fixed constants with symbolic #define names from header files to get default Servo library to work on MX1/2 parts.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Mon, 22 Sep 2014 22:41:11 -0500
+
+chipkit-harmony (7.2.3) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Mon, 22 Sep 2014 22:36:03 -0500
+
+chipkit-harmony (7.2.2) uecide; urgency=low
+
+  * Fix MX470 support and add to DSPI
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 9 Sep 2014 18:44:22 +0100
+
+chipkit-harmony (7.2.1) uecide; urgency=low
+
+  * Merge branch 'master' of https://github.com/chipKIT32/chipKIT32-MAX
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Fri, 5 Sep 2014 13:56:33 -0700
+
+chipkit-harmony (7.2.0) uecide; urgency=low
+
+  * Add BSD-style license header - https://github.com/chipKIT32/chipKIT32-MAX/issues/508
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Fri, 5 Sep 2014 13:31:16 -0700
+
+chipkit-harmony (7.1.9) uecide; urgency=low
+
+  * Added String& return types to WString internal manipulation functions which return *this
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 1 Sep 2014 19:17:34 +0100
+
+chipkit-harmony (7.1.8) uecide; urgency=low
+
+  * Changed sample clock from 6Tpb to 22Tpb so external Vref works cleanly
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 26 Aug 2014 22:06:34 +0100
+
+chipkit-harmony (7.1.7) uecide; urgency=low
+
+  * Merge pull request #501 from majenkotech/mx470_support
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 25 Aug 2014 07:16:21 -0700
+
+chipkit-harmony (7.1.6) uecide; urgency=low
+
+  * Upgraded Stream from 1.5.6 to 1.5.7
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Sun, 24 Aug 2014 10:00:02 +0100
+
+chipkit-harmony (7.1.5) uecide; urgency=low
+
+  * Merge pull request #503 from UECIDE/upgrade_print
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 23 Aug 2014 22:14:34 -0700
+
+chipkit-harmony (7.1.4) uecide; urgency=low
+
+  * Issue #451 added additonal function to /avr/pgmspace.h stubs for most functions.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Sat, 23 Aug 2014 11:35:41 -0700
+
+chipkit-harmony (7.1.3) uecide; urgency=low
+
+  * Replaced Print et al
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Sat, 23 Aug 2014 18:55:26 +0100
+
+chipkit-harmony (7.1.2) uecide; urgency=low
+
+  * Replaced Print et al
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Sat, 23 Aug 2014 18:51:40 +0100
+
+chipkit-harmony (7.1.1) uecide; urgency=low
+
+  * Issue #497 case sensitie typos.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Fri, 22 Aug 2014 22:22:32 -0700
+
+chipkit-harmony (7.1.0) uecide; urgency=low
+
+  * Issue #497 added the files back.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Fri, 22 Aug 2014 18:18:17 -0700
+
+chipkit-harmony (7.0.9) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Fri, 22 Aug 2014 17:54:11 -0700
+
+chipkit-harmony (7.0.8) uecide; urgency=low
+
+  * Added basic MX470 support
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Fri, 22 Aug 2014 19:37:32 +0100
+
+chipkit-harmony (7.0.7) uecide; urgency=low
+
+  * Enabled PRNG peripheral in PIC32MZ for random(...) functions.
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Fri, 22 Aug 2014 13:50:56 +0100
+
+chipkit-harmony (7.0.6) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Wed, 20 Aug 2014 14:26:47 -0700
+
+chipkit-harmony (7.0.5) uecide; urgency=low
+
+  * Issue 451 added F() macro for Arduino 1.0 compatability
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Wed, 20 Aug 2014 14:18:22 -0700
+
+chipkit-harmony (7.0.4) uecide; urgency=low
+
+  * Issue: 451 updated avr/pgmspace.h to include defines needed to emulate PROGRMEM.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Wed, 20 Aug 2014 14:07:40 -0700
+
+chipkit-harmony (7.0.3) uecide; urgency=low
+
+  * Starting to add Fubarino SDZ support.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Tue, 19 Aug 2014 22:11:30 -0500
+
+chipkit-harmony (7.0.2) uecide; urgency=low
+
+  * Upgraded Stream to Arduino 1.5.6 version
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 12 Aug 2014 15:20:26 +0100
+
+chipkit-harmony (7.0.1) uecide; urgency=low
+
+  * SPI for MZ, ADC errata
+
+ -- KeithV <KeithV@KRVogel.com>  Fri, 1 Aug 2014 15:35:39 -0700
+
+chipkit-harmony (7.0.0) uecide; urgency=low
+
+  * Add ability to specify PPS mappings in DSPI begin function
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Wed, 23 Jul 2014 12:29:24 +0100
+
+chipkit-harmony (6.9.9) uecide; urgency=low
+
+  * Merge pull request #489 from majenkotech/arduino_1_0_X_string
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 19 Jul 2014 12:44:37 -0400
+
+chipkit-harmony (6.9.8) uecide; urgency=low
+
+  * Merge pull request #488 from majenkotech/add_arduino_h
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 19 Jul 2014 12:44:05 -0400
+
+chipkit-harmony (6.9.7) uecide; urgency=low
+
+  * Fixed dtostrf
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Fri, 18 Jul 2014 15:09:55 +0100
+
+chipkit-harmony (6.9.6) uecide; urgency=low
+
+  * Switched to a (tweaked) version of Arduino 1.0.5 WString
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Fri, 18 Jul 2014 14:54:20 +0100
+
+chipkit-harmony (6.9.5) uecide; urgency=low
+
+  * Added Arduino.h stub link file
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Fri, 18 Jul 2014 14:33:25 +0100
+
+chipkit-harmony (6.9.4) uecide; urgency=low
+
+  * Added Arduino.h stub link file
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Fri, 18 Jul 2014 14:28:11 +0100
+
+chipkit-harmony (6.9.3) uecide; urgency=low
+
+  * Added enhanced buffer support
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Sat, 28 Jun 2014 21:16:34 +0100
+
+chipkit-harmony (6.9.2) uecide; urgency=low
+
+  * Added PICadillo 35T board variant
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Fri, 13 Jun 2014 09:41:28 +0100
+
+chipkit-harmony (6.9.1) uecide; urgency=low
+
+  * Merge pull request #483 from EmbeddedMan/master
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 12 Jun 2014 07:09:50 -0500
+
+chipkit-harmony (6.9.0) uecide; urgency=low
+
+  * Fix for issue #482 - Fubarino Mini hardware interrupts not mapped properly in variant files.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 12 Jun 2014 07:09:19 -0500
+
+chipkit-harmony (6.8.9) uecide; urgency=low
+
+  * Merge pull request #479 from KeithV/master
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 12 Jun 2014 07:07:22 -0500
+
+chipkit-harmony (6.8.8) uecide; urgency=low
+
+  * Merge pull request #481 from EmbeddedMan/master
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 12 Jun 2014 07:07:08 -0500
+
+chipkit-harmony (6.8.7) uecide; urgency=low
+
+  * Fix for issue #480 - chipKIT Pi variant file errors.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 12 Jun 2014 05:19:23 -0500
+
+chipkit-harmony (6.8.6) uecide; urgency=low
+
+  * fix analog pin
+
+ -- KeithV <KeithV@KRVogel.com>  Wed, 11 Jun 2014 20:50:41 -0700
+
+chipkit-harmony (6.8.5) uecide; urgency=low
+
+  * Discard config-fuse sections in COMMON linker scripts
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Sat, 7 Jun 2014 16:31:04 -0700
+
+chipkit-harmony (6.8.4) uecide; urgency=low
+
+  * updated build version
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Thu, 5 Jun 2014 23:34:13 -0400
+
+chipkit-harmony (6.8.3) uecide; urgency=low
+
+  * Use space(prog) rather than space(code) on array located in program memory. https://github.com/chipKIT32/chipKIT32-MAX/issues/452
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Thu, 5 Jun 2014 16:53:13 -0700
+
+chipkit-harmony (6.8.2) uecide; urgency=low
+
+  * Merge pull request #472 from KeithV/master
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Mon, 2 Jun 2014 17:24:18 -0500
+
+chipkit-harmony (6.8.1) uecide; urgency=low
+
+  * fix MX to build with plib
+
+ -- KeithV <KeithV@KRVogel.com>  Mon, 2 Jun 2014 14:32:54 -0700
+
+chipkit-harmony (6.8.0) uecide; urgency=low
+
+  * Added volatile to some of the variable definitions in HardwareSerial_usb.c to prevent any possibility of the compiler re-ordering them and causing problems.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sun, 1 Jun 2014 18:53:59 -0500
+
+chipkit-harmony (6.7.9) uecide; urgency=low
+
+  * Updated build.xml to use new (20140530) compilers. Also bumped build number in platforms.txt up by one. Tested with Windows build, and it appears to work.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sat, 31 May 2014 07:47:13 -0500
+
+chipkit-harmony (6.7.8) uecide; urgency=low
+
+  * A very minor re-ordering of USB interrupt initialization sequence to make it even harder for a race condition to mess up USB, as per Keith's suggestions.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sat, 31 May 2014 06:58:02 -0500
+
+chipkit-harmony (6.7.7) uecide; urgency=low
+
+  * Fix for issue #466 and #467 (they're duplicates). We were not clearing the USB interrupt flag before enabling the interrupt. Also added LENGTHOF macro, and tried compiling with asserts turned on (SODEBUG) and something dies. Still need to debug that. But this code change now allows USB serial to work again.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Fri, 30 May 2014 16:46:43 -0500
+
+chipkit-harmony (6.7.6) uecide; urgency=low
+
+  * Incremented build number to 16777995
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Wed, 28 May 2014 21:39:38 -0400
+
+chipkit-harmony (6.7.5) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Wed, 28 May 2014 19:57:41 -0500
+
+chipkit-harmony (6.7.4) uecide; urgency=low
+
+  * Merge pull request #460 from KeithV/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 24 May 2014 12:50:01 -0400
+
+chipkit-harmony (6.7.3) uecide; urgency=low
+
+  * add plib to the linker scripts
+
+ -- KeithV <KeithV@KRVogel.com>  Fri, 23 May 2014 13:39:15 -0700
+
+chipkit-harmony (6.7.2) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 22 May 2014 06:54:19 -0500
+
+chipkit-harmony (6.7.1) uecide; urgency=low
+
+  * Added default SPI pin mapping to Fubarino Mini.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 22 May 2014 06:53:51 -0500
+
+chipkit-harmony (6.7.0) uecide; urgency=low
+
+  * Program/debug Uno32 with Microchip MDB on chipKIT PGM
+
+ -- rei-vilo <rei_vilo@yahoo.fr>  Wed, 21 May 2014 18:13:42 +0200
+
+chipkit-harmony (6.6.9) uecide; urgency=low
+
+  * Issue #455 changed hex to binary and incremented
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Fri, 16 May 2014 12:13:10 -0400
+
+chipkit-harmony (6.6.8) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Wed, 14 May 2014 14:29:46 -0500
+
+chipkit-harmony (6.6.7) uecide; urgency=low
+
+  * Issue #453 eep line put back.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Wed, 7 May 2014 10:39:39 -0400
+
+chipkit-harmony (6.6.6) uecide; urgency=low
+
+  * Removed code related to possible fix for issue #236
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 4 May 2014 23:48:30 -0400
+
+chipkit-harmony (6.6.5) uecide; urgency=low
+
+  * Change in platforms.txt to create map file. Issue #236
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Sun, 4 May 2014 23:37:24 -0400
+
+chipkit-harmony (6.6.4) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Wed, 30 Apr 2014 02:12:54 -0500
+
+chipkit-harmony (6.6.3) uecide; urgency=low
+
+  * Merge pull request #449 from KeithV/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Fri, 25 Apr 2014 16:37:52 -0400
+
+chipkit-harmony (6.6.2) uecide; urgency=low
+
+  * minor fix to WiFire Variants and added end to SD lib:
+
+ -- KeithV <KeithV@KRVogel.com>  Fri, 25 Apr 2014 11:12:28 -0700
+
+chipkit-harmony (6.6.1) uecide; urgency=low
+
+  * Merge pull request #447 from EmbeddedMan/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 21 Apr 2014 17:22:49 -0400
+
+chipkit-harmony (6.6.0) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Mon, 21 Apr 2014 16:19:11 -0500
+
+chipkit-harmony (6.5.9) uecide; urgency=low
+
+  * Not sure how this got missed, but this is supposed to be in. (It was for a previous build.) This change seems to allow Mac OS machines to better handle USB serial.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Mon, 21 Apr 2014 16:15:57 -0500
+
+chipkit-harmony (6.5.8) uecide; urgency=low
+
+  * Merge pull request #443 from KeithV/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Fri, 18 Apr 2014 18:17:59 -0400
+
+chipkit-harmony (6.5.7) uecide; urgency=low
+
+  * Merge pull request #444 from EmbeddedMan/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Thu, 17 Apr 2014 10:36:30 -0400
+
+chipkit-harmony (6.5.6) uecide; urgency=low
+
+  * chipKIT Pi peripheral tests complete, all passing
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 17 Apr 2014 07:46:26 -0500
+
+chipkit-harmony (6.5.5) uecide; urgency=low
+
+  * Merge master into MZ tree
+
+ -- KeithV <KeithV@KRVogel.com>  Wed, 16 Apr 2014 18:18:54 -0700
+
+chipkit-harmony (6.5.4) uecide; urgency=low
+
+  * Fix for #442 - chipKIT Pi I2C does not work
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Wed, 16 Apr 2014 19:16:29 -0500
+
+chipkit-harmony (6.5.3) uecide; urgency=low
+
+  * Merge pull request #441 from EmbeddedMan/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Wed, 16 Apr 2014 09:23:12 -0400
+
+chipkit-harmony (6.5.2) uecide; urgency=low
+
+  * Fix for #440 - Wire examples use invalid I2C addresses (due to PIC32 hardware bug)
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Tue, 15 Apr 2014 23:32:15 -0500
+
+chipkit-harmony (6.5.1) uecide; urgency=low
+
+  * Merge pull request #439 from EmbeddedMan/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 14 Apr 2014 23:10:37 -0400
+
+chipkit-harmony (6.5.0) uecide; urgency=low
+
+  * Fix for issue #438 : Fixed MX1/2 PWM (OC) outputs (analogWrite()) e.g. on Fubarino Mini
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Mon, 14 Apr 2014 22:03:34 -0500
+
+chipkit-harmony (6.4.9) uecide; urgency=low
+
+  * Per issue #437 added version number
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 14 Apr 2014 21:05:02 -0400
+
+chipkit-harmony (6.4.8) uecide; urgency=low
+
+  * Issue: #426. Added the avr include files into pic32/core/pic32/avr per recommendation.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Wed, 9 Apr 2014 22:13:19 -0400
+
+chipkit-harmony (6.4.7) uecide; urgency=low
+
+  * minor fixes to WiFire Variants
+
+ -- KeithV <KeithV@KRVogel.com>  Mon, 7 Apr 2014 17:16:34 -0700
+
+chipkit-harmony (6.4.6) uecide; urgency=low
+
+  * Fixed strange UTF quote characters
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Thu, 3 Apr 2014 14:09:38 +0100
+
+chipkit-harmony (6.4.5) uecide; urgency=low
+
+  * Changed millis() to use readCoreTimer
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Thu, 3 Apr 2014 14:05:26 +0100
+
+chipkit-harmony (6.4.4) uecide; urgency=low
+
+  * Some more tests added to chipKIT Pi tests.txt
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sat, 29 Mar 2014 08:23:49 -0500
+
+chipkit-harmony (6.4.3) uecide; urgency=low
+
+  * Merge pull request #428 from EmbeddedMan/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 25 Mar 2014 17:00:47 -0400
+
+chipkit-harmony (6.4.2) uecide; urgency=low
+
+  * Merge pull request #429 from jasonkajita/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 25 Mar 2014 10:18:24 -0400
+
+chipkit-harmony (6.4.1) uecide; urgency=low
+
+  * Restore common linker script and startup code to 547889f
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Mon, 24 Mar 2014 20:58:22 -0700
+
+chipkit-harmony (6.4.0) uecide; urgency=low
+
+  * Revert "Merge branch 'dev_pic32mz_B'"
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Mon, 24 Mar 2014 20:52:49 -0700
+
+chipkit-harmony (6.3.9) uecide; urgency=low
+
+  * Revert back to e26a7e7
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Mon, 24 Mar 2014 20:52:21 -0700
+
+chipkit-harmony (6.3.8) uecide; urgency=low
+
+  * Fix for issue #421. Re-coded EEPROM emulation library to handle MX1/MX2 parts that have flash blocks smaller than the max address size. Tested on Fubarino SD and Fubarino Mini.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Mon, 24 Mar 2014 20:15:23 -0500
+
+chipkit-harmony (6.3.7) uecide; urgency=low
+
+  * MZ Support
+
+ -- KeithV <KeithV@KRVogel.com>  Fri, 21 Mar 2014 00:10:12 -0700
+
+chipkit-harmony (6.3.6) uecide; urgency=low
+
+  * Revert e26a7e7..5e5d501
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Wed, 19 Mar 2014 15:46:46 -0700
+
+chipkit-harmony (6.3.5) uecide; urgency=low
+
+  * Revert 547889f..5e5d501
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Wed, 19 Mar 2014 15:37:15 -0700
+
+chipkit-harmony (6.3.4) uecide; urgency=low
+
+  * Merge branch 'dev_pic32mz_B' into mz
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Wed, 19 Mar 2014 13:18:27 -0700
+
+chipkit-harmony (6.3.3) uecide; urgency=low
+
+  * Merge remote-tracking branch 'upstream/mz'
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Wed, 19 Mar 2014 10:09:02 -0700
+
+chipkit-harmony (6.3.2) uecide; urgency=low
+
+  * Build number incremented #344
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Sun, 16 Mar 2014 21:34:22 -0400
+
+chipkit-harmony (6.3.1) uecide; urgency=low
+
+  * Issue #420 adds the read function to i2c
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Sun, 16 Mar 2014 21:17:41 -0400
+
+chipkit-harmony (6.3.0) uecide; urgency=low
+
+  * Fixed chipKIT Pi's broken hardware interrupt pins. We now have working INT0 through INT4 on Arduino pins 10, 8, 3, 2 and 1.  (Note, the change in pins_arduino.h will affect all PPS based PIC32s for hardware interrupts. The rest of them should work now too.)
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 6 Mar 2014 16:51:15 -0600
+
+chipkit-harmony (6.2.9) uecide; urgency=low
+
+  * Potential fix for issue $402 - as per majenkotech's dreamy suggestion, we're now telling the computer that we support "Set_Control_Line_State" communications.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 6 Mar 2014 08:27:28 -0600
+
+chipkit-harmony (6.2.8) uecide; urgency=low
+
+  * For issue #402 changed the code per @majenkotech recommendation
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Wed, 5 Mar 2014 18:57:48 -0500
+
+chipkit-harmony (6.2.7) uecide; urgency=low
+
+  * Reverted commit #d29ceba1fb897c5a77029fdc2e81f4bd53eee65b for issue #402
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Wed, 5 Mar 2014 18:55:04 -0500
+
+chipkit-harmony (6.2.6) uecide; urgency=low
+
+  * Code added to fix issues #410, #409 variant variable in platforms.txt not added. Other boards need to overide this value to use their own custom variant.
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Fri, 28 Feb 2014 18:55:01 -0500
+
+chipkit-harmony (6.2.5) uecide; urgency=low
+
+  * Added support for all 6 serial ports on Microchip version of Fubarino SD. Tested, all 6 do work.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Tue, 25 Feb 2014 22:07:39 -0600
+
+chipkit-harmony (6.2.4) uecide; urgency=low
+
+  * Fixes for #405 and #404 Fixed size cast of output_compare_to_pps_sel_PGM[] Got PWMs (all 5) to work on chipKIT PI board Fixed missing entry in output_compare_to_digital_pin_PGM[] in several MX1/MX2 Board_Data.c files.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sun, 23 Feb 2014 11:12:54 -0600
+
+chipkit-harmony (6.2.3) uecide; urgency=low
+
+  * Possible fix for issue #402, "cdcacm stk500v2 for Mac OS X not sending serial data confirmed on at least Fubarino SD boards" I removed the gConnected boolean entirely, as the gCdcacm_attached boolean already provides this functionality.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 20 Feb 2014 20:20:42 -0600
+
+chipkit-harmony (6.2.2) uecide; urgency=low
+
+  * Updates for new compiler images
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Thu, 30 Jan 2014 14:47:42 -0700
+
+chipkit-harmony (6.2.1) uecide; urgency=low
+
+  * Update for changes related to merge for PIC32MZ
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Tue, 28 Jan 2014 09:12:26 -0700
+
+chipkit-harmony (6.2.0) uecide; urgency=low
+
+  * Added read only comment to main.cpp per isse #356
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Tue, 21 Jan 2014 10:27:52 -0500
+
+chipkit-harmony (6.1.9) uecide; urgency=low
+
+  * Adjusted value 10 to variable base as per issue #398
+
+ -- Rick Anderson <rick.rickanderson@gmail.com>  Tue, 21 Jan 2014 10:23:52 -0500
+
+chipkit-harmony (6.1.8) uecide; urgency=low
+
+  * Removed default serial string
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Fri, 10 Jan 2014 22:17:17 +0000
+
+chipkit-harmony (6.1.7) uecide; urgency=low
+
+  * Merge pull request #396 from majenkotech/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 4 Jan 2014 19:06:53 -0800
+
+chipkit-harmony (6.1.6) uecide; urgency=low
+
+  * Added bug list
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Thu, 2 Jan 2014 01:31:46 +0000
+
+chipkit-harmony (6.1.5) uecide; urgency=low
+
+  * Added TODO list
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Thu, 2 Jan 2014 00:56:15 +0000
+
+chipkit-harmony (6.1.4) uecide; urgency=low
+
+  * Wrapped end function in a paranoia block
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Wed, 1 Jan 2014 22:34:09 +0000
+
+chipkit-harmony (6.1.3) uecide; urgency=low
+
+  * Added some comments
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Wed, 1 Jan 2014 20:37:44 +0000
+
+chipkit-harmony (6.1.2) uecide; urgency=low
+
+  * Added begin() armour to wire library to allow multiple calls to begin() without lockup
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 31 Dec 2013 10:40:52 +0000
+
+chipkit-harmony (6.1.1) uecide; urgency=low
+
+  * Merge pull request #393 from majenkotech/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 22 Dec 2013 15:03:33 -0800
+
+chipkit-harmony (6.1.0) uecide; urgency=low
+
+  * Added pin defs for Fubarino Mini DSPI0
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Sun, 22 Dec 2013 13:59:22 +0000
+
+chipkit-harmony (6.0.9) uecide; urgency=low
+
+  * Ooops. Left some debugging code in the commit accidentally. This now removes it.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sat, 21 Dec 2013 14:31:40 -0600
+
+chipkit-harmony (6.0.8) uecide; urgency=low
+
+  * Fix for math overflow bug in SoftPWMServo library (issue #392)
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sat, 21 Dec 2013 08:27:40 -0600
+
+chipkit-harmony (6.0.7) uecide; urgency=low
+
+  * Fixed serail number legth issue
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 16 Dec 2013 15:25:21 +0000
+
+chipkit-harmony (6.0.6) uecide; urgency=low
+
+  * Renamed USBCDC macros to CDCACM
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 16 Dec 2013 14:08:10 +0000
+
+chipkit-harmony (6.0.5) uecide; urgency=low
+
+  * Allowed overriding of cdcacm strings and IDs
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 16 Dec 2013 14:02:44 +0000
+
+chipkit-harmony (6.0.4) uecide; urgency=low
+
+  * Replaced -Wall flag with -w
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 2 Dec 2013 22:59:12 +0000
+
+chipkit-harmony (6.0.3) uecide; urgency=low
+
+  * Fixed ReadCoreTimer() declaration mismatch
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 2 Dec 2013 21:58:12 +0000
+
+chipkit-harmony (6.0.2) uecide; urgency=low
+
+  * Cleaned up warnings for compiling Blink.pde on all boards
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 25 Nov 2013 21:22:17 +0000
+
+chipkit-harmony (6.0.1) uecide; urgency=low
+
+  * Merge pull request #390 from majenkotech/master
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sat, 23 Nov 2013 13:01:11 -0800
+
+chipkit-harmony (6.0.0) uecide; urgency=low
+
+  * Enabled virtual program button in Quick240
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Sat, 23 Nov 2013 20:25:45 +0000
+
+chipkit-harmony (5.9.9) uecide; urgency=low
+
+  * Rebranding Cerebot to chipKIT
+
+ -- Keith Vogel <KeithV@KRVogel.com>  Fri, 15 Nov 2013 21:36:00 -0800
+
+chipkit-harmony (5.9.8) uecide; urgency=low
+
+  * Merge pull request #388 from majenkotech/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Fri, 15 Nov 2013 12:20:08 -0800
+
+chipkit-harmony (5.9.7) uecide; urgency=low
+
+  * Created CUO32Stem specific variant
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 12 Nov 2013 23:09:56 +0000
+
+chipkit-harmony (5.9.6) uecide; urgency=low
+
+  * Merge pull request #387 from majenkotech/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 12 Nov 2013 14:46:50 -0800
+
+chipkit-harmony (5.9.5) uecide; urgency=low
+
+  * Added Kard slot 0-5 definitions
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 12 Nov 2013 21:07:02 +0000
+
+chipkit-harmony (5.9.4) uecide; urgency=low
+
+  * Started fixing issue #382 - updating chipKIT Pi variant files. Added beginning of test report.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Wed, 18 Sep 2013 22:14:36 -0500
+
+chipkit-harmony (5.9.3) uecide; urgency=low
+
+  * Merge pull request #381 from majenkotech/master
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sun, 15 Sep 2013 10:16:02 -0700
+
+chipkit-harmony (5.9.2) uecide; urgency=low
+
+  * Added second DSPI channel (SPI3) to the Fubraino SD definition
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Sat, 14 Sep 2013 20:45:57 +0100
+
+chipkit-harmony (5.9.1) uecide; urgency=low
+
+  * Added pull-up definitions to max32
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Wed, 11 Sep 2013 10:48:40 +0100
+
+chipkit-harmony (5.9.0) uecide; urgency=low
+
+  * upload max was sized too small, sized for USB not FTDI
+
+ -- Keith Vogel <KeithV@KRVogel.com>  Fri, 16 Aug 2013 11:49:03 -0700
+
+chipkit-harmony (5.8.9) uecide; urgency=low
+
+  * Added USBSerial operator int() to test for USB connectivity (a-la Leonardo)
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Thu, 8 Aug 2013 16:08:32 +0100
+
+chipkit-harmony (5.8.8) uecide; urgency=low
+
+  * Switched CDC to using line status to determine endpoint presence.
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Thu, 8 Aug 2013 13:14:53 +0100
+
+chipkit-harmony (5.8.7) uecide; urgency=low
+
+  * Merge pull request #375 from majenkotech/patch-1
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Thu, 25 Jul 2013 19:21:24 -0700
+
+chipkit-harmony (5.8.6) uecide; urgency=low
+
+  * fixed serial to use more than just _SER0_VECTOR
+
+ -- Keith Vogel <KeithV@KRVogel.com>  Thu, 25 Jul 2013 14:16:52 -0700
+
+chipkit-harmony (5.8.5) uecide; urgency=low
+
+  * Update boards.txt
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Thu, 25 Jul 2013 20:37:51 +0100
+
+chipkit-harmony (5.8.4) uecide; urgency=low
+
+  * Keith Vogel's change for issue #374 applied.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 23 Jul 2013 12:09:40 -0400
+
+chipkit-harmony (5.8.3) uecide; urgency=low
+
+  * Merge pull request #373 from EmbeddedMan/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 22 Jul 2013 13:22:12 -0700
+
+chipkit-harmony (5.8.2) uecide; urgency=low
+
+  * Added comment in Fubarino Mini header file about change notice pins. Added start of chipKIT Pi variant files.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sun, 21 Jul 2013 23:01:22 -0500
+
+chipkit-harmony (5.8.1) uecide; urgency=low
+
+  * Fixed issue #371 parathesis missing in servo library int.c
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 7 Jul 2013 15:58:05 -0400
+
+chipkit-harmony (5.8.0) uecide; urgency=low
+
+  * Updated mpide version because of interrupt vector core improvements.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 2 Jul 2013 17:34:42 -0400
+
+chipkit-harmony (5.7.9) uecide; urgency=low
+
+  * Missing the new files added to the repos from Keith for Interupt Vectors.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 2 Jul 2013 16:36:43 -0400
+
+chipkit-harmony (5.7.8) uecide; urgency=low
+
+  * Interrupt vector changes from Keith and Digilent.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 2 Jul 2013 15:40:59 -0400
+
+chipkit-harmony (5.7.7) uecide; urgency=low
+
+  * Updated core version MPIDEVER=0x01000307
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Wed, 26 Jun 2013 14:34:07 -0400
+
+chipkit-harmony (5.7.6) uecide; urgency=low
+
+  * Fixed arduino platforms.txt typo
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Wed, 19 Jun 2013 15:24:29 +0100
+
+chipkit-harmony (5.7.5) uecide; urgency=low
+
+  * Added support for multiple core versions
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 18 Jun 2013 21:31:41 +0100
+
+chipkit-harmony (5.7.4) uecide; urgency=low
+
+  * Added support for multiple core versions
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 18 Jun 2013 21:30:52 +0100
+
+chipkit-harmony (5.7.3) uecide; urgency=low
+
+  * Fixed typo in task_master.c
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 18 Jun 2013 16:41:55 +0100
+
+chipkit-harmony (5.7.2) uecide; urgency=low
+
+  * Updated the build version number to 0x01000306
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 16 Jun 2013 15:52:28 -0400
+
+chipkit-harmony (5.7.1) uecide; urgency=low
+
+  * Revert "Updated the MPIDE build version number."
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 16 Jun 2013 14:33:15 -0400
+
+chipkit-harmony (5.7.0) uecide; urgency=low
+
+  * Updated the MPIDE build version number.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 16 Jun 2013 13:56:50 -0400
+
+chipkit-harmony (5.6.9) uecide; urgency=low
+
+  * Added DSPI::setTransferSize(bits) to enable 8, 16 or 32 bit hardware SPI transfers.
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 10 Jun 2013 23:08:53 +0100
+
+chipkit-harmony (5.6.8) uecide; urgency=low
+
+  * Moved HardwareSerial::flush() to purge() Implemented 1.0.x HardwareSerial.flush() Enabled full use of TX fifo in Hardware Serial
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 10 Jun 2013 22:35:51 +0100
+
+chipkit-harmony (5.6.7) uecide; urgency=low
+
+  * Revert "Moved HardwareSerial::flush to 1.0.0 method.  Added hardware TX fifo"
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 10 Jun 2013 22:33:59 +0100
+
+chipkit-harmony (5.6.6) uecide; urgency=low
+
+  * Moved HardwareSerial::flush to 1.0.0 method.  Added hardware TX fifo
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Mon, 10 Jun 2013 22:12:41 +0100
+
+chipkit-harmony (5.6.5) uecide; urgency=low
+
+  * Normalize line endings
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 3 Jun 2013 23:32:57 -0400
+
+chipkit-harmony (5.6.4) uecide; urgency=low
+
+  * Updated SD Examples based on recommendations by Keith Vogel
+
+ -- Jacob Christ <jacob@pontech.com>  Fri, 24 May 2013 22:14:40 -0700
+
+chipkit-harmony (5.6.3) uecide; urgency=low
+
+  * Add WF32 and DP32; fix SD chipSelect shared SPI on INT 1
+
+ -- Keith Vogel <KeithV@KRVogel.com>  Fri, 24 May 2013 13:49:29 -0700
+
+chipkit-harmony (5.6.2) uecide; urgency=low
+
+  * Update Board_Data.c
+
+ -- gmtii <estebanjbs@gmail.com>  Tue, 21 May 2013 20:28:04 +0200
+
+chipkit-harmony (5.6.1) uecide; urgency=low
+
+  * Updated board name
+
+ -- gmtii <estebanjbs@gmail.com>  Tue, 21 May 2013 15:19:29 +0000
+
+chipkit-harmony (5.6.0) uecide; urgency=low
+
+  * Create Board_Data.c
+
+ -- gmtii <estebanjbs@gmail.com>  Tue, 21 May 2013 14:45:33 +0200
+
+chipkit-harmony (5.5.9) uecide; urgency=low
+
+  * Create Board_Defs.h
+
+ -- gmtii <estebanjbs@gmail.com>  Tue, 21 May 2013 14:44:03 +0200
+
+chipkit-harmony (5.5.8) uecide; urgency=low
+
+  * Update boards.txt
+
+ -- gmtii <estebanjbs@gmail.com>  Tue, 21 May 2013 14:40:55 +0200
+
+chipkit-harmony (5.5.7) uecide; urgency=low
+
+  * Update Board_Defs.h
+
+ -- gmtii <estebanjbs@gmail.com>  Tue, 21 May 2013 14:40:24 +0200
+
+chipkit-harmony (5.5.6) uecide; urgency=low
+
+  * Update boards.txt
+
+ -- gmtii <estebanjbs@gmail.com>  Tue, 21 May 2013 14:33:25 +0200
+
+chipkit-harmony (5.5.5) uecide; urgency=low
+
+  * Update boards.txt
+
+ -- gmtii <estebanjbs@gmail.com>  Tue, 21 May 2013 14:28:00 +0200
+
+chipkit-harmony (5.5.4) uecide; urgency=low
+
+  * Modified for Olimex Pinguino32 board
+
+ -- gmtii <estebanjbs@gmail.com>  Tue, 21 May 2013 14:18:43 +0200
+
+chipkit-harmony (5.5.3) uecide; urgency=low
+
+  * Create Board_Defs.h
+
+ -- gmtii <estebanjbs@gmail.com>  Tue, 21 May 2013 14:15:37 +0200
+
+chipkit-harmony (5.5.2) uecide; urgency=low
+
+  * Create Board_Data.c
+
+ -- gmtii <estebanjbs@gmail.com>  Tue, 21 May 2013 14:15:12 +0200
+
+chipkit-harmony (5.5.1) uecide; urgency=low
+
+  * This includes renaming the Tools->Boards->Fubarino-> entries, and renaming the Fubarino_sd_v11 variant folder to Fubarinio_SD.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sun, 12 May 2013 23:04:05 -0500
+
+chipkit-harmony (5.5.0) uecide; urgency=low
+
+  * update build version.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Wed, 8 May 2013 11:58:52 -0700
+
+chipkit-harmony (5.4.9) uecide; urgency=low
+
+  * Remerge SD lid to pickup changes since it was ported
+
+ -- Michael Skoczen <mike@pontech.com>  Tue, 30 Apr 2013 09:33:09 -0700
+
+chipkit-harmony (5.4.8) uecide; urgency=low
+
+  * merge SD lib
+
+ -- Michael Skoczen <mike@pontech.com>  Tue, 30 Apr 2013 09:24:01 -0700
+
+chipkit-harmony (5.4.7) uecide; urgency=low
+
+  * Replaced line endings with original CRLF style endings to make it easier to diff.
+
+ -- Jacob Christ <jacob@pontech.com>  Sun, 28 Apr 2013 21:39:22 -0700
+
+chipkit-harmony (5.4.6) uecide; urgency=low
+
+  * Updated all PIC32 SD lib examples to use the chipSelect variable so that a single line needs to be updated to test SD example code with any board.
+
+ -- Jacob Christ <jacob@pontech.com>  Sun, 28 Apr 2013 19:19:14 -0700
+
+chipkit-harmony (5.4.5) uecide; urgency=low
+
+  * Quick240: Updated variants to match Max32 recent changes.
+
+ -- Jacob Christ <jacob@pontech.com>  Sun, 28 Apr 2013 17:05:22 -0700
+
+chipkit-harmony (5.4.4) uecide; urgency=low
+
+  * Quick240 variants - Added missing pin and updated mother board PIN_LEDx.
+
+ -- Jacob Christ <jacob@pontech.com>  Sun, 28 Apr 2013 16:58:32 -0700
+
+chipkit-harmony (5.4.3) uecide; urgency=low
+
+  * Merge pull request #337 from majenkotech/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Thu, 25 Apr 2013 08:34:33 -0700
+
+chipkit-harmony (5.4.2) uecide; urgency=low
+
+  * Added pulldown / pullupdown support for inputs
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Thu, 25 Apr 2013 16:18:27 +0100
+
+chipkit-harmony (5.4.1) uecide; urgency=low
+
+  * Merge pull request #333 from mskoczen/sd1.0-0023
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Thu, 25 Apr 2013 04:54:15 -0700
+
+chipkit-harmony (5.4.0) uecide; urgency=low
+
+  * Fixed CNPU on mx1/mx2 devices
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Thu, 25 Apr 2013 10:40:10 +0100
+
+chipkit-harmony (5.3.9) uecide; urgency=low
+
+  * Arduino 1.0 SD Library ported to chipkit 0023 Only tested with mpide-0023-windows-20120903 release multiple files (2 tested) open at one time subfolders report their contents reliably (read, exist, remove tested)
+
+ -- Michael Skoczen <mike@pontech.com>  Mon, 22 Apr 2013 19:21:38 -0700
+
+chipkit-harmony (5.3.8) uecide; urgency=low
+
+  * Added per-variant configs, tools, bootloaders etc.
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Fri, 12 Apr 2013 13:49:43 +0100
+
+chipkit-harmony (5.3.7) uecide; urgency=low
+
+  * Added groupings to boards menu
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Thu, 11 Apr 2013 11:18:48 +0100
+
+chipkit-harmony (5.3.6) uecide; urgency=low
+
+  * Added internal pull-up support on compatible CN pins Added CN table for Uno32 board
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Wed, 10 Apr 2013 15:45:01 +0100
+
+chipkit-harmony (5.3.5) uecide; urgency=low
+
+  * Fixed #323 by removing duplicate function declaration.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Fri, 5 Apr 2013 16:22:08 -0400
+
+chipkit-harmony (5.3.4) uecide; urgency=low
+
+  * Added and tested Fubarino SD chipKIT and Fubarino Mini chipKIT boards in boards.txt file. Note that no new varients are needed.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Wed, 3 Apr 2013 22:09:52 -0500
+
+chipkit-harmony (5.3.3) uecide; urgency=low
+
+  * Fixed PIN_BTN1 definition for Fubarino Mini.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Tue, 2 Apr 2013 20:08:45 -0500
+
+chipkit-harmony (5.3.2) uecide; urgency=low
+
+  * Fixed headers so that they'll compile now. Fix for issue #315. Tested with Fubarino SD v1.3 and USB serial works fine.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Fri, 15 Mar 2013 20:30:57 -0500
+
+chipkit-harmony (5.3.1) uecide; urgency=low
+
+  * Remove dependency on plib
+
+ -- Gene Apperson <genea@digilentinc.com>  Wed, 13 Feb 2013 14:34:52 -0800
+
+chipkit-harmony (5.3.0) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Gene Apperson <genea@digilentinc.com>  Fri, 25 Jan 2013 12:36:46 -0800
+
+chipkit-harmony (5.2.9) uecide; urgency=low
+
+  * Issue #308 resolved by applying delay(50) in correct location via patch from Gene.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Thu, 24 Jan 2013 21:01:37 -0500
+
+chipkit-harmony (5.2.8) uecide; urgency=low
+
+  * Issue 309 - download hangs
+
+ -- Gene Apperson <genea@digilentinc.com>  Fri, 11 Jan 2013 11:57:41 -0800
+
+chipkit-harmony (5.2.7) uecide; urgency=low
+
+  * Merge branch 'master' of https://github.com/chipKIT32/chipKIT32-MAX
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sat, 29 Dec 2012 08:17:59 -0600
+
+chipkit-harmony (5.2.6) uecide; urgency=low
+
+  * Issue #308 initial code added to support Amazon S3 uploads.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Fri, 28 Dec 2012 12:40:21 -0500
+
+chipkit-harmony (5.2.5) uecide; urgency=low
+
+  * fix SD library bit bang SPI from clobbering concurrent processor SPI usage
+
+ -- Keith Vogel <KeithV@KRVogel.com>  Tue, 11 Dec 2012 16:18:47 -0800
+
+chipkit-harmony (5.2.4) uecide; urgency=low
+
+  * Bogus change to file because I can't figure out how to commit a new branch creation without any changes.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sat, 1 Dec 2012 13:14:31 -0600
+
+chipkit-harmony (5.2.3) uecide; urgency=low
+
+  * Fix for issue #300 - adds code to detect 'high' baud rates (>=200000 baud) and uses BRGH = 1 (the high baud rate divisor) to get them right. Tested with all standard baud rates from 9600 to 921600 using terminal emulator. Tested at 2,000,000 (2Mbps) using scope. All correct.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Fri, 23 Nov 2012 10:49:05 -0600
+
+chipkit-harmony (5.2.2) uecide; urgency=low
+
+  * Fix for bug #298 - As per forum post here : http://www.chipkit.org/forum/viewtopic.php?f=7&t=319&start=10 SoftPWMServo library - bug prevents back to back switching of PWM between two different values.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 22 Nov 2012 22:56:15 -0600
+
+chipkit-harmony (5.2.1) uecide; urgency=low
+
+  * Updated boards.txt to remove references to GA4 board.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Tue, 23 Oct 2012 20:22:36 -0500
+
+chipkit-harmony (5.2.0) uecide; urgency=low
+
+  * Updated Fubarino name (from Fubarino SD to FubarinoSD) in boards.txt file
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Tue, 23 Oct 2012 20:18:17 -0500
+
+chipkit-harmony (5.1.9) uecide; urgency=low
+
+  * Fixed bug with PPS input pin mapping constants for SDI2, SS2, and REFCLKI.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Mon, 22 Oct 2012 22:15:50 -0500
+
+chipkit-harmony (5.1.8) uecide; urgency=low
+
+  * Merge branch 'master' of https://github.com/chipKIT32/chipKIT32-MAX into MX1_MX2
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Mon, 22 Oct 2012 22:13:46 -0500
+
+chipkit-harmony (5.1.7) uecide; urgency=low
+
+  * Increased the build number
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 13 Oct 2012 21:01:57 -0400
+
+chipkit-harmony (5.1.6) uecide; urgency=low
+
+  * Updated boards.txt to comment out all "debug" versions of the boards, as we don't want anybody getting confused as to what those are for.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Tue, 2 Oct 2012 07:01:47 -0500
+
+chipkit-harmony (5.1.5) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:EmbeddedMan/chipKIT32-MAX into MX1_MX2
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Tue, 2 Oct 2012 06:41:58 -0500
+
+chipkit-harmony (5.1.4) uecide; urgency=low
+
+  * Merge pull request #281 from EmbeddedMan/MX1_MX2
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 1 Oct 2012 10:42:04 -0700
+
+chipkit-harmony (5.1.3) uecide; urgency=low
+
+  * Merge pull request #282 from KeithV/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 1 Oct 2012 10:41:24 -0700
+
+chipkit-harmony (5.1.2) uecide; urgency=low
+
+  * Updated boards.txt to include -fno-short-double on all boards that use custom compiler arguments.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Fri, 28 Sep 2012 10:17:41 -0400
+
+chipkit-harmony (5.1.1) uecide; urgency=low
+
+  * Added -fno-short-double on all boards with custom C and CPP build options in boards.txt to fix math problem with new compiler.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Mon, 24 Sep 2012 21:45:51 -0500
+
+chipkit-harmony (5.1.0) uecide; urgency=low
+
+  * fix Jacobs board.txts linker script references
+
+ -- Keith Vogel <KeithV@KRVogel.com>  Fri, 21 Sep 2012 18:44:16 -0700
+
+chipkit-harmony (5.0.9) uecide; urgency=low
+
+  * Merge branch 'master' into MX1_MX2
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 20 Sep 2012 22:05:14 -0500
+
+chipkit-harmony (5.0.8) uecide; urgency=low
+
+  * Added readme.mb file for Servo library.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 20 Sep 2012 22:02:13 -0500
+
+chipkit-harmony (5.0.7) uecide; urgency=low
+
+  * Fixed logic bug with ppsFuncIsOutput() macro.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Wed, 19 Sep 2012 21:34:16 -0500
+
+chipkit-harmony (5.0.6) uecide; urgency=low
+
+  * Fixed math problem with Servo library that was incorrectly computing the time between the last falling edge and the first rising edge of the next cycle. Also tweaked timing so that pulses come out more accurately now. Also changed code to support up to pin 127 (since MAX32 has 83 IOs, we needed to go above 63 which was the previous limit.)
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Tue, 18 Sep 2012 21:44:57 -0500
+
+chipkit-harmony (5.0.5) uecide; urgency=low
+
+  * Updated PPS support to include a single enum for the peripheral function, and a single function (mapPps()) to do the mapping. This allows for better error checking and a slightly simpler API.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sun, 16 Sep 2012 12:03:58 -0500
+
+chipkit-harmony (5.0.4) uecide; urgency=low
+
+  * Minor update to FB Mini analog function.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sat, 15 Sep 2012 11:37:43 -0500
+
+chipkit-harmony (5.0.3) uecide; urgency=low
+
+  * Updated PPS support by backing out my changes - turns out there were already public API functions that I just didn't see.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sat, 15 Sep 2012 11:26:37 -0500
+
+chipkit-harmony (5.0.2) uecide; urgency=low
+
+  * Found a bug in PPS support for input pins, fixed it. We now have properly working UARTS (both 1 and 2) on PPS (tested). Also added new #define macros for assigning peripherals to outputs and inputs.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Fri, 14 Sep 2012 22:34:56 -0500
+
+chipkit-harmony (5.0.1) uecide; urgency=low
+
+  * Got Fubarino Mini analog inputs straightened out and working.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 13 Sep 2012 22:54:27 -0500
+
+chipkit-harmony (5.0.0) uecide; urgency=low
+
+  * Forgot to include this debug linker script.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 13 Sep 2012 07:17:34 -0500
+
+chipkit-harmony (4.9.9) uecide; urgency=low
+
+  * Working on testing out PPS support for Fubarino Mini Also updating FB Mini varient files.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 13 Sep 2012 07:16:28 -0500
+
+chipkit-harmony (4.9.8) uecide; urgency=low
+
+  * Merge branch 'master' of https://github.com/chipKIT32/chipKIT32-MAX into MX1_MX2
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Tue, 11 Sep 2012 16:55:14 -0500
+
+chipkit-harmony (4.9.7) uecide; urgency=low
+
+  * Fixed issue with USB Serial dropping bytes from PC due to buffer overrun. Added code to tell USB stack to hold off when our serial buffer can't take more. Upped the serial buffer size (for both USB and hardware - since they're not separate) to 512 bytes.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sun, 9 Sep 2012 11:12:43 -0500
+
+chipkit-harmony (4.9.6) uecide; urgency=low
+
+  * Fixed USB serial zero length string issue in hardwareserial_cdcacm.c
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Fri, 7 Sep 2012 22:54:15 -0500
+
+chipkit-harmony (4.9.5) uecide; urgency=low
+
+  * Fixed USB serial zero length string bug. Added proper MPLAB debug support for MAX32.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Fri, 7 Sep 2012 22:29:49 -0500
+
+chipkit-harmony (4.9.4) uecide; urgency=low
+
+  * Found problem with MX2 (Fubarino Mini) USB Serial. Fixed. We were not accurately clearing the USB interrupt. USB serial now works properly. Also included in this commit is boards.txt support for a Fubarino Mini debug target for those that need to debug under MPLAB.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Wed, 5 Sep 2012 21:14:47 -0500
+
+chipkit-harmony (4.9.3) uecide; urgency=low
+
+  * Merge branch 'master' into MX1_MX2
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Tue, 4 Sep 2012 17:35:12 -0500
+
+chipkit-harmony (4.9.2) uecide; urgency=low
+
+  * Working through cleaning up linker script stuff.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Mon, 3 Sep 2012 10:20:12 -0500
+
+chipkit-harmony (4.9.1) uecide; urgency=low
+
+  * Update to Fubarino SD varient files to shut off secondary oscillator so we can use those two pins. (note: still uses plib)
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Mon, 3 Sep 2012 10:08:51 -0500
+
+chipkit-harmony (4.9.0) uecide; urgency=low
+
+  * In process of merging in current master changes into MX1_MX2 branch. Fubarino Mini compiles at this point.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Mon, 3 Sep 2012 09:57:02 -0500
+
+chipkit-harmony (4.8.9) uecide; urgency=low
+
+  * Merged in recent changes from MPIDE master.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sat, 1 Sep 2012 23:12:00 -0500
+
+chipkit-harmony (4.8.8) uecide; urgency=low
+
+  * Merge branch 'master' of https://github.com/chipKIT32/chipKIT32-MAX into MX1_MX2
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sat, 1 Sep 2012 12:54:39 -0500
+
+chipkit-harmony (4.8.7) uecide; urgency=low
+
+  * Merge branch 'master' into MX1_MX2
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sat, 1 Sep 2012 12:52:15 -0500
+
+chipkit-harmony (4.8.6) uecide; urgency=low
+
+  * Merge pull request #270 from EmbeddedMan/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 1 Sep 2012 08:39:33 -0700
+
+chipkit-harmony (4.8.5) uecide; urgency=low
+
+  * Fixed interrupt input pin numbers.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Fri, 31 Aug 2012 22:47:34 -0500
+
+chipkit-harmony (4.8.4) uecide; urgency=low
+
+  * Merge branch 'master' of https://github.com/chipKIT32/chipKIT32-MAX into MX1_MX2
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Fri, 31 Aug 2012 16:32:36 -0500
+
+chipkit-harmony (4.8.3) uecide; urgency=low
+
+  * Initial tests (blink LED) work now. Got Fubarino Mini support into all the right places. Still need to review many changes and double check that nothing has been missed, as well as testing out PPS support.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sun, 19 Aug 2012 01:20:55 -0500
+
+chipkit-harmony (4.8.2) uecide; urgency=low
+
+  * Updated MPIDE build number to 0x01000303
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 18 Aug 2012 23:39:13 -0400
+
+chipkit-harmony (4.8.1) uecide; urgency=low
+
+  * Applied code fix for SD library conflict with SPI from Gene Apperson, Issue #263
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 18 Aug 2012 19:15:23 -0400
+
+chipkit-harmony (4.8.0) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Fri, 17 Aug 2012 08:42:16 -0400
+
+chipkit-harmony (4.7.9) uecide; urgency=low
+
+  * Updated build version to PIDEVER=0x01000302
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Fri, 17 Aug 2012 08:41:53 -0400
+
+chipkit-harmony (4.7.8) uecide; urgency=low
+
+  * Merge pull request #262 from KeithV/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Thu, 16 Aug 2012 13:22:44 -0700
+
+chipkit-harmony (4.7.7) uecide; urgency=low
+
+  * put NOLOAD on persistent data section
+
+ -- Keith Vogel <KeithV@KRVogel.com>  Thu, 16 Aug 2012 10:55:26 -0700
+
+chipkit-harmony (4.7.6) uecide; urgency=low
+
+  * Issue #244 resolved by adding ldcommon to the platforms.txt file. This adds the path to the common ld.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 13 Aug 2012 16:38:02 -0400
+
+chipkit-harmony (4.7.5) uecide; urgency=low
+
+  * Merge pull request #261 from EmbeddedMan/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 13 Aug 2012 08:17:30 -0700
+
+chipkit-harmony (4.7.4) uecide; urgency=low
+
+  * Merge pull request #259 from KeithV/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 13 Aug 2012 08:16:53 -0700
+
+chipkit-harmony (4.7.3) uecide; urgency=low
+
+  * Fixed PIN_BTN1 value for Fubarino SD.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sun, 12 Aug 2012 13:28:25 -0500
+
+chipkit-harmony (4.7.2) uecide; urgency=low
+
+  * change common linker script include path
+
+ -- Keith Vogel <KeithV@KRVogel.com>  Sat, 11 Aug 2012 12:18:42 -0700
+
+chipkit-harmony (4.7.1) uecide; urgency=low
+
+  * Merge pull request #258 from KeithV/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 11 Aug 2012 11:05:47 -0700
+
+chipkit-harmony (4.7.0) uecide; urgency=low
+
+  * add virtual program button defines
+
+ -- Keith Vogel <KeithV@KRVogel.com>  Sat, 11 Aug 2012 11:03:26 -0700
+
+chipkit-harmony (4.6.9) uecide; urgency=low
+
+  * Merge pull request #254 from JacobChrist/quicK240
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 11 Aug 2012 10:51:41 -0700
+
+chipkit-harmony (4.6.8) uecide; urgency=low
+
+  * issue #256 pullrequest from KeithV
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 11 Aug 2012 10:46:59 -0700
+
+chipkit-harmony (4.6.7) uecide; urgency=low
+
+  * add new linker scripts and header updates
+
+ -- Keith Vogel <KeithV@KRVogel.com>  Sat, 11 Aug 2012 09:55:26 -0700
+
+chipkit-harmony (4.6.6) uecide; urgency=low
+
+  * Moved PONTECH boards to bottom of boards file, refactored board defines for PONTECH product and added quicK240 board variant c&h files.
+
+ -- Jacob Christ <jacob@pontech.com>  Fri, 10 Aug 2012 21:55:36 -0700
+
+chipkit-harmony (4.6.5) uecide; urgency=low
+
+  * Added support for quick240
+
+ -- Jacob Christ <jacob@pontech.com>  Fri, 10 Aug 2012 21:33:58 -0700
+
+chipkit-harmony (4.6.4) uecide; urgency=low
+
+  * Update hardware/pic32/platforms.txt
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Fri, 10 Aug 2012 17:02:42 -0700
+
+chipkit-harmony (4.6.3) uecide; urgency=low
+
+  * Issue #241 Changes needed for RC4, updated compiler version. Removed the new core, bootloader changes. Need to do one last check.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 29 Jul 2012 22:46:09 -0400
+
+chipkit-harmony (4.6.2) uecide; urgency=low
+
+  * New core and bootloader updates.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 29 Jul 2012 22:12:56 -0400
+
+chipkit-harmony (4.6.1) uecide; urgency=low
+
+  * Issue #242 upated boards.txt and linker scripts from Keith, and Gene.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 29 Jul 2012 18:13:51 -0400
+
+chipkit-harmony (4.6.0) uecide; urgency=low
+
+  * Some changes (like maximum pin number) were not updated from Fubarino v1.0. This update fixes those mistakes.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Mon, 16 Jul 2012 00:46:08 -0500
+
+chipkit-harmony (4.5.9) uecide; urgency=low
+
+  * Issue #234 fix code applied.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 8 Jul 2012 22:32:46 -0400
+
+chipkit-harmony (4.5.8) uecide; urgency=low
+
+  * Issue #235 issue resolved by adding 32MX340F512H.ld from local file system to github.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 8 Jul 2012 12:13:57 -0400
+
+chipkit-harmony (4.5.7) uecide; urgency=low
+
+  * Issue #221 code fixes from Gene Apperson applied.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 12 Jun 2012 22:13:37 -0400
+
+chipkit-harmony (4.5.6) uecide; urgency=low
+
+  * Issue #228 added missing variant folder for uc32.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 12 Jun 2012 21:51:46 -0400
+
+chipkit-harmony (4.5.5) uecide; urgency=low
+
+  * Issue 232, introduced board.define for custom defines at the board level.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 12 Jun 2012 21:50:09 -0400
+
+chipkit-harmony (4.5.4) uecide; urgency=low
+
+  * uc32 support added. Need update avrdude.conf for Mac.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 5 Jun 2012 16:39:53 -0400
+
+chipkit-harmony (4.5.3) uecide; urgency=low
+
+  * Issue #215 remove older Fubarino board.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 3 Jun 2012 20:13:10 -0400
+
+chipkit-harmony (4.5.2) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 3 Jun 2012 15:51:47 -0400
+
+chipkit-harmony (4.5.1) uecide; urgency=low
+
+  * Issue #225 changes from Gene Applied.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 3 Jun 2012 15:51:24 -0400
+
+chipkit-harmony (4.5.0) uecide; urgency=low
+
+  * See #227 Add -DMPIDE=23 Pre-Processor Option for gcc and g++
+
+ -- Rei Vilo <rei_vilo@yahoo.fr>  Fri, 1 Jun 2012 13:40:18 +0300
+
+chipkit-harmony (4.4.9) uecide; urgency=low
+
+  * Issue #226 fix from Gene Apperson Applied.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Wed, 30 May 2012 20:27:54 -0400
+
+chipkit-harmony (4.4.8) uecide; urgency=low
+
+  * Improved logging messages.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Wed, 30 May 2012 20:24:47 -0400
+
+chipkit-harmony (4.4.7) uecide; urgency=low
+
+  * Issue #215 updates for Fubarino 1.1
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 29 Apr 2012 16:20:44 -0400
+
+chipkit-harmony (4.4.6) uecide; urgency=low
+
+  * Issue #213 coniguration code added to support LED on chipKit-max32 rev D boards.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 8 Apr 2012 14:39:01 -0400
+
+chipkit-harmony (4.4.5) uecide; urgency=low
+
+  * Issue #215, #214 added missing variants. Updated cuistem to an existing ld script. Not sure if it is the correct one.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Fri, 30 Mar 2012 15:06:34 -0400
+
+chipkit-harmony (4.4.4) uecide; urgency=low
+
+  * Issue #217 the fix was applied. Needs to be verified.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Thu, 29 Mar 2012 22:09:36 -0400
+
+chipkit-harmony (4.4.3) uecide; urgency=low
+
+  * Issue #215 support for Fubarino SD added.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Thu, 29 Mar 2012 22:03:41 -0400
+
+chipkit-harmony (4.4.2) uecide; urgency=low
+
+  * Merge pull request #209 from jasonkajita/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Thu, 1 Mar 2012 18:10:02 -0800
+
+chipkit-harmony (4.4.1) uecide; urgency=low
+
+  * Issue #206 added renamed directories.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 28 Feb 2012 22:02:58 -0500
+
+chipkit-harmony (4.4.0) uecide; urgency=low
+
+  * Issue #206 removing directories for renaming.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 28 Feb 2012 22:01:15 -0500
+
+chipkit-harmony (4.3.9) uecide; urgency=low
+
+  * Issue #206 renaming directories.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 28 Feb 2012 21:52:33 -0500
+
+chipkit-harmony (4.3.8) uecide; urgency=low
+
+  * Don't use the Newlib stdlib.h abs() function
+
+ -- Jason Kajita <jason@jasonkajita.com>  Mon, 27 Feb 2012 22:31:26 -0700
+
+chipkit-harmony (4.3.7) uecide; urgency=low
+
+  * Issue #202 fixes from Gene Apperson applied.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 20 Feb 2012 16:35:35 -0500
+
+chipkit-harmony (4.3.6) uecide; urgency=low
+
+  * Issue #148 fixes from Gene Apperson applied.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 20 Feb 2012 16:34:21 -0500
+
+chipkit-harmony (4.3.5) uecide; urgency=low
+
+  * Conditionalize is blank
+
+ -- Jason Kajita <jason@jasonkajita.com>  Thu, 9 Feb 2012 19:57:52 -0700
+
+chipkit-harmony (4.3.4) uecide; urgency=low
+
+  * Issue #200 interupt enable patch applied from Gene Apperson.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 4 Feb 2012 18:52:38 -0500
+
+chipkit-harmony (4.3.3) uecide; urgency=low
+
+  * Issues #183, #192, #194, #195 code fixes from Gene Apperson applied.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 22 Jan 2012 21:24:28 -0500
+
+chipkit-harmony (4.3.2) uecide; urgency=low
+
+  * Issue #179 OneWire.h include plib.h removed.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 7 Jan 2012 20:40:43 -0500
+
+chipkit-harmony (4.3.1) uecide; urgency=low
+
+  * Support for Arduino Ethernet added.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 7 Jan 2012 20:35:09 -0500
+
+chipkit-harmony (4.3.0) uecide; urgency=low
+
+  * Issue #183 added upates for testing.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 7 Jan 2012 20:33:51 -0500
+
+chipkit-harmony (4.2.9) uecide; urgency=low
+
+  * Resolved issue #179 by removing plib.h from OneWire.h
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 31 Dec 2011 19:29:42 -0500
+
+chipkit-harmony (4.2.8) uecide; urgency=low
+
+  * Issue #174 fix applied from Gene Apperson for DSPI.h referencing wrong symbols.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 27 Dec 2011 16:08:26 -0500
+
+chipkit-harmony (4.2.7) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Mon, 19 Dec 2011 16:42:31 -0600
+
+chipkit-harmony (4.2.6) uecide; urgency=low
+
+  * #170 Updated two example files for SoftPWMServo so as to run out of the box on Uno32 boards
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Mon, 19 Dec 2011 16:40:53 -0600
+
+chipkit-harmony (4.2.5) uecide; urgency=low
+
+  * Updated two example files for SoftPWMServo so as to run out of the box on Uno32 boards.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sun, 18 Dec 2011 18:30:04 -0600
+
+chipkit-harmony (4.2.4) uecide; urgency=low
+
+  * Merge branch 'variants' of github.com:chipKIT32/chipKIT32-MAX into variants
+
+ -- Mark Sproul <msproul@skychariot.com>  Sat, 17 Dec 2011 12:12:18 -0500
+
+chipkit-harmony (4.2.3) uecide; urgency=low
+
+  * Added setRowOffsets to LiquidCrytal to support non-standard LCD displays
+
+ -- Mark Sproul <msproul@skychariot.com>  Sat, 17 Dec 2011 12:09:59 -0500
+
+chipkit-harmony (4.2.2) uecide; urgency=low
+
+  * Issue #168   Default variant is 100
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Thu, 15 Dec 2011 21:47:06 -0500
+
+chipkit-harmony (4.2.1) uecide; urgency=low
+
+  * Merge branch 'variants' of github.com:chipKIT32/chipKIT32-MAX into variants
+
+ -- Mark Sproul <msproul@skychariot.com>  Thu, 15 Dec 2011 14:02:48 -0500
+
+chipkit-harmony (4.2.0) uecide; urgency=low
+
+  * Minor typo in MAX32-USB for Serial
+
+ -- Mark Sproul <msproul@skychariot.com>  Thu, 15 Dec 2011 14:02:33 -0500
+
+chipkit-harmony (4.1.9) uecide; urgency=low
+
+  * Issue #166 Added SoftSPI library.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Wed, 14 Dec 2011 21:55:51 -0500
+
+chipkit-harmony (4.1.8) uecide; urgency=low
+
+  * Issue #160, pinmap for SD library only defined for uno and mega-still needs work
+
+ -- Mark Sproul <msproul@skychariot.com>  Wed, 14 Dec 2011 18:06:59 -0500
+
+chipkit-harmony (4.1.7) uecide; urgency=low
+
+  * Issue #165 the 'value' parameter in write() should be uint8_t.
+
+ -- Mark Sproul <msproul@skychariot.com>  Wed, 14 Dec 2011 18:01:06 -0500
+
+chipkit-harmony (4.1.6) uecide; urgency=low
+
+  * Issue #151 added INTEnableInterrupts and INTDisableInterrupts
+
+ -- Mark Sproul <msproul@skychariot.com>  Sun, 11 Dec 2011 19:18:04 -0500
+
+chipkit-harmony (4.1.5) uecide; urgency=low
+
+  * Issue #151 added INTEnableInterrupts and INTDisableInterrupts
+
+ -- Mark Sproul <msproul@skychariot.com>  Sun, 11 Dec 2011 19:17:25 -0500
+
+chipkit-harmony (4.1.4) uecide; urgency=low
+
+  * misc cleanup
+
+ -- Mark Sproul <msproul@skychariot.com>  Sun, 11 Dec 2011 19:16:46 -0500
+
+chipkit-harmony (4.1.3) uecide; urgency=low
+
+  * Issue#157 digitalPinToTimer() generates error
+
+ -- Mark Sproul <msproul@skychariot.com>  Sun, 11 Dec 2011 18:50:44 -0500
+
+chipkit-harmony (4.1.2) uecide; urgency=low
+
+  * Issue #156 code changes by Gene Apperson. New files added.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 11 Dec 2011 16:18:54 -0500
+
+chipkit-harmony (4.1.1) uecide; urgency=low
+
+  * Issue #156 code changes by Gene Apperson.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 11 Dec 2011 16:17:51 -0500
+
+chipkit-harmony (4.1.0) uecide; urgency=low
+
+  * Issue#139 Getting ready for Arduino V1.0
+
+ -- Mark Sproul <msproul@skychariot.com>  Fri, 25 Nov 2011 15:53:40 -0500
+
+chipkit-harmony (4.0.9) uecide; urgency=low
+
+  * Issue#63 fixed pulse in to use micros()
+
+ -- Mark Sproul <msproul@skychariot.com>  Fri, 25 Nov 2011 15:32:01 -0500
+
+chipkit-harmony (4.0.8) uecide; urgency=low
+
+  * Added cpus defs back to cpudefs.h
+
+ -- Mark Sproul <msproul@skychariot.com>  Fri, 25 Nov 2011 14:14:45 -0500
+
+chipkit-harmony (4.0.7) uecide; urgency=low
+
+  * Updated to the latest SoftPWMservo.cpp file.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Wed, 23 Nov 2011 00:34:34 -0500
+
+chipkit-harmony (4.0.6) uecide; urgency=low
+
+  * BarometricPressuresenor SPI folder contained temporary sektches, and files. Cleaned up
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 22 Nov 2011 22:34:17 -0500
+
+chipkit-harmony (4.0.5) uecide; urgency=low
+
+  * Updated wiring_digital.c from Gene.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 22 Nov 2011 19:58:57 -0500
+
+chipkit-harmony (4.0.4) uecide; urgency=low
+
+  * Update 20111122 from Gene: All of the Board_Defs.h files have been updated. I added back in some macros for compatibility reasons. This should fix the problems Brian was having compiling the SoftPWMServo library.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 22 Nov 2011 19:57:32 -0500
+
+chipkit-harmony (4.0.3) uecide; urgency=low
+
+  * twi.c update to fix  preventing any board that didn't use I2C1 as the controller for Wire from working. (Boards affected are Cerebot MX4cK, MX7cK).
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 21 Nov 2011 22:23:07 -0500
+
+chipkit-harmony (4.0.2) uecide; urgency=low
+
+  * Gene's variant upates 20111120. Platforms.txt uses Default_64 for default variant. All definitons in boards.txt have a variant, but not confirmed if correct.:
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 20 Nov 2011 22:38:30 -0500
+
+chipkit-harmony (4.0.1) uecide; urgency=low
+
+  * Brian's latest update to wiring.c for issue #143
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 20 Nov 2011 19:54:22 -0500
+
+chipkit-harmony (4.0.0) uecide; urgency=low
+
+  * Remove pins_arduino_pic32_*.cxx these are replaced by variants support.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 20 Nov 2011 19:49:07 -0500
+
+chipkit-harmony (3.9.9) uecide; urgency=low
+
+  * Removed Board_defs.h from pic32/core/pic32
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 20 Nov 2011 19:45:48 -0500
+
+chipkit-harmony (3.9.8) uecide; urgency=low
+
+  * Brian's updates to wiring.c for timing.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 19 Nov 2011 22:54:32 -0500
+
+chipkit-harmony (3.9.7) uecide; urgency=low
+
+  * Issue #139 Core issue fixed for Arduino code. Was being defined twice, and the second time blank.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 19 Nov 2011 21:39:49 -0500
+
+chipkit-harmony (3.9.6) uecide; urgency=low
+
+  * 0023 arduino additional hardware files.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 19 Nov 2011 20:59:25 -0500
+
+chipkit-harmony (3.9.5) uecide; urgency=low
+
+  * 0023 bootloader updates.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 19 Nov 2011 20:57:39 -0500
+
+chipkit-harmony (3.9.4) uecide; urgency=low
+
+  * 0023 core updates
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 19 Nov 2011 20:56:38 -0500
+
+chipkit-harmony (3.9.3) uecide; urgency=low
+
+  * Fix for include path using windows slashes.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 19 Nov 2011 20:42:47 -0500
+
+chipkit-harmony (3.9.2) uecide; urgency=low
+
+  * OneWire added, Gene Apperson's Board Variant for pic32 added.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 19 Nov 2011 20:22:55 -0500
+
+chipkit-harmony (3.9.1) uecide; urgency=low
+
+  * Issue #140 applied to USBSerial class
+
+ -- Mark Sproul <msproul@skychariot.com>  Tue, 1 Nov 2011 13:57:48 -0400
+
+chipkit-harmony (3.9.0) uecide; urgency=low
+
+  * Misc formating changes
+
+ -- Mark Sproul <msproul@skychariot.com>  Tue, 1 Nov 2011 13:49:27 -0400
+
+chipkit-harmony (3.8.9) uecide; urgency=low
+
+  * Issue #140, HardwareSerial not derived from Stream
+
+ -- Mark Sproul <msproul@skychariot.com>  Tue, 1 Nov 2011 13:49:00 -0400
+
+chipkit-harmony (3.8.8) uecide; urgency=low
+
+  * Issue #140, HardwareSerial not derived from Stream
+
+ -- Mark Sproul <msproul@skychariot.com>  Tue, 1 Nov 2011 13:48:52 -0400
+
+chipkit-harmony (3.8.7) uecide; urgency=low
+
+  * Issue #66 Pass the -fno-short-double option to the compiler when building for pic32 https://github.com/chipKIT32/chipKIT32-MAX/issues/66
+
+ -- Jason Kajita <jason@jasonkajita.com>  Thu, 13 Oct 2011 19:24:46 -0500
+
+chipkit-harmony (3.8.6) uecide; urgency=low
+
+  * Issue #132 Tone fails when the frequency is 0 fixed
+
+ -- Mark Sproul <msproul@skychariot.com>  Wed, 5 Oct 2011 22:25:57 -0400
+
+chipkit-harmony (3.8.5) uecide; urgency=low
+
+  * Issue #135 strcpy_P missing
+
+ -- Mark Sproul <msproul@skychariot.com>  Wed, 5 Oct 2011 16:52:29 -0400
+
+chipkit-harmony (3.8.4) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Mark Sproul <msproul@skychariot.com>  Wed, 5 Oct 2011 16:47:21 -0400
+
+chipkit-harmony (3.8.3) uecide; urgency=low
+
+  * Updated Arduino test suite for PIC32
+
+ -- Mark Sproul <msproul@skychariot.com>  Wed, 5 Oct 2011 16:47:06 -0400
+
+chipkit-harmony (3.8.2) uecide; urgency=low
+
+  * Issue #124 core timer issue
+
+ -- Mark Sproul <msproul@skychariot.com>  Wed, 5 Oct 2011 16:46:32 -0400
+
+chipkit-harmony (3.8.1) uecide; urgency=low
+
+  * Issue #133 boards.txt cleanup
+
+ -- Mark Sproul <msproul@skychariot.com>  Wed, 5 Oct 2011 16:44:59 -0400
+
+chipkit-harmony (3.8.0) uecide; urgency=low
+
+  * Issue #123 fix from Gene applied.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Tue, 20 Sep 2011 23:29:09 -0400
+
+chipkit-harmony (3.7.9) uecide; urgency=low
+
+  * Misc formating updates, no code changes
+
+ -- Mark Sproul <msproul@skychariot.com>  Tue, 20 Sep 2011 19:59:34 -0400
+
+chipkit-harmony (3.7.8) uecide; urgency=low
+
+  * Issue #125 EEPROM fix added from patch by Gene Apperson.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Wed, 14 Sep 2011 22:34:22 -0400
+
+chipkit-harmony (3.7.7) uecide; urgency=low
+
+  * Issue #117 plib.h removed from Sd2Card.h, and plib.h, and p32xxxx.h add to Sd2Card.cpp
+
+ -- ricklon <rick.rickanderson@gmail.com>  Wed, 7 Sep 2011 21:56:08 -0400
+
+chipkit-harmony (3.7.6) uecide; urgency=low
+
+  * Issue #116 quick fix lower case utility folder.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Wed, 7 Sep 2011 21:34:14 -0400
+
+chipkit-harmony (3.7.5) uecide; urgency=low
+
+  * Issue #115 fixed plib.h dependicies
+
+ -- Mark Sproul <msproul@skychariot.com>  Tue, 6 Sep 2011 21:20:12 -0400
+
+chipkit-harmony (3.7.4) uecide; urgency=low
+
+  * Issue #114 fixed plib.h issues
+
+ -- Mark Sproul <msproul@skychariot.com>  Tue, 6 Sep 2011 21:19:17 -0400
+
+chipkit-harmony (3.7.3) uecide; urgency=low
+
+  * Issue #114 fixed plib.h issues
+
+ -- Mark Sproul <msproul@skychariot.com>  Tue, 6 Sep 2011 21:19:11 -0400
+
+chipkit-harmony (3.7.2) uecide; urgency=low
+
+  * Issue #114 fixed plib.h issues
+
+ -- Mark Sproul <msproul@skychariot.com>  Tue, 6 Sep 2011 21:18:57 -0400
+
+chipkit-harmony (3.7.1) uecide; urgency=low
+
+  * Added support MicroElectronics Multimedia board
+
+ -- Mark Sproul <msproul@skychariot.com>  Sun, 4 Sep 2011 15:30:07 -0400
+
+chipkit-harmony (3.7.0) uecide; urgency=low
+
+  * Issue #113 SPI Modes being set incorrectly in SPI library
+
+ -- Mark Sproul <msproul@skychariot.com>  Sun, 4 Sep 2011 15:23:31 -0400
+
+chipkit-harmony (3.6.9) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Mark Sproul <msproul@skychariot.com>  Sun, 4 Sep 2011 15:07:35 -0400
+
+chipkit-harmony (3.6.8) uecide; urgency=low
+
+  * Issue #72, tone now working, Genes changes applied
+
+ -- Mark Sproul <msproul@skychariot.com>  Sun, 4 Sep 2011 15:06:53 -0400
+
+chipkit-harmony (3.6.7) uecide; urgency=low
+
+  * Issue #72, tone not working
+
+ -- Mark Sproul <msproul@skychariot.com>  Sun, 4 Sep 2011 15:04:29 -0400
+
+chipkit-harmony (3.6.6) uecide; urgency=low
+
+  * Issue #111 (again) changed <plib.h> to <p32xxx.h>
+
+ -- Mark Sproul <msproul@skychariot.com>  Fri, 2 Sep 2011 17:28:12 -0400
+
+chipkit-harmony (3.6.5) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Mark Sproul <msproul@skychariot.com>  Thu, 1 Sep 2011 20:44:30 -0400
+
+chipkit-harmony (3.6.4) uecide; urgency=low
+
+  * Issue #112, changed assigment to compare in finISR
+
+ -- Mark Sproul <msproul@skychariot.com>  Thu, 1 Sep 2011 20:44:02 -0400
+
+chipkit-harmony (3.6.3) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Thu, 1 Sep 2011 20:18:51 -0400
+
+chipkit-harmony (3.6.2) uecide; urgency=low
+
+  * Issue #109 clear interrupt, Issue #110 remove float operation
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Thu, 1 Sep 2011 20:18:21 -0400
+
+chipkit-harmony (3.6.1) uecide; urgency=low
+
+  * Issue #109 clear interrupt, Issue #110 remove floar operation
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Thu, 1 Sep 2011 20:00:47 -0400
+
+chipkit-harmony (3.6.0) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Mark Sproul <msproul@skychariot.com>  Thu, 1 Sep 2011 19:55:12 -0400
+
+chipkit-harmony (3.5.9) uecide; urgency=low
+
+  * Issue #111, <plib.h> was included twice
+
+ -- Mark Sproul <msproul@skychariot.com>  Thu, 1 Sep 2011 19:51:31 -0400
+
+chipkit-harmony (3.5.8) uecide; urgency=low
+
+  * Issue#107 code from Brian Schmalz resolves this issue.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 22 Aug 2011 20:10:31 -0700
+
+chipkit-harmony (3.5.7) uecide; urgency=low
+
+  * Several things for formatting issues
+
+ -- Mark Sproul <msproul@skychariot.com>  Mon, 22 Aug 2011 22:25:41 -0400
+
+chipkit-harmony (3.5.6) uecide; urgency=low
+
+  * merging in several updates
+
+ -- Mark Sproul <msproul@skychariot.com>  Mon, 22 Aug 2011 16:24:04 -0400
+
+chipkit-harmony (3.5.5) uecide; urgency=low
+
+  * Issue# 105 Include in client.h updated to be Stream.h resolves issue 105.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sun, 21 Aug 2011 01:03:33 -0400
+
+chipkit-harmony (3.5.4) uecide; urgency=low
+
+  * Issue# 101 Code from GeneApperson resolved this issue.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 20 Aug 2011 23:53:06 -0400
+
+chipkit-harmony (3.5.3) uecide; urgency=low
+
+  * Issue #100 Line ending fixes have been applied.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 20 Aug 2011 22:13:46 -0400
+
+chipkit-harmony (3.5.2) uecide; urgency=low
+
+  * Issue #99 these methods were added back in and the BarometicPressure sketch compiles properly which is Issue #37.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 20 Aug 2011 22:05:20 -0400
+
+chipkit-harmony (3.5.1) uecide; urgency=low
+
+  * Issue #98 Serial.peek is now implemented from GeneApperson's changes.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 20 Aug 2011 21:51:15 -0400
+
+chipkit-harmony (3.5.0) uecide; urgency=low
+
+  * Issue #97 wiring.c, and wiring.h updated with changes needed to support SoftPWMServo.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 20 Aug 2011 21:16:24 -0400
+
+chipkit-harmony (3.4.9) uecide; urgency=low
+
+  * Issue #102 chose replacement file as official file. Resolved the conflict.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 20 Aug 2011 21:13:36 -0400
+
+chipkit-harmony (3.4.8) uecide; urgency=low
+
+  * Merge pull request #89 from jasonkajita/master
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Fri, 19 Aug 2011 14:55:16 -0700
+
+chipkit-harmony (3.4.7) uecide; urgency=low
+
+  * Issue #96 closed by applying recommend fix, static void setClockDivider(BYTE); changed to static void setClockDivider(WORD);
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Fri, 19 Aug 2011 17:43:20 -0400
+
+chipkit-harmony (3.4.6) uecide; urgency=low
+
+  * Issue #97 added SoftPWMServo library. Still need to make modification for wiring.c, and witing.h.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Thu, 18 Aug 2011 23:07:11 -0400
+
+chipkit-harmony (3.4.5) uecide; urgency=low
+
+  * Issue #90 updates for the libraries copyright and licensing information.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Thu, 18 Aug 2011 20:47:01 -0400
+
+chipkit-harmony (3.4.4) uecide; urgency=low
+
+  * Specify -Wcast-align to address https://github.com/chipKIT32/chipKIT32-MAX/issues/88
+
+ -- Jason Kajita <jason@jasonkajita.com>  Thu, 18 Aug 2011 08:57:03 -0700
+
+chipkit-harmony (3.4.3) uecide; urgency=low
+
+  * Issue #84 disable uart in Serial.end and Issue#78 dont call INTEnableSystemMultiVectoredInt
+
+ -- Mark Sproul <msproul@skychariot.com>  Wed, 17 Aug 2011 19:47:22 -0400
+
+chipkit-harmony (3.4.2) uecide; urgency=low
+
+  * Issue #84 disable uart in init()
+
+ -- Mark Sproul <msproul@skychariot.com>  Wed, 17 Aug 2011 19:44:34 -0400
+
+chipkit-harmony (3.4.1) uecide; urgency=low
+
+  * Issue #81 pgm_read_word
+
+ -- Mark Sproul <msproul@skychariot.com>  Wed, 17 Aug 2011 19:36:42 -0400
+
+chipkit-harmony (3.4.0) uecide; urgency=low
+
+  * Issue #75 attach interrupt
+
+ -- Mark Sproul <msproul@skychariot.com>  Wed, 17 Aug 2011 19:33:52 -0400
+
+chipkit-harmony (3.3.9) uecide; urgency=low
+
+  * Attach Interrupts now finished (issue #75)
+
+ -- Mark Sproul <msproul@skychariot.com>  Tue, 16 Aug 2011 19:43:42 -0400
+
+chipkit-harmony (3.3.8) uecide; urgency=low
+
+  * The rest of the fix for issue#70
+
+ -- Mark Sproul <msproul@skychariot.com>  Sun, 7 Aug 2011 19:26:46 -0400
+
+chipkit-harmony (3.3.7) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Mark Sproul <msproul@skychariot.com>  Sun, 7 Aug 2011 19:12:54 -0400
+
+chipkit-harmony (3.3.6) uecide; urgency=low
+
+  * analogRefernce implemented (issue%69)
+
+ -- Mark Sproul <msproul@skychariot.com>  Sun, 7 Aug 2011 19:12:33 -0400
+
+chipkit-harmony (3.3.5) uecide; urgency=low
+
+  * analogRefernce implemented (issue%69)
+
+ -- Mark Sproul <msproul@skychariot.com>  Sun, 7 Aug 2011 19:10:59 -0400
+
+chipkit-harmony (3.3.4) uecide; urgency=low
+
+  * WString.cpp was missing from distrubution (issue#71)
+
+ -- Mark Sproul <msproul@skychariot.com>  Sun, 7 Aug 2011 19:10:11 -0400
+
+chipkit-harmony (3.3.3) uecide; urgency=low
+
+  * fixed bug in analog write that reset timer (issue #70)
+
+ -- Mark Sproul <msproul@skychariot.com>  Sun, 7 Aug 2011 19:04:07 -0400
+
+chipkit-harmony (3.3.2) uecide; urgency=low
+
+  * changed pin numbering for non-standard boards, issue#74
+
+ -- Mark Sproul <msproul@skychariot.com>  Sun, 7 Aug 2011 18:52:40 -0400
+
+chipkit-harmony (3.3.1) uecide; urgency=low
+
+  * Rewrite of Analog read Issue #67
+
+ -- Mark Sproul <msproul@skychariot.com>  Sun, 7 Aug 2011 18:48:31 -0400
+
+chipkit-harmony (3.3.0) uecide; urgency=low
+
+  * Added missing server utility folder in libraries.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 5 Aug 2011 19:48:05 -0400
+
+chipkit-harmony (3.2.9) uecide; urgency=low
+
+  * Updated libraries Wire, SPI, SD, Firmata, Ethernet many fixes, need to verify agains issue, and bug numbers.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 5 Aug 2011 19:45:27 -0400
+
+chipkit-harmony (3.2.8) uecide; urgency=low
+
+  * added non-blocking usb transmit if connection is down
+
+ -- Mark Sproul <msproul@skychariot.com>  Tue, 2 Aug 2011 21:40:18 -0400
+
+chipkit-harmony (3.2.7) uecide; urgency=low
+
+  * added pgm_read_word
+
+ -- Mark Sproul <msproul@skychariot.com>  Tue, 2 Aug 2011 20:22:19 -0400
+
+chipkit-harmony (3.2.6) uecide; urgency=low
+
+  * BUG-FIX issue#63 Now supports 16 bit I/O registers in PIC32
+
+ -- Mark Sproul <msproul@skychariot.com>  Tue, 2 Aug 2011 20:19:53 -0400
+
+chipkit-harmony (3.2.5) uecide; urgency=low
+
+  * Fixed bug in baud rate computation
+
+ -- Mark Sproul <msproul@skychariot.com>  Tue, 2 Aug 2011 20:15:46 -0400
+
+chipkit-harmony (3.2.4) uecide; urgency=low
+
+  * Reserve 4K for eeprom emulation for now. We may up that to 16K for the Max in the future
+
+ -- Jason Kajita <jason@jasonkajita.com>  Tue, 2 Aug 2011 14:59:34 -0700
+
+chipkit-harmony (3.2.3) uecide; urgency=low
+
+  * Make sure that both the Uno and Max linker scripts reserve 16k for eeprom emulation. Also force the .eeprom_pic32 output setion to be NOLOAD
+
+ -- Jason Kajita <jason@jasonkajita.com>  Tue, 2 Aug 2011 13:04:14 -0700
+
+chipkit-harmony (3.2.2) uecide; urgency=low
+
+  * Updates to Servo library from Oliver.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sun, 31 Jul 2011 14:28:21 -0400
+
+chipkit-harmony (3.2.1) uecide; urgency=low
+
+  * Servo library updates from Oliver.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Thu, 28 Jul 2011 20:26:04 -0400
+
+chipkit-harmony (3.2.0) uecide; urgency=low
+
+  * Correct start address of region kseg0_eeprom_mem
+
+ -- Jason Kajita <jason@jasonkajita.com>  Tue, 19 Jul 2011 10:45:42 -0700
+
+chipkit-harmony (3.1.9) uecide; urgency=low
+
+  * Add .eeprom_pic32 intput sections
+
+ -- Jason Kajita <jason@jasonkajita.com>  Mon, 18 Jul 2011 22:29:32 -0700
+
+chipkit-harmony (3.1.8) uecide; urgency=low
+
+  * Add -mdebugger option to the linker command line. This reserves 0x200 bytes of data memory for use by an in-circuit debugger's debug exec
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Thu, 14 Jul 2011 09:17:51 -0700
+
+chipkit-harmony (3.1.7) uecide; urgency=low
+
+  * Add -g compiler option to allow debugging the ELF file in MPLAB IDE
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Sun, 10 Jul 2011 11:11:28 -0700
+
+chipkit-harmony (3.1.6) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Mark Sproul <msproul@skychariot.com>  Sat, 9 Jul 2011 21:11:12 -0400
+
+chipkit-harmony (3.1.5) uecide; urgency=low
+
+  * Added A8-A11 deffiniitons for Uno32
+
+ -- Mark Sproul <msproul@skychariot.com>  Sat, 9 Jul 2011 20:26:47 -0400
+
+chipkit-harmony (3.1.4) uecide; urgency=low
+
+  * Fix DWARF2 sections for debugging in MPLAB IDE
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Thu, 7 Jul 2011 20:39:49 -0700
+
+chipkit-harmony (3.1.3) uecide; urgency=low
+
+  * Removed debugging code
+
+ -- Mark Sproul <msproul@skychariot.com>  Sun, 3 Jul 2011 13:12:27 -0400
+
+chipkit-harmony (3.1.2) uecide; urgency=low
+
+  * Updated Serial USB code to use buffered output for faster transmission
+
+ -- Mark Sproul <msproul@skychariot.com>  Sun, 3 Jul 2011 13:05:30 -0400
+
+chipkit-harmony (3.1.1) uecide; urgency=low
+
+  * Updates to the USB code from Rich T.
+
+ -- Mark Sproul <msproul@skychariot.com>  Sat, 2 Jul 2011 20:21:43 -0400
+
+chipkit-harmony (3.1.0) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Mark Sproul <msproul@skychariot.com>  Sat, 2 Jul 2011 16:16:34 -0400
+
+chipkit-harmony (3.0.9) uecide; urgency=low
+
+  * File for USB support
+
+ -- Mark Sproul <msproul@skychariot.com>  Sat, 2 Jul 2011 16:16:04 -0400
+
+chipkit-harmony (3.0.8) uecide; urgency=low
+
+  * Fixed issue 43, correct software version defined.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sat, 2 Jul 2011 16:11:54 -0400
+
+chipkit-harmony (3.0.7) uecide; urgency=low
+
+  * Updated Compiler.java to support custom -D defines in property files.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sat, 2 Jul 2011 12:11:20 -0400
+
+chipkit-harmony (3.0.6) uecide; urgency=low
+
+  * Fixing pin definiton files for new boards
+
+ -- Mark Sproul <msproul@skychariot.com>  Fri, 1 Jul 2011 12:35:02 -0400
+
+chipkit-harmony (3.0.5) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Mark Sproul <msproul@skychariot.com>  Thu, 30 Jun 2011 23:47:12 -0400
+
+chipkit-harmony (3.0.4) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Mark Sproul <msproul@skychariot.com>  Thu, 30 Jun 2011 23:37:34 -0400
+
+chipkit-harmony (3.0.3) uecide; urgency=low
+
+  * Edited hardware/pic32/boards.txt via GitHub
+
+ -- Mark Sproul <msproul@skychariot.com>  Thu, 30 Jun 2011 20:13:39 -0700
+
+chipkit-harmony (3.0.2) uecide; urgency=low
+
+  * USB support added and support for more CPUs
+
+ -- Mark Sproul <msproul@skychariot.com>  Thu, 30 Jun 2011 22:51:35 -0400
+
+chipkit-harmony (3.0.1) uecide; urgency=low
+
+  * Corrected mistake in CUI32 support - it uses an MX440 CPU, not MX460. This required an update to avrdud.conf as well.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Mon, 27 Jun 2011 16:02:41 -0500
+
+chipkit-harmony (3.0.0) uecide; urgency=low
+
+  * Added some more support for CUI32 board. Compiles and downloads fine now.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Mon, 27 Jun 2011 15:17:10 -0500
+
+chipkit-harmony (2.9.9) uecide; urgency=low
+
+  * Added in Rick Testardi's Stk500v2 USB bootloader.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Mon, 27 Jun 2011 15:07:42 -0500
+
+chipkit-harmony (2.9.8) uecide; urgency=low
+
+  * Fixed memory size issue in MX460 linker script file. Added MX460 updated avrdude.conf files to Mac and Linux.
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Mon, 27 Jun 2011 15:06:24 -0500
+
+chipkit-harmony (2.9.7) uecide; urgency=low
+
+  * Added support for UBW32 MX460 and MX795 boards, added Stk500v2.inf for USB PIC32s
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Sat, 25 Jun 2011 08:23:34 -0500
+
+chipkit-harmony (2.9.6) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Mark Sproul <msproul@skychariot.com>  Tue, 21 Jun 2011 14:15:32 -0400
+
+chipkit-harmony (2.9.5) uecide; urgency=low
+
+  * Support for more boards, work on Serial
+
+ -- Mark Sproul <msproul@skychariot.com>  Tue, 21 Jun 2011 14:14:08 -0400
+
+chipkit-harmony (2.9.4) uecide; urgency=low
+
+  * Updates to Wire library. Fixes references to avr in utility/twi.*
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sun, 19 Jun 2011 13:36:54 -0400
+
+chipkit-harmony (2.9.3) uecide; urgency=low
+
+  * Added support for more pic32 boards
+
+ -- Mark Sproul <msproul@skychariot.com>  Wed, 15 Jun 2011 19:15:28 -0400
+
+chipkit-harmony (2.9.2) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Mark Sproul <msproul@skychariot.com>  Tue, 14 Jun 2011 14:16:41 -0400
+
+chipkit-harmony (2.9.1) uecide; urgency=low
+
+  * increased analog read speed
+
+ -- Mark Sproul <msproul@skychariot.com>  Tue, 14 Jun 2011 14:15:29 -0400
+
+chipkit-harmony (2.9.0) uecide; urgency=low
+
+  * Use a high -Gnum value for Uno32. https://github.com/chipKIT32/chipKIT32-MAX/issues/48
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Wed, 8 Jun 2011 16:49:41 -0700
+
+chipkit-harmony (2.8.9) uecide; urgency=low
+
+  * Add -ffunction-sections & -fdata-sections to platforms.txt and make default options more consistent with Arduino platform https://github.com/chipKIT32/chipKIT32-MAX/issues/47
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Tue, 7 Jun 2011 15:53:47 -0700
+
+chipkit-harmony (2.8.8) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Mark Sproul <msproul@skychariot.com>  Fri, 3 Jun 2011 13:40:45 -0400
+
+chipkit-harmony (2.8.7) uecide; urgency=low
+
+  * Adding more cpu definitions
+
+ -- Mark Sproul <msproul@skychariot.com>  Fri, 3 Jun 2011 13:39:56 -0400
+
+chipkit-harmony (2.8.6) uecide; urgency=low
+
+  * Issue 44 closed, the behaviour is normal. platforms.txt now has note explaining.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sun, 29 May 2011 22:46:09 -0400
+
+chipkit-harmony (2.8.5) uecide; urgency=low
+
+  * Fixed issue in typo in boards.txt. Also, fix configured for missing path issue 44.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sun, 29 May 2011 22:13:23 -0400
+
+chipkit-harmony (2.8.4) uecide; urgency=low
+
+  * Added
+
+ -- Mark Sproul <msproul@skychariot.com>  Sun, 29 May 2011 15:06:04 -0400
+
+chipkit-harmony (2.8.3) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sun, 29 May 2011 14:40:48 -0400
+
+chipkit-harmony (2.8.2) uecide; urgency=low
+
+  * Changes to compiling elf with gcc instead of g++ for Arduino closes issue 39
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sun, 29 May 2011 14:40:39 -0400
+
+chipkit-harmony (2.8.1) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:chipKIT32/chipKIT32-MAX
+
+ -- Mark Sproul <msproul@skychariot.com>  Sun, 29 May 2011 14:34:05 -0400
+
+chipkit-harmony (2.8.0) uecide; urgency=low
+
+  * Added Microchip starter kits to the board options
+
+ -- Mark Sproul <msproul@skychariot.com>  Sat, 28 May 2011 22:54:42 -0400
+
+chipkit-harmony (2.7.9) uecide; urgency=low
+
+  * Updated the core files to the latest version for pic32.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sat, 28 May 2011 15:48:10 -0400
+
+chipkit-harmony (2.7.8) uecide; urgency=low
+
+  * More clean up of menus from platforms.txt, and boards.txt.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Mon, 23 May 2011 23:17:23 -0400
+
+chipkit-harmony (2.7.7) uecide; urgency=low
+
+  * Fixed hard coded pic32 reference in Base.java. Also, enabled the core.libraries property.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Mon, 23 May 2011 17:16:50 -0400
+
+chipkit-harmony (2.7.6) uecide; urgency=low
+
+  * Clean up of path formats platforms.txt.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Mon, 23 May 2011 07:49:49 -0700
+
+chipkit-harmony (2.7.5) uecide; urgency=low
+
+  * Cores updates for 20110520
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 20 May 2011 21:58:48 -0700
+
+chipkit-harmony (2.7.4) uecide; urgency=low
+
+  * Updated for issue 32.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 20 May 2011 20:46:28 -0700
+
+chipkit-harmony (2.7.3) uecide; urgency=low
+
+  * Updated liquidCrystal code.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Thu, 19 May 2011 20:08:12 -0400
+
+chipkit-harmony (2.7.2) uecide; urgency=low
+
+  * Removed noisy debug messages from the message window. Enabled log4j in more files. Renabled the command print in verbose mode.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Thu, 19 May 2011 17:09:45 -0400
+
+chipkit-harmony (2.7.1) uecide; urgency=low
+
+  * Update files from Mark.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Thu, 19 May 2011 16:11:43 -0400
+
+chipkit-harmony (2.7.0) uecide; urgency=low
+
+  * More clean up of the core libraries, and updates from Mark Sproul.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Thu, 19 May 2011 15:06:54 -0400
+
+chipkit-harmony (2.6.9) uecide; urgency=low
+
+  * EEPROM updates added.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Wed, 18 May 2011 23:51:34 -0400
+
+chipkit-harmony (2.6.8) uecide; urgency=low
+
+  * Added WMath.cpp from nkcelectronics. This closes issue 18
+
+ -- ricklon <rick.rickanderson@gmail.com>  Wed, 18 May 2011 23:40:41 -0400
+
+chipkit-harmony (2.6.7) uecide; urgency=low
+
+  * Updated boards.txt with core uno32 memory size and chip name 64->128.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Wed, 18 May 2011 19:44:10 -0400
+
+chipkit-harmony (2.6.6) uecide; urgency=low
+
+  * LiquidCrystal update.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Wed, 18 May 2011 19:40:25 -0400
+
+chipkit-harmony (2.6.5) uecide; urgency=low
+
+  * Make sure cpudefs.h is included.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Wed, 18 May 2011 19:30:49 -0400
+
+chipkit-harmony (2.6.4) uecide; urgency=low
+
+  * Updated core libraries.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Wed, 18 May 2011 19:18:32 -0400
+
+chipkit-harmony (2.6.3) uecide; urgency=low
+
+  * Updated avrdude.conf, changed protocol to Arduino in boards.txt.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Wed, 18 May 2011 16:26:52 -0400
+
+chipkit-harmony (2.6.2) uecide; urgency=low
+
+  * Extra files removed from pci32 cores.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Wed, 18 May 2011 14:15:04 -0400
+
+chipkit-harmony (2.6.1) uecide; urgency=low
+
+  * Re-added software serial since it supposed to be compatible.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sat, 14 May 2011 08:48:29 -0400
+
+chipkit-harmony (2.6.0) uecide; urgency=low
+
+  * Merge remote-tracking branch 'origin/master'
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 13 May 2011 21:49:14 -0400
+
+chipkit-harmony (2.5.9) uecide; urgency=low
+
+  * Updated SPI libraries from Oliver.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 13 May 2011 21:48:41 -0400
+
+chipkit-harmony (2.5.8) uecide; urgency=low
+
+  * Fixed minor bug in micros() library function, also added interrupts() and noInerrupts().
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Fri, 13 May 2011 20:02:24 -0500
+
+chipkit-harmony (2.5.7) uecide; urgency=low
+
+  * Closes #19, Memory limit updated in boards.txt for Uno32.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 13 May 2011 17:02:47 -0400
+
+chipkit-harmony (2.5.6) uecide; urgency=low
+
+  * Changes made to support Runtime.getRuntime().exec(commandArray)
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 13 May 2011 15:55:53 -0400
+
+chipkit-harmony (2.5.5) uecide; urgency=low
+
+  * platform=avr added to all boards in hardware/arduino/boards.txt
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 13 May 2011 13:36:39 -0400
+
+chipkit-harmony (2.5.4) uecide; urgency=low
+
+  * Finished micros() and delayMicroseconds()
+
+ -- Brian Schmalz <brian@schmalzhaus.com>  Thu, 12 May 2011 07:34:31 -0500
+
+chipkit-harmony (2.5.3) uecide; urgency=low
+
+  * Oliver's SPI files added the pic32/libraries folder.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Wed, 11 May 2011 17:37:02 -0400
+
+chipkit-harmony (2.5.2) uecide; urgency=low
+
+  * Don't fill .eeprom_pic32 section
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Tue, 10 May 2011 15:45:07 -0700
+
+chipkit-harmony (2.5.1) uecide; urgency=low
+
+  * Change names of linker scripts to match official names of boards
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Tue, 10 May 2011 11:00:01 -0700
+
+chipkit-harmony (2.5.0) uecide; urgency=low
+
+  * Change names of linker scripts to match official names of boards
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Tue, 10 May 2011 10:59:35 -0700
+
+chipkit-harmony (2.4.9) uecide; urgency=low
+
+  * Reserve 16k for eeprom on MAX32 and 4k for eeprom on UNO32
+
+ -- Jason Kajita <jason.kajita@microchip.com>  Tue, 10 May 2011 10:43:57 -0700
+
+chipkit-harmony (2.4.8) uecide; urgency=low
+
+  * boards.txt updated to resolved issue 7, https://github.com/chipKIT32/chipKIT32-MAX/issues/7 by naming the boards chipKIT UNO32, chipKitMAX32.
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Mon, 9 May 2011 19:30:56 -0700
+
+chipkit-harmony (2.4.7) uecide; urgency=low
+
+  * Updated the Mac OS X build with latest compiler. platforms.txt now same for each version.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 6 May 2011 20:47:35 -0400
+
+chipkit-harmony (2.4.6) uecide; urgency=low
+
+  * Update tools-universal.zip to include avrdude 5.8, and avrdude.conf to support chipKit.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 6 May 2011 17:27:23 -0400
+
+chipkit-harmony (2.4.5) uecide; urgency=low
+
+  * Windows compatible platforms.txt updated.
+
+ -- Fubar Labs <fubarlabs@LaserBotPC.(none)>  Fri, 6 May 2011 14:51:26 -0400
+
+chipkit-harmony (2.4.4) uecide; urgency=low
+
+  * Temporary fix to sprintf added to platforms.txt to disable mno-smart-io
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 6 May 2011 09:42:04 -0400
+
+chipkit-harmony (2.4.3) uecide; urgency=low
+
+  * Updated build.xml so that executable permissions are added to the executable files that are lost when extracting the zip file.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 6 May 2011 03:46:09 -0400
+
+chipkit-harmony (2.4.2) uecide; urgency=low
+
+  * Updated the Mac build to support a larger dmg file so that the entire distribution fits.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 6 May 2011 00:52:28 -0400
+
+chipkit-harmony (2.4.1) uecide; urgency=low
+
+  * Removed SoftwareSerial.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Thu, 5 May 2011 22:02:59 -0400
+
+chipkit-harmony (2.4.0) uecide; urgency=low
+
+  * Initial code for updating the Library location preference.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Thu, 5 May 2011 21:42:03 -0400
+
+chipkit-harmony (2.3.9) uecide; urgency=low
+
+  * Cleaned up the getIncludes function to add return type.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Thu, 5 May 2011 13:54:45 -0400
+
+chipkit-harmony (2.3.8) uecide; urgency=low
+
+  * Added directories for Libraries and compiler.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Wed, 4 May 2011 16:17:05 -0400
+
+chipkit-harmony (2.3.7) uecide; urgency=low
+
+  * Avrdude 5.10 and configuration file updated. Problem 5.10 version not compatible with Arduino, but program Pic MEga, Pic UNo.
+
+ -- Fubar Labs <fubarlabs@LaserBotPC.(none)>  Thu, 14 Apr 2011 00:20:27 -0400
+
+chipkit-harmony (2.3.6) uecide; urgency=low
+
+  * Updates to the platforms.txt file to support a windows build. Problem, there is a patching issue for the library include
+
+ -- Second Life <Second Life@RUTGERS-85EF380.(none)>  Tue, 12 Apr 2011 12:37:52 -0400
+
+chipkit-harmony (2.3.5) uecide; urgency=low
+
+  * Merge branch 'master' into pic32
+
+ -- ricklon <rick.rickanderson@gmail.com>  Tue, 5 Apr 2011 23:19:45 -0400
+
+chipkit-harmony (2.3.4) uecide; urgency=low
+
+  * Committe the pic32 hardware code.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Tue, 5 Apr 2011 11:26:06 -0400
+
+chipkit-harmony (2.3.3) uecide; urgency=low
+
+  * pic32 hardware files added to chipkit32-max .
+
+ -- ricklon <rick.rickanderson@gmail.com>  Tue, 5 Apr 2011 07:05:46 -0400
+
+chipkit-harmony (2.3.2) uecide; urgency=low
+
+  * Added ldflags to the platforms.txt as an option.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Tue, 15 Mar 2011 21:22:48 -0400
+
+chipkit-harmony (2.3.1) uecide; urgency=low
+
+  * Renamed properties to  clarify the elf2hex  configuring for the  compileHex function.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Tue, 15 Mar 2011 14:52:24 -0400
+
+chipkit-harmony (2.3.0) uecide; urgency=low
+
+  * Updated the compile recipe to not include hardcoded equals.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sun, 13 Mar 2011 17:26:28 -0400
+
+chipkit-harmony (2.2.9) uecide; urgency=low
+
+  * Updates from zpuino,  updated getCommandCompilerS
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sun, 13 Mar 2011 13:55:19 -0400
+
+chipkit-harmony (2.2.8) uecide; urgency=low
+
+  * Added example platform, and baord property files to boards.txt
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sun, 6 Mar 2011 22:29:11 -0500
+
+chipkit-harmony (2.2.7) uecide; urgency=low
+
+  * platforms.txt file added.
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sun, 6 Mar 2011 22:23:36 -0500
+
+chipkit-harmony (2.2.6) uecide; urgency=low
+
+  * Merge remote-tracking branch 'upstream/master'
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sun, 6 Mar 2011 16:07:47 -0500
+
+chipkit-harmony (2.2.5) uecide; urgency=low
+
+  * Merge remote-tracking branch 'origin'
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sun, 6 Mar 2011 16:00:22 -0500
+
+chipkit-harmony (2.2.4) uecide; urgency=low
+
+  * Fixing warnings (David H. Lynch Jr).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Thu, 3 Mar 2011 22:56:20 -0500
+
+chipkit-harmony (2.2.3) uecide; urgency=low
+
+  * Small optimization in HardwareSerial.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Fri, 25 Feb 2011 18:36:46 -0500
+
+chipkit-harmony (2.2.2) uecide; urgency=low
+
+  * Merge remote branch 'upstream/master'
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sun, 6 Feb 2011 11:32:09 -0500
+
+chipkit-harmony (2.2.1) uecide; urgency=low
+
+  * Merge remote branch 'upstream/master'
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sat, 5 Feb 2011 14:15:44 -0500
+
+chipkit-harmony (2.2.0) uecide; urgency=low
+
+  * Fix to optiboot infinite loop problem.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 15 Jan 2011 13:29:08 +0000
+
+chipkit-harmony (2.1.9) uecide; urgency=low
+
+  * Changing String append to use realloc(); thanks to Paul Stoffregen.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 11 Dec 2010 15:22:07 -0500
+
+chipkit-harmony (2.1.8) uecide; urgency=low
+
+  * Minor ATmega8U2 firmware update and new .hex files.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 4 Dec 2010 14:28:56 -0500
+
+chipkit-harmony (2.1.7) uecide; urgency=low
+
+  * Minor bug fixes to the 8U2 USB-to-serial firmware.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 4 Dec 2010 13:50:27 -0500
+
+chipkit-harmony (2.1.6) uecide; urgency=low
+
+  * Replacing custom String.toInt() function with a call to atol().
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Fri, 3 Dec 2010 23:12:41 -0500
+
+chipkit-harmony (2.1.5) uecide; urgency=low
+
+  * Fixing Linux UNO serial bug (thanks to Dean Camera).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Mon, 29 Nov 2010 23:26:54 -0500
+
+chipkit-harmony (2.1.4) uecide; urgency=low
+
+  * Redoing 58aae1728d01b49c332f0a125c944d791d17d040 [formerly 448222e4b65e0cf44dfc0c494f7f76901f1fabea] without all the extra files.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Mon, 29 Nov 2010 15:20:30 -0500
+
+chipkit-harmony (2.1.3) uecide; urgency=low
+
+  * Revert "added toInt() function to WString".
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Mon, 29 Nov 2010 15:14:10 -0500
+
+chipkit-harmony (2.1.2) uecide; urgency=low
+
+  * added toInt() function to WString
+
+ -- Tom Igoe <tom.igoe@gmail.com>  Mon, 29 Nov 2010 11:31:00 -0500
+
+chipkit-harmony (2.1.1) uecide; urgency=low
+
+  * pulseIn() now times out while measuring the pulse, not just while waiting for it to start.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Mon, 22 Nov 2010 23:33:59 -0500
+
+chipkit-harmony (2.1.0) uecide; urgency=low
+
+  * SD File object implements Stream.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 20 Nov 2010 11:45:05 -0500
+
+chipkit-harmony (2.0.9) uecide; urgency=low
+
+  * Merge branch 'master' of http://github.com/arduino/Arduino
+
+ -- ricklon <rick.rickanderson@gmail.com>  Tue, 16 Nov 2010 23:40:08 -0500
+
+chipkit-harmony (2.0.8) uecide; urgency=low
+
+  * Fixing bug w/ subsequent calls to tone().
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Thu, 11 Nov 2010 23:57:12 -0500
+
+chipkit-harmony (2.0.7) uecide; urgency=low
+
+  * Cast to encourage optimization of Serial ring buffer index calculations.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Thu, 11 Nov 2010 23:29:21 -0500
+
+chipkit-harmony (2.0.6) uecide; urgency=low
+
+  * Changing baud rate calculation to always use double speed mode except for 57600 baud at 16 MHz.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Thu, 11 Nov 2010 23:28:21 -0500
+
+chipkit-harmony (2.0.5) uecide; urgency=low
+
+  * Modifying Tone.cpp to use register-based (not CPU-based) #ifdefs.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Mon, 8 Nov 2010 23:09:29 -0500
+
+chipkit-harmony (2.0.4) uecide; urgency=low
+
+  * Merge remote branch 'upstream/master'
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sun, 31 Oct 2010 23:26:03 -0400
+
+chipkit-harmony (2.0.3) uecide; urgency=low
+
+  * Modifying basic functions (digital and analog, read and write) to use register-based ifdefs, not cpu-based.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 17 Oct 2010 17:55:53 -0400
+
+chipkit-harmony (2.0.2) uecide; urgency=low
+
+  * Making attachInterrupt() check registers, not CPUs.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 17 Oct 2010 14:05:46 -0400
+
+chipkit-harmony (2.0.1) uecide; urgency=low
+
+  * Making HardwareSerial tests register-based, not CPU-based.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 17 Oct 2010 13:36:02 -0400
+
+chipkit-harmony (2.0.0) uecide; urgency=low
+
+  * Merge branch 'master' of github.com:ricklon/Arduino
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sat, 16 Oct 2010 17:06:46 -0400
+
+chipkit-harmony (1.9.9) uecide; urgency=low
+
+  * Merge branch 'master' of http://github.com/arduino/Arduino
+
+ -- ricklon <rick.rickanderson@gmail.com>  Sat, 16 Oct 2010 16:28:06 -0400
+
+chipkit-harmony (1.9.8) uecide; urgency=low
+
+  * Merge remote branch 'upstream/master'
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sun, 10 Oct 2010 16:34:10 -0400
+
+chipkit-harmony (1.9.7) uecide; urgency=low
+
+  * Changing #include <> to #include "" in Tone.cpp.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 9 Oct 2010 17:08:19 -0400
+
+chipkit-harmony (1.9.6) uecide; urgency=low
+
+  * Merge remote branch 'upstream/master'
+
+ -- Ricklon <rick.rickanderson@gmail.com>  Sat, 2 Oct 2010 20:12:00 -0400
+
+chipkit-harmony (1.9.5) uecide; urgency=low
+
+  * Fixing PWM on pins 9 & 10 on the Uno.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 2 Oct 2010 13:38:10 -0400
+
+chipkit-harmony (1.9.4) uecide; urgency=low
+
+  * Merge remote branch 'upstream/master'
+
+ -- ricklon <rick.rickanderson@gmail.com>  Fri, 1 Oct 2010 18:06:22 -0400
+
+chipkit-harmony (1.9.3) uecide; urgency=low
+
+  * minor commit for test
+
+ -- ricklon <rick.rickanderson@gmail.com>  Thu, 30 Sep 2010 21:56:17 -0400
+
+chipkit-harmony (1.9.2) uecide; urgency=low
+
+  * More information on USB VID/PIDs.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 28 Sep 2010 17:19:07 -0400
+
+chipkit-harmony (1.9.1) uecide; urgency=low
+
+  * Replacing Arduino VID / PID with the Atmel-supplied ones.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 28 Sep 2010 09:31:10 -0400
+
+chipkit-harmony (1.9.0) uecide; urgency=low
+
+  * Adding note about Arduino VID and PIDs.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Mon, 27 Sep 2010 12:20:38 -0400
+
+chipkit-harmony (1.8.9) uecide; urgency=low
+
+  * Adding readme about the firmwares.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Fri, 24 Sep 2010 10:40:37 -0400
+
+chipkit-harmony (1.8.8) uecide; urgency=low
+
+  * Adding usbserial and usbdfu firmwares (and combined compiled .hex files).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Fri, 24 Sep 2010 10:35:54 -0400
+
+chipkit-harmony (1.8.7) uecide; urgency=low
+
+  * Adding Arduino Mega 2560 board entry.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Fri, 24 Sep 2010 10:17:01 -0400
+
+chipkit-harmony (1.8.6) uecide; urgency=low
+
+  * Adding the Mega 2560 bootloader and boards.txt / boards menu entry.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Fri, 24 Sep 2010 10:10:57 -0400
+
+chipkit-harmony (1.8.5) uecide; urgency=low
+
+  * Adding optiboot and Arduino Uno boards menu entry.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 22 Sep 2010 09:04:33 -0400
+
+chipkit-harmony (1.8.4) uecide; urgency=low
+
+  * 1280 -> 1280/2560.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 8 Sep 2010 22:33:33 +0000
+
+chipkit-harmony (1.8.3) uecide; urgency=low
+
+  * Changing String::toCharArray() and getBytes() to accept a buffer, rather than return one.  That way they don't expose the internal representation of the String class, allowing future optimization.  Thanks to Paul Stoffregen.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 28 Aug 2010 10:23:54 +0000
+
+chipkit-harmony (1.8.2) uecide; urgency=low
+
+  * Returning a reference to a dummy character for indices beyond the string length (in operator[]).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 28 Aug 2010 09:55:26 +0000
+
+chipkit-harmony (1.8.1) uecide; urgency=low
+
+  * Adding some basic error checking to the String class (i.e. checking for a non-null buffer before modifying its contents).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 18 Aug 2010 21:39:28 +0000
+
+chipkit-harmony (1.8.0) uecide; urgency=low
+
+  * Now including stdlib.h from wiring.h so our abs() #define comes after the stdlib abs() definition (and therefore doesn't break it).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 17 Aug 2010 21:50:41 +0000
+
+chipkit-harmony (1.7.9) uecide; urgency=low
+
+  * Adding shiftIn() from Wiring (no count or delaytime though).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 11 Aug 2010 22:59:00 +0000
+
+chipkit-harmony (1.7.8) uecide; urgency=low
+
+  * Making Client inherit from Stream, which unforunately means taking peek() out of Stream for now, since there's no immediate implementation for Client.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 11 Aug 2010 18:19:01 +0000
+
+chipkit-harmony (1.7.7) uecide; urgency=low
+
+  * Adding Arduino BT w/ ATmega328 to the boards menu.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 7 Aug 2010 19:56:14 +0000
+
+chipkit-harmony (1.7.6) uecide; urgency=low
+
+  * Adding ATmega328 version of the Arduino BT bootloader, along with a Makefile for building it.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 7 Aug 2010 19:48:59 +0000
+
+chipkit-harmony (1.7.5) uecide; urgency=low
+
+  * No longer requiring WProgram.h for Print / Stream classes (replaced Arduino-specific type names in String).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Fri, 6 Aug 2010 01:23:19 +0000
+
+chipkit-harmony (1.7.4) uecide; urgency=low
+
+  * Moving SPI pin definitions into core (from SPI library): SS, MISO, MOSI, and SCK.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Mon, 2 Aug 2010 22:33:11 +0000
+
+chipkit-harmony (1.7.3) uecide; urgency=low
+
+  * changing available() to return an int (because the Ethernet Client class or another stream might need more than 255 bytes).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Mon, 2 Aug 2010 22:23:48 +0000
+
+chipkit-harmony (1.7.2) uecide; urgency=low
+
+  * added more String examples
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Tue, 27 Jul 2010 22:59:18 +0000
+
+chipkit-harmony (1.7.1) uecide; urgency=low
+
+  * Reverting changes to String class and modifying to allow + and += to work on more types.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 27 Jul 2010 14:20:56 +0000
+
+chipkit-harmony (1.7.0) uecide; urgency=low
+
+  * removed append() from String library
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Tue, 27 Jul 2010 10:18:04 +0000
+
+chipkit-harmony (1.6.9) uecide; urgency=low
+
+  * checked in Xiaoyang Feng's changes to String library
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Tue, 27 Jul 2010 10:09:09 +0000
+
+chipkit-harmony (1.6.8) uecide; urgency=low
+
+  * Checked in Xiaoyang's changes to String library
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Tue, 27 Jul 2010 10:06:49 +0000
+
+chipkit-harmony (1.6.7) uecide; urgency=low
+
+  * Checked in Xiaoyang's changes to String library
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Tue, 27 Jul 2010 10:06:43 +0000
+
+chipkit-harmony (1.6.6) uecide; urgency=low
+
+  * INTERNAL -> INTERNAL1V1 AND INTERNAL2V56 on the Mega (issue #194).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 10 Jul 2010 21:07:51 +0000
+
+chipkit-harmony (1.6.5) uecide; urgency=low
+
+  * whitespace.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Mon, 5 Jul 2010 16:08:35 +0000
+
+chipkit-harmony (1.6.4) uecide; urgency=low
+
+  * Adding a peek() function to Stream and HardwareSerial (Serial).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 4 Jul 2010 23:31:55 +0000
+
+chipkit-harmony (1.6.3) uecide; urgency=low
+
+  * Adding support for printing Strings to the Print class.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 4 Jul 2010 23:22:34 +0000
+
+chipkit-harmony (1.6.2) uecide; urgency=low
+
+  * Modifying String from new/delete to malloc()/free().  Also #include'ing WString.h from WProgram.h.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 4 Jul 2010 16:36:52 +0000
+
+chipkit-harmony (1.6.1) uecide; urgency=low
+
+  * Adding WString.h and WString.cpp straight from Wiring (r. 726).  Won't actually work yet.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 4 Jul 2010 16:27:23 +0000
+
+chipkit-harmony (1.6.0) uecide; urgency=low
+
+  * Disabling interrupts while digitalWrite() and pinMode() modify registers (issue #146). Updating revisions.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 12 Jun 2010 20:32:58 +0000
+
+chipkit-harmony (1.5.9) uecide; urgency=low
+
+  * Re-enabling timer 2 pwm after tone() ends. Factored out common code to disable timers.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 12 Jun 2010 19:47:41 +0000
+
+chipkit-harmony (1.5.8) uecide; urgency=low
+
+  * Adding a basic Stream interface and modifying HardwareSerial to inherit from it.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Fri, 28 May 2010 22:41:03 +0000
+
+chipkit-harmony (1.5.7) uecide; urgency=low
+
+  * More accurate delay() function from BenF.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 25 May 2010 20:16:15 +0000
+
+chipkit-harmony (1.5.6) uecide; urgency=low
+
+  * Adding A0=14, A1=15, etc. aliases for analog input pins and modifying analogRead() to accept them (in addition to 0, 1, 2, etc.).  Removing some unused code elsewhere.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 16 May 2010 04:05:40 +0000
+
+chipkit-harmony (1.5.5) uecide; urgency=low
+
+  * Adding 5V, 16 MHz versions of the Arduino Pro and Pro Mini (ATmega328 and ATmega168) to the boards menu.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 16 May 2010 02:53:51 +0000
+
+chipkit-harmony (1.5.4) uecide; urgency=low
+
+  * Removing some Processing stuff that we don't need. Moving the Arduino Fio up in the boards menu.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 8 May 2010 20:37:54 +0000
+
+chipkit-harmony (1.5.3) uecide; urgency=low
+
+  * Added Fio to boards.txt, now that it's part of the lineup.
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Sun, 28 Mar 2010 15:45:59 +0000
+
+chipkit-harmony (1.5.2) uecide; urgency=low
+
+  * Limiting tone generation to timer 2 only to prevent conflicts with the Servo library.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 9 Jan 2010 17:02:27 +0000
+
+chipkit-harmony (1.5.1) uecide; urgency=low
+
+  * Adding tone() and noTone() functions, using Brett Hagman's Tone library.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 29 Dec 2009 20:57:07 +0000
+
+chipkit-harmony (1.5.0) uecide; urgency=low
+
+  * Removing (no longer maintaining) the Makefile.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Mon, 28 Dec 2009 15:39:19 +0000
+
+chipkit-harmony (1.4.9) uecide; urgency=low
+
+  * Adding precision parameter for printing of floats / doubles.  Restructured the print() and println() functions a bit.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Fri, 25 Dec 2009 20:20:27 +0000
+
+chipkit-harmony (1.4.8) uecide; urgency=low
+
+  * Adding Serial.end().
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 23 Dec 2009 00:00:17 +0000
+
+chipkit-harmony (1.4.7) uecide; urgency=low
+
+  * Fixing bug in calling micros() from interrupts: http://code.google.com/p/arduino/issues/detail?id=55
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Fri, 18 Dec 2009 17:44:08 +0000
+
+chipkit-harmony (1.4.6) uecide; urgency=low
+
+  * No longer disabling interrupts in delayMicroseconds(): http://code.google.com/p/arduino/issues/detail?id=67
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Fri, 18 Dec 2009 17:04:51 +0000
+
+chipkit-harmony (1.4.5) uecide; urgency=low
+
+  * Improving third-party hardware support: - moving back to multple cores per platform - using target instead of platform - moving per-board and per-programmer preferences out of Preferences.java and into a new Target class - adding a new "target" preference - support for platform:value values in board preferences for bootloader path and core - XXX: need to support platform:value syntax for board upload.using preferences.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 21 Nov 2009 23:23:43 +0000
+
+chipkit-harmony (1.4.4) uecide; urgency=low
+
+  * Third-party cores seems to sort of work now, but burning bootloaders is probably broken. Need to decide on the format for the boards.txt file.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 7 Nov 2009 18:56:45 +0000
+
+chipkit-harmony (1.4.3) uecide; urgency=low
+
+  * Moving libraries out of arduino platform / core directory and to top-level.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 7 Nov 2009 17:54:56 +0000
+
+chipkit-harmony (1.4.2) uecide; urgency=low
+
+  * Moving libraries into arduino/
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 7 Nov 2009 17:07:59 +0000
+
+chipkit-harmony (1.4.1) uecide; urgency=low
+
+  * Moving things around.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 7 Nov 2009 17:05:21 +0000
+
+chipkit-harmony (1.4.0) uecide; urgency=low
+
+  * Adding Arduino as ISP sketch (firmware) and programmers.txt entry.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 1 Nov 2009 17:00:31 +0000
+
+chipkit-harmony (1.3.9) uecide; urgency=low
+
+  * Passing the ARDUINO constant from the IDE to avr-gcc as a command line argument (so I don't forget to update the version in the .h file).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Fri, 23 Oct 2009 23:04:03 +0000
+
+chipkit-harmony (1.3.8) uecide; urgency=low
+
+  * Updating ARDUINO to 0018 (in wiring.h).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 13 Sep 2009 17:57:17 +0000
+
+chipkit-harmony (1.3.7) uecide; urgency=low
+
+  * Undoing revision 628 because it broke analogRead() on analog inputs 8 to 15 of the Arduino Mega.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 23 Aug 2009 20:59:47 +0000
+
+chipkit-harmony (1.3.6) uecide; urgency=low
+
+  * Removing obsolete wiring_serial.c from Makefile.  Adding - to beginning of dependcy lines to avoid unnecessary warnings.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 16 Aug 2009 10:21:16 +0000
+
+chipkit-harmony (1.3.5) uecide; urgency=low
+
+  * Moving the processing-5503 branch (used for Arduino 0017) into the trunk.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 15 Aug 2009 14:48:42 +0000
+
+chipkit-harmony (1.3.4) uecide; urgency=low
+
+  * Checked and updated all LiquidCrystal examples
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Wed, 5 Aug 2009 14:41:27 +0000
+
+chipkit-harmony (1.3.3) uecide; urgency=low
+
+  * Checked and updated all LiquidCrystal examples
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Wed, 5 Aug 2009 14:41:24 +0000
+
+chipkit-harmony (1.3.2) uecide; urgency=low
+
+  * Checked and updated all LiquidCrystal examples
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Wed, 5 Aug 2009 14:41:23 +0000
+
+chipkit-harmony (1.3.1) uecide; urgency=low
+
+  * Checked and updated all LiquidCrystal examples
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Wed, 5 Aug 2009 14:41:17 +0000
+
+chipkit-harmony (1.3.0) uecide; urgency=low
+
+  * Checked and updated all LiquidCrystal examples
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Wed, 5 Aug 2009 14:41:14 +0000
+
+chipkit-harmony (1.2.9) uecide; urgency=low
+
+  * Checked and updated all LiquidCrystal examples
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Wed, 5 Aug 2009 14:41:11 +0000
+
+chipkit-harmony (1.2.8) uecide; urgency=low
+
+  * Checked and updated all LiquidCrystal examples
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Wed, 5 Aug 2009 14:41:08 +0000
+
+chipkit-harmony (1.2.7) uecide; urgency=low
+
+  * Checked and updated all LiquidCrystal examples
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Wed, 5 Aug 2009 14:41:03 +0000
+
+chipkit-harmony (1.2.6) uecide; urgency=low
+
+  * Checked and updated all LiquidCrystal examples
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Wed, 5 Aug 2009 14:40:55 +0000
+
+chipkit-harmony (1.2.5) uecide; urgency=low
+
+  * Changed begin() in LiquidCrystal examples
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Sun, 2 Aug 2009 18:45:13 +0000
+
+chipkit-harmony (1.2.4) uecide; urgency=low
+
+  * Changed begin() in LiquidCrystal examples
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Sun, 2 Aug 2009 18:45:08 +0000
+
+chipkit-harmony (1.2.3) uecide; urgency=low
+
+  * Changed begin() in LiquidCrystal examples
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Sun, 2 Aug 2009 18:45:04 +0000
+
+chipkit-harmony (1.2.2) uecide; urgency=low
+
+  * Changed begin() in LiquidCrystal examples
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Sun, 2 Aug 2009 18:44:59 +0000
+
+chipkit-harmony (1.2.1) uecide; urgency=low
+
+  * Changed begin() in LiquidCrystal examples
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Sun, 2 Aug 2009 18:44:54 +0000
+
+chipkit-harmony (1.2.0) uecide; urgency=low
+
+  * Changed begin() in LiquidCrystal examples
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Sun, 2 Aug 2009 18:44:52 +0000
+
+chipkit-harmony (1.1.9) uecide; urgency=low
+
+  * Changed begin() in LiquidCrystal examples
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Sun, 2 Aug 2009 18:44:30 +0000
+
+chipkit-harmony (1.1.8) uecide; urgency=low
+
+  * Changed begin() in LiquidCrystal examples
+
+ -- Tom Igoe <t.igoe@arduino.cc>  Sun, 2 Aug 2009 18:41:40 +0000
+
+chipkit-harmony (1.1.7) uecide; urgency=low
+
+  * Updating to rev. 27 of Firmata.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Thu, 30 Jul 2009 20:48:59 +0000
+
+chipkit-harmony (1.1.6) uecide; urgency=low
+
+  * Updating keywords.txt for LiquidCrystal library.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 25 Jul 2009 18:56:46 +0000
+
+chipkit-harmony (1.1.5) uecide; urgency=low
+
+  * Renaming LiquidCrystal example .pde files to correspond to new function names.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 25 Jul 2009 18:29:53 +0000
+
+chipkit-harmony (1.1.4) uecide; urgency=low
+
+  * Renaming LiquidCrystal example directories to correspond to new function names.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 25 Jul 2009 18:28:35 +0000
+
+chipkit-harmony (1.1.3) uecide; urgency=low
+
+  * Updating LiquidCrystal API and examples.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 25 Jul 2009 18:26:29 +0000
+
+chipkit-harmony (1.1.2) uecide; urgency=low
+
+  * Fixing Servo library on the ATmega8 by changing assignments to TIMSK and TIFR into bitwise-or's.  Otherwise, this broke millis() by disabling the timer 0 overflow interrupt.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 21 Jul 2009 06:05:02 +0000
+
+chipkit-harmony (1.1.1) uecide; urgency=low
+
+  * Renaming the 328 and 168 boards.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 21 Jul 2009 05:22:22 +0000
+
+chipkit-harmony (1.1.0) uecide; urgency=low
+
+  * Updating to revision 25 of firmata (slightly post version 2.1beta2).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 21 Jul 2009 05:18:50 +0000
+
+chipkit-harmony (1.0.9) uecide; urgency=low
+
+  * Updating to Firmata-2.1beta1 (rev 23).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 14 Jul 2009 21:32:55 +0000
+
+chipkit-harmony (1.0.8) uecide; urgency=low
+
+  * Adding Nano w/ ATmega328.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 14 Jul 2009 21:18:52 +0000
+
+chipkit-harmony (1.0.7) uecide; urgency=low
+
+  * Adding Tom's examples for the new LiquidCrystal library.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Mon, 13 Jul 2009 02:33:02 +0000
+
+chipkit-harmony (1.0.6) uecide; urgency=low
+
+  * Removing old LiquidCrystal examples.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Mon, 13 Jul 2009 02:31:46 +0000
+
+chipkit-harmony (1.0.5) uecide; urgency=low
+
+  * Adding improved baud rate calculation, including use (or not) of the U2X bit.  (Code from gabebear).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 12 Jul 2009 02:58:59 +0000
+
+chipkit-harmony (1.0.4) uecide; urgency=low
+
+  * Clearing the U2Xn bit in Serial.begin() (because it is set on the Pro / Pro Mini 328).  Fixing some indentation.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 12 Jul 2009 01:58:15 +0000
+
+chipkit-harmony (1.0.3) uecide; urgency=low
+
+  * Adding keywords.txt file for the Ethernet library.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 12 Jul 2009 00:33:25 +0000
+
+chipkit-harmony (1.0.2) uecide; urgency=low
+
+  * Integrating the new Servo library (MegaServo) by Michael Margolis.  Uses timer 1, and, on the Mega, timers 3, 4, and 5 for up to 12 servos (48 on the Mega).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 12 Jul 2009 00:33:02 +0000
+
+chipkit-harmony (1.0.1) uecide; urgency=low
+
+  * Migrating to Limor Fried's improved LiquidCrystal library.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 11 Jul 2009 00:54:26 +0000
+
+chipkit-harmony (1.0.0) uecide; urgency=low
+
+  * Fixing indentation in twi.c.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 20 Jun 2009 20:48:55 +0000
+
+chipkit-harmony (0.9.9) uecide; urgency=low
+
+  * Fixing bug in Wire library that caused it to read and discard one extra byte when do a requestFrom() a slave device.  Thanks to Christopher K. Johnson.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 20 Jun 2009 20:43:24 +0000
+
+chipkit-harmony (0.9.8) uecide; urgency=low
+
+  * Fixing Client::connected() and Client::status() to return reasonable values when the Client isn't associated with a valid socket: issue #34.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Mon, 15 Jun 2009 20:11:13 +0000
+
+chipkit-harmony (0.9.7) uecide; urgency=low
+
+  * Changing analog read channel mask from 0x07 to 0x0f to allow for reading of the temperature and other extended channels.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Mon, 15 Jun 2009 19:40:47 +0000
+
+chipkit-harmony (0.9.6) uecide; urgency=low
+
+  * First integration of the Arduino code in Processing 5503: PreProcessor and Compiler have been integrated with changes to the Sketch. Compilation still has problems (Thread error on success, and can't handle non-pde files in a sketch). Modified the Mac OS X make.sh to copy the hardware, avr tools, and example over. Removing some of the antlr stuff. Disabling the Commander (command-line execution) for now. Added Library, LibraryManager, and Target. Added support for prefixed preferences (e.g. for boards and programmers).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Mon, 1 Jun 2009 08:32:11 +0000
+
+chipkit-harmony (0.9.5) uecide; urgency=low
+
+  * Adding support for ordering the Tools > Boards menu by using LinkedHashMap to store the keys for the prefixed sub-maps.  Re-ordering the boards in the boards.txt file.  Adding an entry for the LilyPad Arduino w/ ATmega328.  Updating readme.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 30 May 2009 08:56:03 +0000
+
+chipkit-harmony (0.9.4) uecide; urgency=low
+
+  * Removing wiring_serial.c as it's no longer used.  (All serial functionality is now in HardwareSerial.h / HardwareSerial.cpp.)
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 24 May 2009 15:13:08 +0000
+
+chipkit-harmony (0.9.3) uecide; urgency=low
+
+  * Adding ARDUINO version constant.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 24 May 2009 15:12:19 +0000
+
+chipkit-harmony (0.9.2) uecide; urgency=low
+
+  * Fixing overflow bug in bit() macro: (1 << (b)) becomes (1UL << (b))
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 19 May 2009 18:16:08 +0000
+
+chipkit-harmony (0.9.1) uecide; urgency=low
+
+  * Optimizing the timer0 overflow handler (for millis()), based on work by WestFW and help from mikalhart.  Increasing precision of math constants.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 12 May 2009 10:55:26 +0000
+
+chipkit-harmony (0.9.0) uecide; urgency=low
+
+  * Modifying Makefile to generate dependencies (and .d files) automatically.  Patch from Lars Immisch: http://www.arduino.cc/cgi-bin/yabb2/YaBB.pl?num=1241007184
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 9 May 2009 18:09:02 +0000
+
+chipkit-harmony (0.8.9) uecide; urgency=low
+
+  * Fixing bugs in Client::connect() (failed to set _sock to 255 after some connection failures).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Fri, 8 May 2009 13:11:04 +0000
+
+chipkit-harmony (0.8.8) uecide; urgency=low
+
+  * Updating default board to the Arduino Duemilanove w/ ATmega328.  Adding a Tools > Boards entry for Arduino Pro or Pro Mini (8 MHz) w/ ATmega328.  Cleaning up todo list.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Fri, 8 May 2009 11:22:34 +0000
+
+chipkit-harmony (0.8.7) uecide; urgency=low
+
+  * Adding ATmega328 bootloader for the Pro and Pro Mini running at 8 MHz (3.3V).  Uses the USART0 double speed mode, which according to Nathan from Sparkfun, is necessary to achieve reliable communication at 57600 baud.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Fri, 8 May 2009 11:05:41 +0000
+
+chipkit-harmony (0.8.6) uecide; urgency=low
+
+  * Fixes to the way the Client class connects and disconnects, as well as checks of whether or not the socket is valid in various functions.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 26 Apr 2009 14:58:39 +0000
+
+chipkit-harmony (0.8.5) uecide; urgency=low
+
+  * Adding write(str) and write(buf, size) methods to Print class and Ethernet library Client and Server classes.  This allows sending a whole string or buffer at once, reducing the number of ethernet packets.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 26 Apr 2009 13:10:34 +0000
+
+chipkit-harmony (0.8.4) uecide; urgency=low
+
+  * Adding support for the Arduino Mega (ATmega1280) to the core and bootloader.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 25 Mar 2009 10:50:00 +0000
+
+chipkit-harmony (0.8.3) uecide; urgency=low
+
+  * Renaming atmega168 bootloader directory to atmega since it's no longer atmega168 specific.  Updating boards.txt accordingly.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 24 Mar 2009 10:41:46 +0000
+
+chipkit-harmony (0.8.2) uecide; urgency=low
+
+  * Adding Print.cpp to Makefile.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Mon, 16 Mar 2009 20:08:45 +0000
+
+chipkit-harmony (0.8.1) uecide; urgency=low
+
+  * Clarifying ATmega328 vs. ATmega168 in boards.txt (Boards menu).  Modified todo and readme.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 7 Mar 2009 10:06:53 +0000
+
+chipkit-harmony (0.8.0) uecide; urgency=low
+
+  * Fixing Ethernet client connect code to properly chance source port each time.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 14 Feb 2009 10:27:36 +0000
+
+chipkit-harmony (0.7.9) uecide; urgency=low
+
+  * uncommenting Arduino w/ ATmega328 board w/ 57600 bootloader
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 25 Jan 2009 17:07:07 +0000
+
+chipkit-harmony (0.7.8) uecide; urgency=low
+
+  * fixing / improving printFloat() from Mikal Hart
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 25 Jan 2009 15:44:17 +0000
+
+chipkit-harmony (0.7.7) uecide; urgency=low
+
+  * Originating each outgoing network connection from a different source port (in the Client class of the Ethernet library). Updating readme and todo.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 7 Jan 2009 21:16:45 +0000
+
+chipkit-harmony (0.7.6) uecide; urgency=low
+
+  * Adding "Duemilanove" to the name of the Diecimila boards entry. Adding commented out ATmega328 boards entry. Updating todo and readme.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 23 Dec 2008 00:21:03 +0000
+
+chipkit-harmony (0.7.5) uecide; urgency=low
+
+  * Fixing delay() to delay at least N milliseconds. Fixing register name in micros() for ATmega8.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 23 Dec 2008 00:17:14 +0000
+
+chipkit-harmony (0.7.4) uecide; urgency=low
+
+  * Fixing bug that made the Ethernet library interfere with pins 8 and 9. Adding a delay(1) to the WebServer example to work with browsers. Removing duplicate Print files from Ethernet library.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 14 Dec 2008 16:55:23 +0000
+
+chipkit-harmony (0.7.3) uecide; urgency=low
+
+  * Setting atmega328 bootloader baud rate to 57600 (for now) and adding isp targets to makefile (e.g. diecimila_isp, atmega328_isp).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 26 Nov 2008 14:34:24 +0000
+
+chipkit-harmony (0.7.2) uecide; urgency=low
+
+  * Adding support for printing floats and doubles (defaulting to 2 decimal places)
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 26 Nov 2008 14:15:24 +0000
+
+chipkit-harmony (0.7.1) uecide; urgency=low
+
+  * Adding micros() function.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 26 Nov 2008 14:14:59 +0000
+
+chipkit-harmony (0.7.0) uecide; urgency=low
+
+  * Adding ATmega328 support.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 9 Nov 2008 21:02:20 +0000
+
+chipkit-harmony (0.6.9) uecide; urgency=low
+
+  * Updating libraries for atmega328 (adding it to a couple of #if's, etc.).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 8 Nov 2008 21:57:48 +0000
+
+chipkit-harmony (0.6.8) uecide; urgency=low
+
+  * Switching to new signal (interrupt handler) names for compatibility with the ATmega328.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 8 Nov 2008 21:31:55 +0000
+
+chipkit-harmony (0.6.7) uecide; urgency=low
+
+  * Waiting for pulse to start (rising or falling edge) to start timing.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 8 Nov 2008 21:31:12 +0000
+
+chipkit-harmony (0.6.6) uecide; urgency=low
+
+  * Fixing LiquidCrystal library example comments (d0, d1, d2, d3 => d4, d5, d6, d7).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 1 Nov 2008 22:07:48 +0000
+
+chipkit-harmony (0.6.5) uecide; urgency=low
+
+  * Switching tests for __AVR_ATmega168__ to tests for __AVR_ATmega8__ so that less changes are needed to support other processors.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 1 Nov 2008 22:06:13 +0000
+
+chipkit-harmony (0.6.4) uecide; urgency=low
+
+  * Moving makeWord() function defintion into WMath.cpp (out of WProgram.h).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 26 Oct 2008 12:31:45 +0000
+
+chipkit-harmony (0.6.3) uecide; urgency=low
+
+  * Adding word datatype and cast/construction macros, bitRead(), bitWrite(), bitSet(), bitClear(), bit().
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 25 Oct 2008 12:52:07 +0000
+
+chipkit-harmony (0.6.2) uecide; urgency=low
+
+  * Little fixes:  - changing random(max) to use stdlib.h random()  - not generating .eep files to avoid warning when EEMEM isn't used  - removing cast macros (since they are automatically defined in C++)  - writing a digital LOW for PWM value of 0 on pins 5 or 6
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Mon, 13 Oct 2008 15:03:20 +0000
+
+chipkit-harmony (0.6.1) uecide; urgency=low
+
+  * * Updating version number to 0013. * Updating ATmega168 bootloader to work with standard distributions of avrdude   (responding to signature requests made with the universal SPI command) and   correctly store EEPROM data.  Thanks to ladyada. * Changing compilation process to generate .eep file and allow for use of   EEMEM directive (although not yet uploading EEPROM data).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 11 Oct 2008 19:27:10 +0000
+
+chipkit-harmony (0.6.0) uecide; urgency=low
+
+  * Reindenting the ATmega168 bootloader file.  It was a mess (and still is somewhat of one).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 11 Oct 2008 15:20:39 +0000
+
+chipkit-harmony (0.5.9) uecide; urgency=low
+
+  * updated TODOs and created a TODO file for general project todos
+
+ -- Hans-Christoph Steiner <hans@at.or.at>  Sun, 5 Oct 2008 23:39:49 +0000
+
+chipkit-harmony (0.5.8) uecide; urgency=low
+
+  * Removing WConstants.h include from Stepper.h so it compiles with new WProgram.h include placement.  Updated readme.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 17 Sep 2008 14:15:11 +0000
+
+chipkit-harmony (0.5.7) uecide; urgency=low
+
+  * removed deprecated timer0_overflow_count, which wasn't meant to be public anyway.  Replaced it with the official millis() method of getting the time.
+
+ -- Hans-Christoph Steiner <hans@at.or.at>  Tue, 16 Sep 2008 17:18:41 +0000
+
+chipkit-harmony (0.5.6) uecide; urgency=low
+
+  * Adding #ifdef guard to WProgram.h to prevent multiple #includes. Removing Print class inheritance from Firmata since it's not clear that it can be implemented in a way that's compatible with the Firmata protocol and the Print class interface.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Mon, 15 Sep 2008 21:09:13 +0000
+
+chipkit-harmony (0.5.5) uecide; urgency=low
+
+  * switched up analogRead() loop to use the revamped millis() function rather than the private timer0_overflow_count variable
+
+ -- Hans-Christoph Steiner <hans@at.or.at>  Fri, 12 Sep 2008 16:53:57 +0000
+
+chipkit-harmony (0.5.4) uecide; urgency=low
+
+  * Firmata.h now needs to have WProgram.h, since in the sketches WProgram.h has moved from the first include to the last
+
+ -- Hans-Christoph Steiner <hans@at.or.at>  Fri, 12 Sep 2008 16:53:03 +0000
+
+chipkit-harmony (0.5.3) uecide; urgency=low
+
+  * copying Firmata-0.4beta2 release into trunk, then I'll adjust it to Arduino-0012
+
+ -- Hans-Christoph Steiner <hans@at.or.at>  Fri, 12 Sep 2008 16:35:07 +0000
+
+chipkit-harmony (0.5.2) uecide; urgency=low
+
+  * Removing wiring core since it's not being kept up-to-date.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 10 Sep 2008 15:22:59 +0000
+
+chipkit-harmony (0.5.1) uecide; urgency=low
+
+  * Renaming Ethernet examples part 2 (apparently SVN doesn't allow renaming of a file at the same time as its containing directory).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Mon, 8 Sep 2008 20:06:32 +0000
+
+chipkit-harmony (0.5.0) uecide; urgency=low
+
+  * Renaming ethernet library examples.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Mon, 8 Sep 2008 20:05:31 +0000
+
+chipkit-harmony (0.4.9) uecide; urgency=low
+
+  * Commented LCD examples.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 7 Sep 2008 12:21:07 +0000
+
+chipkit-harmony (0.4.8) uecide; urgency=low
+
+  * Updated reference to include new libraries.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 7 Sep 2008 11:54:26 +0000
+
+chipkit-harmony (0.4.7) uecide; urgency=low
+
+  * Incorporating ladyada's watchdog timer changes into the bootloader source, but only compiling them in for the Pro and Pro Mini (since Nathan includes them in the bootloader he burns to the board).  Added a WATCHDOG_MODS flag to the Makefile to specify that they should be included.  Recompiled the pro .hex file to include them.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 6 Sep 2008 22:17:58 +0000
+
+chipkit-harmony (0.4.6) uecide; urgency=low
+
+  * Moving Servo min and max parameters to the attach() function from the constructor.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Thu, 21 Aug 2008 23:48:38 +0000
+
+chipkit-harmony (0.4.5) uecide; urgency=low
+
+  * Updating Makefile to derive target name from the current folder.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 17 Aug 2008 20:10:47 +0000
+
+chipkit-harmony (0.4.4) uecide; urgency=low
+
+  * Adding Nano and Pro (8 MHz) to boards.txt file; updating Makefile for atmega168 bootloader based on Nathan's changes to allow for customizing of more parameters per-board; including Pro 8 MHz .hex compiled bootloader file; not updating the Diecimila or NG .hex files.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 16 Aug 2008 01:56:41 +0000
+
+chipkit-harmony (0.4.3) uecide; urgency=low
+
+  * Adding ethernet library.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 30 Jul 2008 14:47:36 +0000
+
+chipkit-harmony (0.4.2) uecide; urgency=low
+
+  * Changing pin outs on LiquidCrystal examples and adding parentheses to Servo code.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 13 Jul 2008 19:26:59 +0000
+
+chipkit-harmony (0.4.1) uecide; urgency=low
+
+  * Moving actual stepping to the end of the step() function so that the first step isn't in the wrong direction.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 8 Jul 2008 02:34:38 +0000
+
+chipkit-harmony (0.4.0) uecide; urgency=low
+
+  * Adding ADXL3xx accelerometer example; minor comment changes.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 2 Jul 2008 19:06:27 +0000
+
+chipkit-harmony (0.3.9) uecide; urgency=low
+
+  * Wire library patch to provide better error handling.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 21 Jun 2008 23:16:27 +0000
+
+chipkit-harmony (0.3.8) uecide; urgency=low
+
+  * Fixing random() to work with longs.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Mon, 26 May 2008 14:02:32 +0000
+
+chipkit-harmony (0.3.7) uecide; urgency=low
+
+  * Modified Matrix to work with MAX7221: changing latching from rising edge to falling edge.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 10 May 2008 05:02:09 +0000
+
+chipkit-harmony (0.3.6) uecide; urgency=low
+
+  * Adding a couple of Servo examples from Wiring (slightly modified).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 7 May 2008 22:15:55 +0000
+
+chipkit-harmony (0.3.5) uecide; urgency=low
+
+  * Adding Servo library (ServoTimer1 from the playground) by Jim Studt.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 7 May 2008 19:53:52 +0000
+
+chipkit-harmony (0.3.4) uecide; urgency=low
+
+  * Changing Print class to use regular virtual write() function (instead of my hack ed together version).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 7 May 2008 18:24:49 +0000
+
+chipkit-harmony (0.3.3) uecide; urgency=low
+
+  * Adding LiquidCrystal library.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 19 Apr 2008 03:31:36 +0000
+
+chipkit-harmony (0.3.2) uecide; urgency=low
+
+  * Fixing millis() overflow: changing millis() and the timer 0 overflow handler so that the millis count is updated in the interrupt, and so we don't need to do a conversion inside millis().  Updated to do list.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Fri, 18 Apr 2008 21:56:14 +0000
+
+chipkit-harmony (0.3.1) uecide; urgency=low
+
+  * Adding the Print class.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Fri, 18 Apr 2008 18:46:52 +0000
+
+chipkit-harmony (0.3.0) uecide; urgency=low
+
+  * Factored out print() and println() from HardwareSerial to a base class for sharing with other things (e.g. LiquidCrystal library), eliminating #include's of avr/signal.h (deprecated).  Upping version number and modifying to do list.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Fri, 18 Apr 2008 18:39:02 +0000
+
+chipkit-harmony (0.2.9) uecide; urgency=low
+
+  * Moving Standard_Firmata out of the distribution because Hans may be making some non-backwards compatible changes.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Fri, 28 Mar 2008 21:37:02 +0000
+
+chipkit-harmony (0.2.8) uecide; urgency=low
+
+  * renamed to more descriptive name
+
+ -- Hans-Christoph Steiner <hans@at.or.at>  Wed, 26 Mar 2008 17:12:43 +0000
+
+chipkit-harmony (0.2.7) uecide; urgency=low
+
+  * renamed to more descriptive name
+
+ -- Hans-Christoph Steiner <hans@at.or.at>  Wed, 26 Mar 2008 17:12:12 +0000
+
+chipkit-harmony (0.2.6) uecide; urgency=low
+
+  * added newline at the end of file to get rid of compiler and SVN warnings
+
+ -- Hans-Christoph Steiner <hans@at.or.at>  Mon, 24 Mar 2008 17:28:17 +0000
+
+chipkit-harmony (0.2.5) uecide; urgency=low
+
+  * Adding to the todo list and readme; fixing a bit of indentation.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 8 Mar 2008 22:05:23 +0000
+
+chipkit-harmony (0.2.4) uecide; urgency=low
+
+  * Added timeout (in microseconds) parameter to pulseIn().  Defaults to 1000000 (1 second).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 8 Mar 2008 21:30:00 +0000
+
+chipkit-harmony (0.2.3) uecide; urgency=low
+
+  * Incorporating a modified version of oli.keller's Makefile (prepends #include <WProgram.h> and appends main() among other things).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 5 Mar 2008 02:50:11 +0000
+
+chipkit-harmony (0.2.2) uecide; urgency=low
+
+  * Disabling flushing of the serial port for the BT (bluetooth) board.  It seems to fix uploading to it under Mac OS X 10.5 (Leopard).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 5 Mar 2008 00:48:08 +0000
+
+chipkit-harmony (0.2.1) uecide; urgency=low
+
+  * Cleaning up Mac build, adding Serial.println(unsigned int), adding #include <Sprite.h> to hello_matrix example.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 23 Feb 2008 21:52:53 +0000
+
+chipkit-harmony (0.2.0) uecide; urgency=low
+
+  * Improving the preprocessor and parallel programmer.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 20 Feb 2008 02:27:23 +0000
+
+chipkit-harmony (0.1.9) uecide; urgency=low
+
+  * Upping the baud rate to 115200.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 16 Feb 2008 19:31:38 +0000
+
+chipkit-harmony (0.1.8) uecide; urgency=low
+
+  * Adding a stable version of Firmata - this is the same as the one in the Arduino library for Processing on the playground (57600 baud).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 22 Jan 2008 23:59:10 +0000
+
+chipkit-harmony (0.1.7) uecide; urgency=low
+
+  * God I hate subversion.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 22 Jan 2008 23:52:02 +0000
+
+chipkit-harmony (0.1.6) uecide; urgency=low
+
+  * Moving development (library-based) version of Firmata to a branch so I can include a stable one in the distribution.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 22 Jan 2008 23:50:21 +0000
+
+chipkit-harmony (0.1.5) uecide; urgency=low
+
+  * New script for download the reference from Tom Pollard.  Updated reference and readme and Makefile.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 22 Jan 2008 22:10:55 +0000
+
+chipkit-harmony (0.1.4) uecide; urgency=low
+
+  * Adding analogReference() function - needs testing on an ATmega8 (but works on the ATmega 168).
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Fri, 14 Dec 2007 04:21:59 +0000
+
+chipkit-harmony (0.1.3) uecide; urgency=low
+
+  * Adding map(), fixing radians() and degrees(), adding cast functions (int(x) instead of (int) x), adding interrupts() and noInterrupts(), etc.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 21 Nov 2007 17:08:07 +0000
+
+chipkit-harmony (0.1.2) uecide; urgency=low
+
+  * Fixing some warnings.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Wed, 21 Nov 2007 14:55:09 +0000
+
+chipkit-harmony (0.1.1) uecide; urgency=low
+
+  * Adding #include to Matrix examples.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 4 Nov 2007 18:18:28 +0000
+
+chipkit-harmony (0.1.0) uecide; urgency=low
+
+  * Added BT board and separated Mini from NG.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Fri, 12 Oct 2007 01:38:57 +0000
+
+chipkit-harmony (0.0.9) uecide; urgency=low
+
+  * Adding LilyPad bootloader and adding LilyPad to board definition file.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Tue, 9 Oct 2007 22:46:09 +0000
+
+chipkit-harmony (0.0.8) uecide; urgency=low
+
+  * Switched to new burn bootloader menu system, dynamically generated from the programmers.txt file.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sun, 7 Oct 2007 18:39:14 +0000
+
+chipkit-harmony (0.0.7) uecide; urgency=low
+
+  * Now have uploading working with the Boards menu.  Improved serial port error messages.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 6 Oct 2007 20:26:45 +0000
+
+chipkit-harmony (0.0.6) uecide; urgency=low
+
+  * Initial boards file.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 6 Oct 2007 15:41:08 +0000
+
+chipkit-harmony (0.0.5) uecide; urgency=low
+
+  * Moving hardware/targets to hardware/cores.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 6 Oct 2007 14:47:50 +0000
+
+chipkit-harmony (0.0.4) uecide; urgency=low
+
+  * Renaming core to targets.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 6 Oct 2007 14:09:02 +0000
+
+chipkit-harmony (0.0.3) uecide; urgency=low
+
+  * Moving firmwares into hardware.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 6 Oct 2007 13:32:14 +0000
+
+chipkit-harmony (0.0.2) uecide; urgency=low
+
+  * Moving bootloaders into the hardware/bootloaders directory.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 6 Oct 2007 13:28:43 +0000
+
+chipkit-harmony (0.0.1) uecide; urgency=low
+
+  * Moving libraries out from inside targets and creating bootloaders directory.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 6 Oct 2007 13:04:46 +0000
+
+chipkit-harmony (0.0.0) uecide; urgency=low
+
+  * Moving things around - creating the hardware directory and sticking all the avr code, etc. in there.
+
+ -- David A. Mellis <d.mellis@arduino.cc>  Sat, 6 Oct 2007 13:02:43 +0000
+

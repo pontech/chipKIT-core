@@ -1,0 +1,12 @@
+modules/pic32prog/linux32/pic32prog cores/chipkit-harmony/tools/linux32
+modules/pic32prog/linux64/pic32prog cores/chipkit-harmony/tools/linux64
+modules/pic32prog/linuxarmhf/pic32prog cores/chipkit-harmony/tools/linux_arm
+modules/pic32prog/macosx/pic32prog cores/chipkit-harmony/tools/macosx
+modules/pic32prog/pic32prog.exe cores/chipkit-harmony/tools/windows
+pic32/cores/pic32 cores/chipkit-harmony/
+pic32/variants/WF32/chipKIT-application-32MX695F512.ld cores/chipkit-harmony/pic32
+debian/uecide/Makefile.tpl cores/chipkit-harmony/
+debian/uecide/tools cores/chipkit-harmony/
+debian/uecide/core.txt cores/chipkit-harmony/
+debian/uecide/examples cores/chipkit-harmony/
+debian/uecide/icons cores/chipkit-harmony/

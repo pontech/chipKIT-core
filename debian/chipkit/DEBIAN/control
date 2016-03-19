@@ -1,0 +1,15 @@
+Package: chipkit
+Version: 8.9.7
+Architecture: all
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Installed-Size: 6633
+Depends: pic32-tools
+Recommends: libdspi-chipkit, libspi-chipkit, libsoftspi-chipkit, libdeipck-chipkit, libdewfck-chipkit, libim8720phy-chipkit, libmrf24g-chipkit, libhttpserver-chipkit, libethernet-chipkit, libfirmata-chipkit, libwire-chipkit, libonewire-chipkit, libsoftwareserial-chipkit, libeeprom-chipkit, libsd-chipkit, libliquidcrystal-chipkit, libservo-chipkit, libsoftpwmservo-chipkit, libstepper-chipkit
+Section: cores
+Priority: extra
+Homepage: http://chipkit.net
+Description: chipKIT
+ The chipKIT core provides an Arduino 1.x API interface to
+ Microchip's PIC32 family of microcontrollers.
+Family: pic32
+Group: PIC32

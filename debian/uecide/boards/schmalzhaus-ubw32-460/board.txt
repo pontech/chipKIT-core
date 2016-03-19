@@ -1,0 +1,22 @@
+variant=schmalzhaus-ubw32-460
+description=USB Bit Whacker MX460
+group=Schmalzhaus
+platform=pic32
+board=_BOARD_UBW32_MX460_
+board.flags=-D_USE_USB_FOR_SERIAL_::-D_USB
+ccflags=ffff
+ldscript=chipKIT-application-32MX460F512${upload.${prefs:board.${prefs:board}.programmer}.ldsuffix}.ld
+upload.protocol=stk500v2
+upload.maximum_size=520192
+upload.speed=115200
+build.mcu=32MX460F512L
+build.f_cpu=80000000L
+build.core=pic32
+build.variant=schmalzhaus-ubw32-460
+family=pic32
+version=0.4
+revision=2
+core=chipkit
+name=schmalzhaus-ubw32-460
+bootloader.file=${board:root}/bootloader
+

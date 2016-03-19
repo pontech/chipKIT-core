@@ -1,0 +1,72 @@
+variant=chipkit-pi
+description=chipKIT Pi
+group=chipKIT
+platform=pic32
+board=_BOARD_CHIPKIT_PI_
+board.flags=-D_USB
+ldscript=chipKIT-application-32MX250F128${upload.${prefs:board.${prefs:board}.programmer}.ldsuffix}.ld
+bootloader.file=${board.root}/chipKIT_Pi
+upload.protocol=stk500v2
+upload.maximum_size=122880
+upload.speed=115200
+build.mcu=32MX250F128B
+build.f_cpu=40000000L
+build.core=chipkit
+build.variant=chipkit-pi
+family=pic32
+version=0.6
+revision=2
+core=chipkit
+manual=doc/ChipKIT Pi - Getting Started.pdf
+name=chipkit-pi
+
+mdns.model.key=board
+mdns.model.value=chipkit_Pi
+mdns.version=distro_version
+mdns.service=_raspberrypi._tcp.local.
+mdns.programmer=pissh
+mdns.class=ssh
+
+board.user=ckpi
+
+upload.pissh.name=Upload via a remote Pi at ${ip}
+upload.pissh.using=script
+upload.pissh.quiet=-qq
+upload.pissh.script.0=__builtin_echo::Uploading firmware image...
+upload.pissh.script.1=__builtin_scp::${build.path}/${filename}.hex::${board.user}@${ip}:/tmp/${filename}.hex
+upload.pissh.script.2=__builtin_echo::Programming target...
+upload.pissh.script.3=__builtin_ssh::${board.user}@${ip}::ckpi-program && pic32prog -S -d /dev/ttyAMA0 /tmp/${filename}.hex && ckpi-reboot
+upload.pissh.script.4=__builtin_echo::Done
+
+sketch.upload=avrdude::pissh::pic32prog::pickit2::avrpi
+
+options.usb.name=USB Settings
+options.usb.default=withoutSerial
+options.usb.purge=true
+options.usb.withoutSerial.name=Disable USB Serial
+options.usb.withoutSerial.flags=
+options.usb.withSerial.name=Enable USB Serial
+options.usb.withSerial.flags=-D_USE_USB_FOR_SERIAL_
+
+upload.avrpi.name=Upload using avrdude with local reset and port locking
+upload.avrpi.using=script
+upload.avrpi.script.0=__builtin_bullet::Locking port...
+upload.avrpi.script.1=__builtin_lock_port::${port}
+upload.avrpi.script.2=__builtin_bullet::Entering bootloader...
+upload.avrpi.script.3=__builtin_gpio::17::low
+upload.avrpi.script.4=__builtin_delay::100
+upload.avrpi.script.5=__builtin_gpio::4::low
+upload.avrpi.script.6=__builtin_delay::400
+upload.avrpi.script.7=__builtin_gpio::4::hiz
+upload.avrpi.script.8=__builtin_delay::400
+upload.avrpi.script.9=__builtin_gpio::17::hiz
+upload.avrpi.script.10=__builtin_delay::100
+upload.avrpi.script.11=__builtin_bullet::Programming...
+upload.avrpi.script.12=${core.root}/tools/linux_arm/avrdude::-V::-p${build.mcu}::-P${port}::-b${upload.speed}::-C${core.root}/tools/linux_arm/avrdude.conf::-cstk500v2::-Uflash:w:${filename}.hex:i::${verbose}
+upload.avrpi.script.13=__builtin_bullet::Unlocking port...
+upload.avrpi.script.14=__builtin_unlock_port::${port}
+upload.avrpi.script.15=__builtin_bullet::Done.
+upload.avrpi.script.fail.0=__builtin_bullet::Unlocking port...
+upload.avrpi.script.fail.1=__builtin_unlock_port::${port}
+upload.avrpi.script.fail.2=__builtin_bullet::Done.
+upload.avrpi.quiet=-qq
