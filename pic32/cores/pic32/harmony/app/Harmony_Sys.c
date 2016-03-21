@@ -46,6 +46,7 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 // Section: Included Files
 // *****************************************************************************
 // *****************************************************************************
+#include <Arduino.h>
 #include <xc.h>
 #include <sys/attribs.h>
 #include "Harmony_Private.h"
@@ -221,7 +222,7 @@ const USB_DEVICE_DESCRIPTOR deviceDescriptor ={
     0x0100, // Device release number in BCD format
     0x01, // Manufacturer string index
     0x02, // Product string index
-    0x00, // Device serial number string index
+    0x03, // Device serial number string index
     0x01 // Number of possible configurations
 };
 
@@ -239,7 +240,7 @@ const uint8_t fullSpeedConfigurationDescriptor[] ={
     0x01, // Index value of this configuration
     0x00, // Configuration string index
     USB_ATTRIBUTE_DEFAULT | USB_ATTRIBUTE_SELF_POWERED, // Attributes
-    50, // Max power consumption (2X mA)
+    250, // Max power consumption (2X mA)
     /* Descriptor for Function 1 - CDC     */
     /* Interface Association Descriptor: CDC Function 1*/
     0x08, // Size of this descriptor in bytes
@@ -251,6 +252,9 @@ const uint8_t fullSpeedConfigurationDescriptor[] ={
     0x01, // bInterfaceProtocol of the first interface
     0x00, // Interface string index
 
+/*********************************************************
+ *                   FIRST CDC/ACM PORT                  *
+ *********************************************************/
     /* Interface Descriptor */
 
     0x09, // Size of this descriptor in bytes
@@ -337,6 +341,9 @@ const uint8_t fullSpeedConfigurationDescriptor[] ={
     0x01, // bInterfaceProtocol of the first interface
     0x00, // Interface string index
 
+/*********************************************************
+ *                  SECOND CDC/ACM PORT                  *
+ *********************************************************/
     /* Interface Descriptor */
 
     0x09, // Size of this descriptor in bytes
@@ -412,7 +419,9 @@ const uint8_t fullSpeedConfigurationDescriptor[] ={
     0x40, 0x00, // Max packet size of this EP
     0x00, // Interval (in ms)
 
-
+/*********************************************************
+ *                     HID INTERFACE                     *
+ *********************************************************/
     /* Interface Descriptor */
 
     0x09, // Size of this descriptor in bytes
@@ -494,13 +503,17 @@ sd000 ={
 /*******************************************
  *  Manufacturer string descriptor
  *******************************************/
+#ifndef _USB_MANUFACTURER_
+#define _USB_MANUFACTURER_ 'c','h','i','p','K','I','T'
+#define _USB_MANUFACTURER_LENGTH_ 7
+#endif
 const struct __attribute__((packed))
 {
     uint8_t stringIndex; //Index of the string descriptor
     uint16_t languageID; // Language ID of this string.
     uint8_t bLength; // Size of this descriptor in bytes
     uint8_t bDscType; // STRING descriptor type
-    uint16_t string[7]; // String
+    uint16_t string[_USB_MANUFACTURER_LENGTH_]; // String
 }
 
 sd001 ={
@@ -509,37 +522,67 @@ sd001 ={
     sizeof (sd001) - sizeof (sd001.stringIndex) - sizeof (sd001.languageID),
     USB_DESCRIPTOR_STRING,
     {
-        'c', 'h', 'i', 'p', 'K', 'I', 'T'}
+        _USB_MANUFACTURER_
+    }
 };
 
 /*******************************************
  *  Product string descriptor
  *******************************************/
+
+#ifndef _USB_PRODUCT_
+#define _USB_PRODUCT_ 'M', 'P', 'I', 'D', 'E', ' ', 'C', 'o', 'm', 'p', 'a', 't', 'i', 'b', 'l', 'e', ' ', 'D', 'e', 'v', 'i', 'c', 'e'
+#define _USB_PRODUCT_LENGTH_ 23
+#endif
+
 const struct __attribute__((packed))
 {
     uint8_t stringIndex; //Index of the string descriptor
     uint16_t languageID; // Language ID of this string.
     uint8_t bLength; // Size of this descriptor in bytes
     uint8_t bDscType; // STRING descriptor type 
-    uint16_t string[23]; // String
+    uint16_t string[_USB_PRODUCT_LENGTH_]; // String
 }
-
 sd002 ={
     2, // Index of this string descriptor is 2. 
     0x0409, // Language ID of this string descriptor is 0x0409 (English)
     sizeof (sd002) - sizeof (sd002.stringIndex) - sizeof (sd002.languageID),
     USB_DESCRIPTOR_STRING,
     {
-        'M', 'P', 'I', 'D', 'E', ' ', 'C', 'o', 'm', 'p', 'a', 't', 'i', 'b', 'l', 'e', ' ', 'D', 'e', 'v', 'i', 'c', 'e'}
+        _USB_PRODUCT_
+    }
 };
+
+/*******************************************
+ *  Product string descriptor
+ *******************************************/
+struct __attribute__((packed))
+{
+    uint8_t stringIndex; //Index of the string descriptor
+    uint16_t languageID; // Language ID of this string.
+    uint8_t bLength; // Size of this descriptor in bytes
+    uint8_t bDscType; // STRING descriptor type 
+    uint16_t string[14]; // String
+}
+sd003 ={
+    3, // Index of this string descriptor is 3. 
+    0x0409, // Language ID of this string descriptor is 0x0409 (English)
+    sizeof (sd003) - sizeof (sd003.stringIndex) - sizeof (sd003.languageID),
+    USB_DESCRIPTOR_STRING,
+    {
+        'C', 'K', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'
+    }
+};
+
 
 /***************************************
  * Array of string descriptors
  ***************************************/
-USB_DEVICE_STRING_DESCRIPTORS_TABLE stringDescriptors[3] ={
+USB_DEVICE_STRING_DESCRIPTORS_TABLE stringDescriptors[4] ={
     (const uint8_t * const) &sd000,
     (const uint8_t * const) &sd001,
-    (const uint8_t * const) &sd002
+    (const uint8_t * const) &sd002,
+    (uint8_t *) &sd003
 };
 
 
@@ -553,7 +596,7 @@ const USB_DEVICE_MASTER_DESCRIPTOR usbMasterDescriptor ={
     NULL,
     0,
     NULL,
-    3, // Total number of string descriptors available.
+    4, // Total number of string descriptors available.
     stringDescriptors, // Pointer to array of string descriptors.
 	NULL,	// full speed device qualifier
     NULL
@@ -685,11 +728,27 @@ HARMONY_SYSTEM_OBJECTS HarmonySysObj;
 // *****************************************************************************
 // *****************************************************************************
 
+#define D2H(X) ((X & 0xF) < 10 ? '0' + (X & 0xF) : 'A' - 10 + (X & 0xF))
+
 void Harmony_SYS_InitDrivers(void* data)
 {
 	/* Initialize Drivers */
 
 #if defined (_USB)
+
+    sd003.string[2] = D2H(DEVID >> 28);
+    sd003.string[3] = D2H(DEVID >> 24);
+    sd003.string[4] = D2H(DEVID >> 20);
+    sd003.string[5] = D2H(DEVID >> 16);
+    sd003.string[6] = D2H(DEVID >> 12);
+    sd003.string[7] = D2H(DEVID >> 8);
+    sd003.string[8] = D2H(DEVID >> 4);
+    sd003.string[9] = D2H(DEVID);
+    sd003.string[10] = D2H(DEVCFG3 >> 12);
+    sd003.string[11] = D2H(DEVCFG3 >> 8);
+    sd003.string[12] = D2H(DEVCFG3 >> 4);
+    sd003.string[13] = D2H(DEVCFG3);
+
 	#if defined(USB_DRV_HS)
 
 		/* Initialize HS USB Driver */
