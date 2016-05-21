@@ -6,7 +6,17 @@ compiler=pic32-tools
 core.flags=-DF_CPU=${build.f_cpu}::-DARDUINO=${core.version}::-D${board}::-DMPIDEVER=${core.revision}::-DMPIDE=${core.version}::-I${core.root}/pic32/harmony/framework::-DOPT_BOARD_INTERNAL::-DOPT_SYSTEM_INTERNAL::-DIDE=UECIDE
 
 core.library.api=pic32
-core.library.harmony=pic32/harmony/framework::pic32/harmony/framework/driver/usb/usbfs/src/dynamic::pic32/harmony/framework/system/int/src::pic32/harmony/framework/usb/src/dynamic::pic32/harmony/app 
+
+core.library.harmony-app=pic32/harmony/app 
+
+core.library.harmony-framework=pic32/harmony/framework::pic32/harmony/framework/system/int/src::pic32/harmony/framework/usb/src/dynamic::pic32/harmony/app 
+
+#######
+# This line is for MX chips.  For MZ chips you need to use the next line instead
+core.library.harmony-usbfs=pic32/harmony/framework/driver/usb/usbfs/src/dynamic
+
+# MZ chips use this line. It's not working yet though.
+#core.library.harmony-usbhs=pic32/harmony/framework/driver/usb/usbhs/src/dynamic
 
 core.header=WProgram.h
 core.version=157
