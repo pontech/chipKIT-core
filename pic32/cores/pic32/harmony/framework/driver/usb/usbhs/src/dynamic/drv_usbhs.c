@@ -49,10 +49,6 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 // *****************************************************************************
 // *****************************************************************************
 
-#include "system_config.h"
-
-#if defined(_USB) && defined(USB_DRV_HS)
-
 #include "driver/usb/usbhs/src/drv_usbhs_local.h"
 #include "peripheral/ports/plib_ports.h"
 
@@ -763,5 +759,3 @@ void DRV_USBHS_ClientEventCallBackSet
     return;
     
 }/* end of DRV_USBHS_ClientEventCallBackSet() */
-
-#endif

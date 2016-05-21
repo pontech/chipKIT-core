@@ -166,9 +166,14 @@ static void Harmony_Scheduled_Task(int taskId, void* userState)
 	Harmony_SYS_Tasks();
 }
 
-#if defined (_USB) && defined(USB_DRV_FS)
-// The full speed PIC module requires setIntVector
-extern void __attribute__((interrupt(), nomips16)) _IntHandlerUSBInstance0(void);
+#if defined (_USB)
+    #if defined(USB_DRV_FS)
+        // The full speed PIC module requires setIntVector
+        extern void __USER_ISR _IntHandlerUSBInstance0(void);
+    #elif defined(USB_DRV_HS)
+        extern void __USER_ISR _IntHandlerUSBInstance0(void);
+        extern void __USER_ISR _IntHandlerUSBInstance0_USBDMA(void);
+    #endif
 #endif
 
 //************************************************************************
@@ -205,10 +210,18 @@ void init()
 	setIntVector(_CORE_TIMER_VECTOR, CoreTimerHandler);
 	setIntEnable(_CORE_TIMER_IRQ);
 
-#if defined(_USB) && defined(USB_DRV_FS)
-		// Assign the usb isr funtion
-	setIntVector(_USB_1_VECTOR, _IntHandlerUSBInstance0);
-	setIntPriority(_USB_1_VECTOR, _USB_IPL_IPC, _USB_SPL_IPC);
+#if defined(_USB)
+    #if defined(USB_DRV_FS)
+        // Assign the usb isr funtion
+        setIntVector(_USB_1_VECTOR, _IntHandlerUSBInstance0);
+        setIntPriority(_USB_1_VECTOR, _USB_IPL_IPC, _USB_SPL_IPC);
+    #elif defined(USB_DRV_HS)
+        setIntVector(_USB_VECTOR, _IntHandlerUSBInstance0);
+        setIntPriority(_USB_VECTOR, _USB_IPL_IPC, _USB_SPL_IPC);
+
+        setIntVector(_USB_DMA_VECTOR, _IntHandlerUSBInstance0_USBDMA);
+        setIntPriority(_USB_DMA_VECTOR, _USBDMA_IPL_IPC, _USBDMA_SPL_IPC);
+    #endif
 #endif
 
 	// Initialize harmony devices layer

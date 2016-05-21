@@ -49,10 +49,20 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #include <Arduino.h>
 #include <xc.h>
 #include <sys/attribs.h>
+#include <wiring.h>
+
 #include "Harmony_Private.h"
 #include "Harmony_Sys.h"
 
 #if defined (_USB)
+
+#ifndef _USB_VID_
+#define _USB_VID_ 0x0403
+#endif
+
+#ifndef _USB_PID_
+#define _USB_PID_ 0xa662
+#endif
 
 // *****************************************************************************
 // *****************************************************************************
@@ -217,8 +227,8 @@ const USB_DEVICE_DESCRIPTOR deviceDescriptor ={
     0x02, // Subclass code
     0x01, // Protocol code
     USB_DEVICE_EP0_BUFFER_SIZE, // Max packet size for EP0, see system_config.h
-    0x04D8, // Vendor ID
-    0x0208, // Product ID
+    _USB_VID_, // Vendor ID
+    _USB_PID_, // Product ID
     0x0100, // Device release number in BCD format
     0x01, // Manufacturer string index
     0x02, // Product string index
@@ -785,7 +795,6 @@ void Harmony_SYS_InitApplication(void* data)
 #if defined(_USB)
 
 	#if defined(USB_DRV_HS)
-
 		/* Implemented in wiring.c. Returns MS elapsed since power on. */
 		extern unsigned long millis();
 
@@ -815,20 +824,20 @@ void Harmony_SYS_InitApplication(void* data)
 		}
 
 		// USB HS interrupt handler
-		void __attribute__((at_vector(_USB_VECTOR), interrupt(IPL6SRS), nomips16)) _IntHandlerUSBInstance0(void)
+		void __USER_ISR _IntHandlerUSBInstance0(void)
 		{
 			DRV_USBHS_Tasks_ISR(HarmonySysObj.drvUSBObject);
 		}
 
 		// USBDMA interrupt handler
-		void __attribute__((at_vector(_USB_DMA_VECTOR), interrupt(IPL6SRS), nomips16)) _IntHandlerUSBInstance0_USBDMA(void)
+		void __USER_ISR _IntHandlerUSBInstance0_USBDMA(void)
 		{
 			DRV_USBHS_Tasks_ISR_USBDMA(HarmonySysObj.drvUSBObject);
 		}
 	#else
 
 		// USB FS interrupt handler
-		void __attribute__((interrupt(), nomips16)) _IntHandlerUSBInstance0(void)
+		void __USER_ISR _IntHandlerUSBInstance0(void)
 		{
 			DRV_USBFS_Tasks_ISR(HarmonySysObj.drvUSBObject);
 		}

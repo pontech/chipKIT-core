@@ -45,9 +45,6 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 //DOM-IGNORE-END
 
 #include "system_config.h"
-
-#if defined(_USB) && defined(USB_DRV_HS)
-
 #include "driver/usb/usbhs/drv_usbhs.h"
 #include "driver/usb/usbhs/src/drv_usbhs_local.h"
 #include "system/debug/sys_debug.h"
@@ -2823,4 +2820,3 @@ void _DRV_USBHS_DEVICE_Tasks_ISR_USBDMA(DRV_USBHS_OBJ * hDriver)
     
 }/* end of _DRV_USBHS_DEVICE_Tasks_ISR() */
 
-#endif

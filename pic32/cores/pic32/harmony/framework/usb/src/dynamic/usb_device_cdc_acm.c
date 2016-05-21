@@ -46,11 +46,6 @@
 // *****************************************************************************
 /*  This section lists the other files that are included in this file.
  */
-
-#include "system_config.h"
-
-#if defined(_USB)
-
 #include <stdio.h>
 #include <stdint.h>
 #include "usb/usb_cdc.h"
@@ -212,7 +207,7 @@ void _USB_DEVICE_CDC_ACMSetUpPacketHandler
     }
 }
 
-#endif
+
 
 /*******************************************************************************
  End of File

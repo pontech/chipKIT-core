@@ -44,10 +44,6 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 // Section: Included Files
 // *****************************************************************************
 // *****************************************************************************
-#include "system_config.h"
-
-#if defined(_USB)
-
 #include "usb/usb_device_hid.h"
 #include "usb/usb_device.h"
 #include "system/common/sys_common.h"
@@ -915,7 +911,6 @@ USB_DEVICE_HID_RESULT USB_DEVICE_HID_EventHandlerSet
     return USB_DEVICE_HID_RESULT_OK;    
 }
 
-#endif
 /******************************************************************************/
 
 

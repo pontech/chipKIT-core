@@ -12,10 +12,12 @@
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdlib.h>
+#include <wiring.h>
+
 #include "system_config.h"
 #include "system_definitions.h"
 
-void __attribute__((interrupt(), nomips16)) _IntHandlerUSBInstance0(void);
+void __USER_ISR _IntHandlerUSBInstance0(void);
 
 void Harmony_SYS_InitDrivers ( void* data );
 void Harmony_SYS_InitDevices ( void* data );
