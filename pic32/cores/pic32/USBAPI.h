@@ -129,6 +129,19 @@ public:
 };
 extern Keyboard_ Keyboard;
 
+typedef void (*hidreceive)(int, uint8_t *, uint32_t);
+
+extern "C" void Harmony_Hid_onReportReceived(hidreceive);
+
+class HID_ {
+    public:
+        void begin();
+        void onReceive(hidreceive r);
+        void sendReport(uint8_t *b, size_t l);
+};
+
+extern HID_ HID;
+
 
 #endif /* if defined(_USB) */
 #endif

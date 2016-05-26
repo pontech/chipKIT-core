@@ -368,4 +368,17 @@ size_t Keyboard_::write(uint8_t c)
 	return p;              // just return the result of press() since release() almost always returns 1
 }
 
+HID_ HID;
+
+void HID_::begin() {
+}
+
+void HID_::onReceive(hidreceive f) {
+    Harmony_Hid_onReportReceived(f);
+}
+
+void HID_::sendReport(uint8_t *b, size_t l) {
+	HID_SendReport(0, b, min(64, l));
+}
+
 #endif /* if defined(_USB) */
