@@ -142,6 +142,18 @@ class HID_ {
 
 extern HID_ HID;
 
+class Tablet_
+{
+private:
+    int _width;
+    int _height;
+public:
+	Tablet_(void);
+	void begin(int w, int h);
+	void end(void);
+	void move(int x, int y);
+};
+extern Tablet_ Tablet;
 
 #endif /* if defined(_USB) */
 #endif

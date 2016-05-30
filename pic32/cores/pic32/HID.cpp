@@ -40,6 +40,7 @@
 
 Mouse_ Mouse;
 Keyboard_ Keyboard;
+Tablet_ Tablet;
 
 #define LSB(_x) ((_x) & 0xFF)
 #define MSB(_x) ((_x) >> 8)
@@ -379,6 +380,71 @@ void HID_::onReceive(hidreceive f) {
 
 void HID_::sendReport(uint8_t *b, size_t l) {
 	HID_SendReport(0, b, min(64, l));
+}
+
+//================================================================================
+//================================================================================
+//	Tablet - like a mouse but absolute. It only does movement. Use the Mouse
+//  to interact with buttons.
+
+Tablet_::Tablet_(void) 
+{
+}
+
+void Tablet_::begin(int w, int h)
+{
+    _width = w;
+    _height = h;
+}
+
+void Tablet_::end(void) 
+{
+}
+
+struct tabrep {
+    int16_t buttons;
+    int16_t x;
+    int16_t y;
+    int16_t z;
+} __attribute__((packed));
+
+
+void Tablet_::move(int x, int y)
+{
+    uint8_t rep[10];
+
+    int mx1 = (x-1) * 32767 / _width;
+    int my1 = (y-1) * 32767 / _height;
+    int mx2 = x * 32767 / _width;
+    int my2 = y * 32767 / _height;
+
+    rep[0] = 0x00;
+    rep[1] = 0;
+
+    rep[6] = _width & 0xFF;
+    rep[7] = _width >> 8;
+
+    rep[8] = _height & 0xFF;
+    rep[9] = _height >> 8;
+
+    rep[2] = mx1 & 0xFF;
+    rep[3] = mx1 >> 8;
+
+    rep[4] = my1 & 0xFF;
+    rep[5] = my1 >> 8;
+
+
+	HID_SendReport(3, rep, 10);
+
+    rep[0] = 0x00;
+
+    rep[2] = mx2 & 0xFF;
+    rep[3] = mx2 >> 8;
+
+    rep[4] = my2 & 0xFF;
+    rep[5] = my2 >> 8;
+
+	HID_SendReport(3, rep, 10);
 }
 
 #endif /* if defined(_USB) */
