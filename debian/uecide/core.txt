@@ -11,11 +11,8 @@ core.library.harmony-app=pic32/harmony/app
 
 core.library.harmony-framework=pic32/harmony/framework::pic32/harmony/framework/system/int/src::pic32/harmony/framework/usb/src/dynamic::pic32/harmony/app 
 
-#######
-# This line is for MX chips.  For MZ chips you need to use the next line instead
 core.library.harmony-usbfs=pic32/harmony/framework/driver/usb/usbfs/src/dynamic
 
-# MZ chips use this line. It's not working yet though.
 #core.library.harmony-usbhs=pic32/harmony/framework/driver/usb/usbhs/src/dynamic
 
 core.header=WProgram.h
@@ -125,6 +122,30 @@ upload.mdb.name=Upload with MDB
 upload.mdb.using=script
 upload.mdb.script.0=core:pickit3.js::program::PIC${build.mcu}::${build.path}/${filename}.hex
 upload.mdb.ldsuffix=-nobootloader
+
+options.usbdev.name=USB Configuration
+options.usbdev.default=two-one
+options.usbdev.purge=true
+
+options.usbdev.two-one.name=Two CDC/ACM plus HID
+options.usbdev.two-one.flags=-D_NUM_CDC_=2::-D_NUM_HID_=1::-D_USE_USB_FOR_SERIAL_
+
+options.usbdev.two-none.name=Two CDC/ACM 
+options.usbdev.two-none.flags=-D_NUM_CDC_=2::-D_NUM_HID_=0::-D_USE_USB_FOR_SERIAL_
+
+options.usbdev.one-one.name=One CDC/ACM plus HID
+options.usbdev.one-one.flags=-D_NUM_CDC_=1::-D_NUM_HID_=1::-D_USE_USB_FOR_SERIAL_
+
+options.usbdev.one-none.name=One CDC/ACM 
+options.usbdev.one-none.flags=-D_NUM_CDC_=1::-D_NUM_HID_=0::-D_USE_USB_FOR_SERIAL_
+
+options.usbdev.none-one.name=HID Only
+options.usbdev.none-one.flags=-D_NUM_CDC_=0::-D_NUM_HID_=1::-D_USE_USB_FOR_SERIAL_
+
+options.usbdev.none-none.name=No USB
+options.usbdev.none-none.flags=-D_NUM_CDC_=0::-D_NUM_HID_=0
+
+
 
 init.script.0=__builtin_loadjar::${prefs:cores.chipkit.mdb_path}
 

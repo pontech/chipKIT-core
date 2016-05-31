@@ -34,6 +34,8 @@
 
 #if defined(_USB)
 
+#if _NUM_HID_ > 0
+
 //#define RAWHID_ENABLED
 
 //	Singletons for mouse and keyboard
@@ -446,5 +448,6 @@ void Tablet_::move(int x, int y)
 
 	HID_SendReport(3, rep, 10);
 }
+#endif  /* if (_NUM_HID_ > 0) */
 
 #endif /* if defined(_USB) */

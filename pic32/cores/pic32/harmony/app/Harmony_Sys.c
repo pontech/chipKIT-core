@@ -64,6 +64,15 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #define _USB_PID_ 0xa662
 #endif
 
+#ifndef _NUM_CDC_
+#define _NUM_CDC_ 2
+#endif
+
+#ifndef _NUM_HID_
+#define _NUM_HID_ 1
+#endif
+
+
 // *****************************************************************************
 // *****************************************************************************
 // Section: Library/Stack Initialization Data
@@ -207,7 +216,8 @@ const USB_DEVICE_HID_INIT hidInit0 ={
  * USB Device Layer Function Driver Registration 
  * Table
  **************************************************/
-const USB_DEVICE_FUNCTION_REGISTRATION_TABLE funcRegistrationTable[3] ={
+const USB_DEVICE_FUNCTION_REGISTRATION_TABLE funcRegistrationTable[(_NUM_CDC_ + _NUM_HID_)] ={
+#if (_NUM_CDC_ >= 1)
     /* Function 1 */
     {
         .configurationValue = 1, /* Configuration value */
@@ -218,6 +228,8 @@ const USB_DEVICE_FUNCTION_REGISTRATION_TABLE funcRegistrationTable[3] ={
         .driver = (void*) USB_DEVICE_CDC_FUNCTION_DRIVER, /* USB CDC function data exposed to device layer */
         .funcDriverInit = (void*) &cdcInit0 /* Function driver init data */
     },
+#endif
+#if (_NUM_CDC_ >= 2)
     /* Function 2 */
     {
         .configurationValue = 1, /* Configuration value */
@@ -228,16 +240,25 @@ const USB_DEVICE_FUNCTION_REGISTRATION_TABLE funcRegistrationTable[3] ={
         .driver = (void*) USB_DEVICE_CDC_FUNCTION_DRIVER, /* USB CDC function data exposed to device layer */
         .funcDriverInit = (void*) &cdcInit1 /* Function driver init data */
     },
+#endif
+#if (_NUM_HID_ >= 1) 
     /* Function 3 */
     {
         .configurationValue = 1, /* Configuration value */
+#if (_NUM_CDC_==2)
         .interfaceNumber = 4, /* First interfaceNumber of this function */
+#elif (_NUM_CDC_==1)
+        .interfaceNumber = 2, /* First interfaceNumber of this function */
+#elif (_NUM_CDC_==0)
+        .interfaceNumber = 0, /* First interfaceNumber of this function */
+#endif
         .speed = USB_SPEED_FULL, /* Function Speed */
         .numberOfInterfaces = 1, /* Number of interfaces */
         .funcDriverIndex = 0, /* Index of HID Function Driver */
         .driver = (void*) USB_DEVICE_HID_FUNCTION_DRIVER, /* USB HID function data exposed to device layer */
         .funcDriverInit = (void*) &hidInit0, /* Function driver init data */
     },
+#endif
 };
 
 /*******************************************
@@ -280,6 +301,10 @@ const USB_DEVICE_DESCRIPTOR deviceDescriptor ={
     0x03, // Device serial number string index
     0x01 // Number of possible configurations
 };
+// Sizes for the different interfaces
+#define CFG_HEADER 9
+#define CFG_CDCACM (8+9+5+4+5+5+7+9+7+7)
+#define CFG_HID (9+9+7+7)
 
 
 /*******************************************
@@ -290,12 +315,44 @@ const uint8_t fullSpeedConfigurationDescriptor[] ={
 
     0x09, // Size of this descriptor in bytes
     USB_DESCRIPTOR_CONFIGURATION, // Descriptor Type
-    173, 0, //(173 Bytes)Size of the Config descriptor.e
-    5, // Number of interfaces in this cfg
+//    173, 0, //(173 Bytes)Size of the Config descriptor.e
+#if (_NUM_CDC_==2) && (_NUM_HID_==1)
+    (CFG_HEADER+CFG_CDCACM+CFG_CDCACM+CFG_HID),
+#elif (_NUM_CDC_==2) && (_NUM_HID_==0)
+    (CFG_HEADER+CFG_CDCACM+CFG_CDCACM),
+#elif (_NUM_CDC_==1) && (_NUM_HID_==1)
+    (CFG_HEADER+CFG_CDCACM+CFG_HID),
+#elif (_NUM_CDC_==1) && (_NUM_HID_==0)
+    (CFG_HEADER+CFG_CDCACM),
+#elif (_NUM_CDC_==0) && (_NUM_HID_==1)
+    (CFG_HEADER+CFG_HID),
+#elif (_NUM_CDC_==0) && (_NUM_HID_==0)
+    (CFG_HEADER),
+#endif
+    0,
+    // Number of interfaces in this cfg (5)
+#if (_NUM_CDC_==2) && (_NUM_HID_==1)
+    5,
+#elif (_NUM_CDC_==2) && (_NUM_HID_==0)
+    4,
+#elif (_NUM_CDC_==1) && (_NUM_HID_==1)
+    3,
+#elif (_NUM_CDC_==1) && (_NUM_HID_==0)
+    2,
+#elif (_NUM_CDC_==0) && (_NUM_HID_==1)
+    1,
+#elif (_NUM_CDC_==0) && (_NUM_HID_==0)
+    0,
+#endif
     0x01, // Index value of this configuration
     0x00, // Configuration string index
     USB_ATTRIBUTE_DEFAULT | USB_ATTRIBUTE_SELF_POWERED, // Attributes
     250, // Max power consumption (2X mA)
+
+#if (_NUM_CDC_ >= 1)
+/*********************************************************
+ *                   FIRST CDC/ACM PORT                  *
+ *********************************************************/
     /* Descriptor for Function 1 - CDC     */
     /* Interface Association Descriptor: CDC Function 1*/
     0x08, // Size of this descriptor in bytes
@@ -307,9 +364,6 @@ const uint8_t fullSpeedConfigurationDescriptor[] ={
     0x00, // bInterfaceProtocol of the first interface
     0x00, // Interface string index
 
-/*********************************************************
- *                   FIRST CDC/ACM PORT                  *
- *********************************************************/
     /* Interface Descriptor */
 
     0x09, // Size of this descriptor in bytes
@@ -385,6 +439,13 @@ const uint8_t fullSpeedConfigurationDescriptor[] ={
     0x40, 0x00, // Max packet size of this EP
     0x01, // Interval (in ms)
 
+#endif
+#if (_NUM_CDC_ >= 2)
+
+/*********************************************************
+ *                  SECOND CDC/ACM PORT                  *
+ *********************************************************/
+
     /* Descriptor for Function 2 - CDC     */
     /* Interface Association Descriptor: CDC Function 2*/
     0x08, // Size of this descriptor in bytes
@@ -396,9 +457,6 @@ const uint8_t fullSpeedConfigurationDescriptor[] ={
     0x00, // bInterfaceProtocol of the first interface
     0x00, // Interface string index
 
-/*********************************************************
- *                  SECOND CDC/ACM PORT                  *
- *********************************************************/
     /* Interface Descriptor */
 
     0x09, // Size of this descriptor in bytes
@@ -473,7 +531,8 @@ const uint8_t fullSpeedConfigurationDescriptor[] ={
     0x02, // Attributes type of EP (BULK)
     0x40, 0x00, // Max packet size of this EP
     0x01, // Interval (in ms)
-
+#endif
+#if (_NUM_HID_ >= 1)
 /*********************************************************
  *                     HID INTERFACE                     *
  *********************************************************/
@@ -481,7 +540,14 @@ const uint8_t fullSpeedConfigurationDescriptor[] ={
 
     0x09, // Size of this descriptor in bytes
     USB_DESCRIPTOR_INTERFACE, // INTERFACE descriptor type
-    4, // Interface Number
+    // Interface Number
+#if (_NUM_CDC_==2)
+    4,
+#elif (_NUM_CDC_==1)
+    2,
+#elif (_NUM_CDC_==0)
+    0,
+#endif
     0, // Alternate Setting Number
     2, // Number of endpoints in this interface
     USB_HID_CLASS_CODE, // Class code
@@ -503,7 +569,13 @@ const uint8_t fullSpeedConfigurationDescriptor[] ={
 
     0x07, // Size of this descriptor in bytes
     USB_DESCRIPTOR_ENDPOINT, // Endpoint Descriptor
+#if (_NUM_CDC_==2)
     7 | USB_EP_DIRECTION_IN, // EndpointAddress
+#elif (_NUM_CDC_==1)
+    4 | USB_EP_DIRECTION_IN, // EndpointAddress
+#elif (_NUM_CDC_==0)
+    1 | USB_EP_DIRECTION_IN, // EndpointAddress
+#endif
     USB_TRANSFER_TYPE_INTERRUPT, // Attributes
     0x40, 0x00, // Size
     0x01, // Interval
@@ -512,11 +584,17 @@ const uint8_t fullSpeedConfigurationDescriptor[] ={
 
     0x07, // Size of this descriptor in bytes
     USB_DESCRIPTOR_ENDPOINT, // Endpoint Descriptor
+#if (_NUM_CDC_==2)
     8 | USB_EP_DIRECTION_OUT, // EndpointAddress
+#elif (_NUM_CDC_==1)
+    5 | USB_EP_DIRECTION_OUT, // EndpointAddress
+#elif (_NUM_CDC_==0)
+    2 | USB_EP_DIRECTION_OUT, // EndpointAddress
+#endif
     USB_TRANSFER_TYPE_INTERRUPT, // Attributes
     0x40, 0x00, // size
     0x01, // Interval
-
+#endif
 
 
 
@@ -668,7 +746,7 @@ const USB_DEVICE_INIT usbDevInitData ={
 
     /* Number of function drivers registered to this instance of the
        USB device layer */
-    .registeredFuncCount = 3,
+    .registeredFuncCount = _NUM_CDC_+_NUM_HID_,
 
     /* Function driver table registered to this instance of the USB device layer*/
     .registeredFunctions = (USB_DEVICE_FUNCTION_REGISTRATION_TABLE*) funcRegistrationTable,
