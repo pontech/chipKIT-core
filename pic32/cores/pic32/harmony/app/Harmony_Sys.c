@@ -364,6 +364,9 @@ const uint8_t fullSpeedConfigurationDescriptor[] ={
     0x00, // bInterfaceProtocol of the first interface
     0x00, // Interface string index
 
+/*********************************************************
+ *                   FIRST CDC/ACM PORT                  *
+ *********************************************************/
     /* Interface Descriptor */
 
     0x09, // Size of this descriptor in bytes
@@ -457,6 +460,9 @@ const uint8_t fullSpeedConfigurationDescriptor[] ={
     0x00, // bInterfaceProtocol of the first interface
     0x00, // Interface string index
 
+/*********************************************************
+ *                  SECOND CDC/ACM PORT                  *
+ *********************************************************/
     /* Interface Descriptor */
 
     0x09, // Size of this descriptor in bytes
@@ -533,6 +539,7 @@ const uint8_t fullSpeedConfigurationDescriptor[] ={
     0x01, // Interval (in ms)
 #endif
 #if (_NUM_HID_ >= 1)
+
 /*********************************************************
  *                     HID INTERFACE                     *
  *********************************************************/
@@ -590,7 +597,6 @@ const uint8_t fullSpeedConfigurationDescriptor[] ={
     5 | USB_EP_DIRECTION_OUT, // EndpointAddress
 #elif (_NUM_CDC_==0)
     2 | USB_EP_DIRECTION_OUT, // EndpointAddress
-#endif
     USB_TRANSFER_TYPE_INTERRUPT, // Attributes
     0x40, 0x00, // size
     0x01, // Interval
