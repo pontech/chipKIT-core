@@ -336,6 +336,24 @@
         #define __PIC32_PINS__  100
         #define __PIC32MX3XX__
 
+    #elif defined(__32MX370F512H__)
+        #define _CPU_NAME_      "32MX370F512H"
+        #define FLASHEND        (((512 - 4) * 1024L) - 1)
+        #define RAMEND          ((128 * 1024L) - 1)
+        #define __PIC32_PINS__  64
+        #define __PIC32MX37X__
+        #define __PIC32MX37XH__
+        #define __PIC32_PPS__
+
+    #elif defined(__32MX370F512L__)
+        #define _CPU_NAME_      "32MX370F512L"
+        #define FLASHEND        (((512 - 4) * 1024L) - 1)
+        #define RAMEND          ((128 * 1024L) - 1)
+        #define __PIC32_PINS__  100
+        #define __PIC32MX37X__
+        #define __PIC32MX37XL__
+        #define __PIC32_PPS__
+
     //************************************************************************
     //*  MX  400 series
 
@@ -1118,6 +1136,11 @@
     #ifndef __PIC32MZEFADC__
         #define __PIC32MZECADC__
     #endif
+#endif
+
+//Fix issue 213
+#ifndef __PIC32_PPS__
+  #define OPT_BOARD_INTERNAL
 #endif
 
 //************************************************************************

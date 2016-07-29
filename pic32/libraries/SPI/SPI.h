@@ -85,6 +85,7 @@ public:
         init_AlwaysInline(4000000, MSBFIRST, SPI_MODE0);
     }
 private:
+    uint32_t softBitOrder;
     /* Note that on PIC32, SPI always shifts out Most Significant Bit first, so the bitOrder parameter
      * is not used, but needs to be retained for compatibility with existing sketches/libraries */
     void init_MightInline(uint32_t clock, uint8_t __attribute__((unused)) bitOrder, uint8_t dataMode) {
@@ -92,13 +93,21 @@ private:
     }
     void init_AlwaysInline(uint32_t clock, uint8_t __attribute__((unused)) bitOrder, uint8_t dataMode)
     __attribute__((__always_inline__)) {
+
+        softBitOrder = bitOrder;
         
         DesiredSPIClockFrequency = clock;
         
         // By including the needed flag here, we have a speed optimization.
         // We will always set the Master Enable bit, becuase we are always the SPI master
         // We will always set the ON bit because we always want the SPI peripheral turned on
-        con = (1 << _SPICON_MSTEN) | (1 << _SPICON_ON);
+        //
+        // The _SPICON_SMP bit makes the SPI preph actually follow the 
+        // general SPI rules that everyone else uses. Normally an SPI master 
+        // samples just before the next cycle starts.  
+        // At high data rates it becomes very important to sample later 
+        // than center, due to timing constraints in the silicon.
+        con = (1 << _SPICON_MSTEN) | (1 << _SPICON_ON) | (1 << _SPICON_SMP);
 
         switch (dataMode) {
             case SPI_MODE0:     // CKE = 1, CKP = 0
@@ -187,7 +196,25 @@ public:
     inline void beginTransaction(SPISettings settings) {
         if (interruptMode > 0) {
             int32_t sreg = disableInterrupts();
-            interruptSave = sreg;
+            if (interruptMode == 1) {
+                if(interruptMask & 0x01) {
+                    IEC0bits.INT0IE = 0;
+                }
+                if(interruptMask & 0x02) {
+                    IEC0bits.INT1IE = 0;
+                }
+                if(interruptMask & 0x04) {
+                    IEC0bits.INT2IE = 0;
+                }
+                if(interruptMask & 0x08) {
+                    IEC0bits.INT3IE = 0;
+                }
+                if(interruptMask & 0x10) {
+                    IEC0bits.INT4IE = 0;
+                }
+                restoreInterrupts(sreg);
+            } else interruptSave = sreg;
+            
         }
 
 #ifdef SPI_TRANSACTION_MISMATCH_LED
@@ -205,10 +232,24 @@ public:
         pspi->sxBrg.reg = settings.GenerateBRG();
         /* Copy over the proper value of the CON regsiter for this set of settings, turning SPI peripheral back on */
         pspi->sxCon.reg = settings.con;
+        softBitOrder = settings.softBitOrder;
     }
 
     // Write to the SPI bus (MOSI pin) and also receive (MISO pin)
     inline uint8_t transfer(uint8_t data) {
+        if (softBitOrder == LSBFIRST) {
+            uint8_t sdata = 
+                ((data & 0x80) >> 7) |
+                ((data & 0x40) >> 5) |
+                ((data & 0x20) >> 3) |
+                ((data & 0x10) >> 1) |
+                ((data & 0x08) << 1) |
+                ((data & 0x04) << 3) |
+                ((data & 0x02) << 5) |
+                ((data & 0x01) << 7);
+            data = sdata;
+        }
+
         while ((pspi->sxStat.reg & (1 << _SPISTAT_SPITBE)) == 0) {
         }
 
@@ -217,7 +258,21 @@ public:
         while ((pspi->sxStat.reg & (1 << _SPISTAT_SPIRBF)) == 0) {
         }
 
-        return pspi->sxBuf.reg;
+        data = pspi->sxBuf.reg;
+        if (softBitOrder == LSBFIRST) {
+            uint8_t sdata = 
+                ((data & 0x80) >> 7) |
+                ((data & 0x40) >> 5) |
+                ((data & 0x20) >> 3) |
+                ((data & 0x10) >> 1) |
+                ((data & 0x08) << 1) |
+                ((data & 0x04) << 3) |
+                ((data & 0x02) << 5) |
+                ((data & 0x01) << 7);
+            data = sdata;
+        }
+
+        return data;
     }
     inline uint16_t transfer16(uint16_t data) {
         pspi->sxCon.set = 1 << _SPICON_MODE16;
@@ -253,7 +308,25 @@ public:
 #endif
 
         if (interruptMode > 0) {
-            restoreInterrupts(interruptSave);
+            uint32_t sreg = disableInterrupts();
+            if (interruptMode == 1) {
+                if(interruptMask & 0x01) {
+                    IEC0bits.INT0IE = 1;
+                }
+                if(interruptMask & 0x02) {
+                    IEC0bits.INT1IE = 1;
+                }
+                if(interruptMask & 0x04) {
+                    IEC0bits.INT2IE = 1;
+                }
+                if(interruptMask & 0x08) {
+                    IEC0bits.INT3IE = 1;
+                }
+                if(interruptMask & 0x10) {
+                    IEC0bits.INT4IE = 1;
+                }
+                restoreInterrupts(sreg);
+            } else restoreInterrupts(interruptSave);
         }
     }
 
@@ -263,7 +336,7 @@ public:
     // This function is deprecated.  New applications should use
     // beginTransaction() to configure SPI settings.
     inline void setBitOrder(uint8_t __attribute__((unused)) bitOrder) {
-        // Not supported
+        softBitOrder = bitOrder;
     }
     // This function is deprecated.  New applications should use
     // beginTransaction() to configure SPI settings.
@@ -330,6 +403,7 @@ public:
     inline void detachInterrupt() { }
 
 private:
+    uint32_t softBitOrder;
     uint32_t initialized;
     uint32_t interruptMode; // 0=none, 1=mask, 2=global
     uint32_t interruptMask; // which interrupts to mask
