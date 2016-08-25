@@ -51,9 +51,12 @@
 #if defined(__PIC32MX1XX__) || defined(__PIC32MX2XX__)
 	#define	_EEPROM_PAGE_SIZE	256		// In 32bit words
 	#define	_EEPROM_PAGE_COUNT	4
+#elif defined(__PIC32MZXX__)
+	#define	_EEPROM_PAGE_SIZE	4096	// In 32bit words (Datasheet says 4K IW. I think IW means 32-bits)
+	#define	_EEPROM_PAGE_COUNT	1
 #else
 	#define	_EEPROM_PAGE_SIZE	1024	// In 32bit words
-#define	_EEPROM_PAGE_COUNT	1
+	#define	_EEPROM_PAGE_COUNT	1
 #endif
 
 /* ------------------------------------------------------------ */

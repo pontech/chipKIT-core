@@ -209,6 +209,9 @@ uint32_t __attribute__((nomips16)) _doNvmOp(uint32_t nvmop)
 
 	/* Unlock so that we can perform the operation.
 	*/
+#if defined(__PIC32MZXX__)
+    NVMKEY 		= 0x00000000;
+#endif
     NVMKEY 		= 0xAA996655;
     NVMKEY 		= 0x556699AA;
     NVMCONSET 	= NVMCON_WR;
