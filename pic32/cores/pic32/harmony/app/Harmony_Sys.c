@@ -190,6 +190,25 @@ const uint8_t _hidReportDescriptor[] = {
     0xc0,                               //   END_COLLECTION
     0xc0,                               // END_COLLECTION
 
+    0x06, 0x00, 0xff,              // USAGE_PAGE (Vendor Defined Page 1)
+    0x09, 0x01,                    // USAGE (Vendor Usage 1)
+    0xa1, 0x01,                    // COLLECTION (Application)
+    0x09, 0x01,                    //   USAGE (Vendor Usage 1)
+    0xa1, 0x00,                    //   COLLECTION (Physical)
+    0x85, 0x04,                    //     REPORT_ID (4)
+    0x06, 0x00, 0xff,              //     USAGE_PAGE (Vendor Defined Page 1)
+    0x19, 0x01,                    //     USAGE_MINIMUM (Vendor Usage 1)
+    0x29, 0x02,                    //     USAGE_MAXIMUM (Vendor Usage 2)
+    0x15, 0x00,                    //     LOGICAL_MINIMUM (0)
+    0x25, 0x01,                    //     LOGICAL_MAXIMUM (1)
+    0x95, 0x01,                    //     REPORT_COUNT (1)
+    0x75, 0x01,                    //     REPORT_SIZE (1)
+    0xb1, 0x02,                    //     FEATURE (Data,Var,Abs)
+    0x95, 0x01,                    //     REPORT_COUNT (1)
+    0x75, 0x07,                    //     REPORT_SIZE (7)
+    0xb1, 0x03,                    //     FEATURE (Cnst,Var,Abs)
+    0xc0,                          //     END_COLLECTION
+    0xc0                           // END_COLLECTION
 
 };
 
@@ -364,9 +383,6 @@ const uint8_t fullSpeedConfigurationDescriptor[] ={
     0x00, // bInterfaceProtocol of the first interface
     0x00, // Interface string index
 
-/*********************************************************
- *                   FIRST CDC/ACM PORT                  *
- *********************************************************/
     /* Interface Descriptor */
 
     0x09, // Size of this descriptor in bytes
@@ -460,9 +476,6 @@ const uint8_t fullSpeedConfigurationDescriptor[] ={
     0x00, // bInterfaceProtocol of the first interface
     0x00, // Interface string index
 
-/*********************************************************
- *                  SECOND CDC/ACM PORT                  *
- *********************************************************/
     /* Interface Descriptor */
 
     0x09, // Size of this descriptor in bytes
@@ -539,7 +552,6 @@ const uint8_t fullSpeedConfigurationDescriptor[] ={
     0x01, // Interval (in ms)
 #endif
 #if (_NUM_HID_ >= 1)
-
 /*********************************************************
  *                     HID INTERFACE                     *
  *********************************************************/
@@ -597,6 +609,7 @@ const uint8_t fullSpeedConfigurationDescriptor[] ={
     5 | USB_EP_DIRECTION_OUT, // EndpointAddress
 #elif (_NUM_CDC_==0)
     2 | USB_EP_DIRECTION_OUT, // EndpointAddress
+#endif
     USB_TRANSFER_TYPE_INTERRUPT, // Attributes
     0x40, 0x00, // size
     0x01, // Interval

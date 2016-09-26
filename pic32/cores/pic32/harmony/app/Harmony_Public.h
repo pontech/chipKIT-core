@@ -11,6 +11,16 @@
 extern "C" {
 #endif
 
+extern void debug0(const char *f);
+extern void debug1(const char *f, int a);
+extern void debug2(const char *f, int a, int b);
+extern void debug3(const char *f, int a, int b, int c);
+extern void debug4(const char *f, int a, int b, int c, int d);
+extern void debug5(const char *f, int a, int b, int c, int d, int e);
+extern void debug6(const char *f, int a, int b, int c, int d, int e, int g);
+extern void debug7(const char *f, int a, int b, int c, int d, int e, int g, int h);
+
+
     //<editor-fold defaultstate="collapsed" desc="USB CDC Types and Functions">
     
     // Harmony error codes are negative.

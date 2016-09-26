@@ -180,14 +180,22 @@ HARMONY_APP_STATES Harmony_APP_Tasks(void)
             APP_StateReset();
             Harmony_AppData.state = APP_STATE_READY;
         }
-#endif
 
         if (Harmony_AppData.Hid.isRxReady == true) {
-            if (pCbReportReceived != NULL) {
-                pCbReportReceived(Harmony_AppData.Hid.RxType, (uint8_t *)Harmony_AppData.Hid.RxBuffer, Harmony_AppData.Hid.ReceivedLength);
+            uint8_t *data = (uint8_t *)Harmony_AppData.Hid.RxBuffer;    
+            if ((Harmony_AppData.Hid.RxType == 1) && (data[0] == 4)) { // Feature report 4
+                if (data[1] & 0x01) { // Prog mode - Bit 0 of report byte 0
+                    executeSoftReset(ENTER_BOOTLOADER_ON_BOOT);
+                }
+            } else {
+                if (pCbReportReceived != NULL) {
+                    pCbReportReceived(Harmony_AppData.Hid.RxType, (uint8_t *)Harmony_AppData.Hid.RxBuffer, Harmony_AppData.Hid.ReceivedLength);
+                }
             }
             Harmony_AppData.Hid.isRxReady = false;
+            USB_DEVICE_HID_ReportReceive(0, &Harmony_AppData.Hid.readTransferHandle, Harmony_AppData.Hid.RxBuffer, HARMONY_HID_READ_BUFFER_SIZE);
         }
+#endif
 
         break;
     default:
