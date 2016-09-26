@@ -11,9 +11,14 @@ core.library.harmony-app=pic32/harmony/app
 
 core.library.harmony-framework=pic32/harmony/framework::pic32/harmony/framework/system/int/src::pic32/harmony/framework/usb/src/dynamic::pic32/harmony/app 
 
-core.library.harmony-usbfs=pic32/harmony/framework/driver/usb/usbfs/src/dynamic
+core.library.harmony-driver=${board.usb.driver}
 
-#core.library.harmony-usbhs=pic32/harmony/framework/driver/usb/usbhs/src/dynamic
+# Harmony USB driver specifications. Set one of these in board.usb.driver in the boards
+harmony.usbfs=pic32/harmony/framework/driver/usb/usbfs/src/dynamic
+harmony.usbhs=pic32/harmony/framework/driver/usb/usbhs/src/dynamic
+
+# The default that the board can override
+board.usb.driver = ${harmony.usbfs}
 
 core.header=WProgram.h
 core.version=157
