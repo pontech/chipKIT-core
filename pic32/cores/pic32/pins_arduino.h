@@ -38,7 +38,7 @@
 #if !defined(PINS_ARDUINO_H)
 #define PINS_ARDUINO_H
 
-#include <system_config.h>
+#include <System_Config.h>
 #include <System_Defs.h>
 /* ------------------------------------------------------------ */
 /*					General Declarations						*/
