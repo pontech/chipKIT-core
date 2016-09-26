@@ -125,8 +125,8 @@ uint16_t _DRV_USBHS_ProcessIRPFIFO
         }
         else
         {
-            dmaChannelGrabbed = _DRV_USBHS_DEVICE_Get_FreeDMAChannel(hDriver,
-                                   USB_DATA_DIRECTION_DEVICE_TO_HOST, endpoint);
+            dmaChannelGrabbed = 0; //_DRV_USBHS_DEVICE_Get_FreeDMAChannel(hDriver,
+                                   0; //USB_DATA_DIRECTION_DEVICE_TO_HOST, endpoint);
             if((dmaChannelGrabbed == 0))
             {
                 /* NO DMA channel available. So do normal FIFO load */
