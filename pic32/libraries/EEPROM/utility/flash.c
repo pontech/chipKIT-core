@@ -89,6 +89,7 @@
 **		by adr.
 */
 
+extern unsigned int __EraseCount__; 
 uint32_t eraseFlashPage(void * adr)
 {
 	uint32_t		st;
@@ -101,6 +102,7 @@ uint32_t eraseFlashPage(void * adr)
 	*/
 	st = _doNvmOp(nvmopErasePage);
 
+  __EraseCount__++;
 	return st;
 
 }

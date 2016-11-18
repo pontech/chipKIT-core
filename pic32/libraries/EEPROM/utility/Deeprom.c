@@ -243,6 +243,7 @@ BOOL readEeprom(uint32_t address, uint8_t * data)
 **		invalidates that location and writes the address and data
 **		to a new unused location.
 */
+extern uint32_t __nextAvalible__; 
 BOOL putEeprom(eeSeg * eeprom, uint32_t address, uint8_t data)
 {
 	eeSeg tempSeg;
@@ -280,6 +281,7 @@ BOOL putEeprom(eeSeg * eeprom, uint32_t address, uint8_t data)
 		//If empty eeSeg found save location and break
 		else if(getValid(eeprom[i]) && getTaken(eeprom[i])) {
 			nextAvalible = i;
+      __nextAvalible__ = i;
 			break;
 		}
 	}
@@ -412,11 +414,11 @@ void getBuffer(uint8_t * buffer)
 	for(i=0; i < max_address; i++)
 	{
 		//If data in buffer does not equal 0xFF write to flash
-//		if(buffer[i] != 0xFF) {
+		if(buffer[i] != 0xFF) {
 			tempData = buffer[i];
 			tempSeg = pack(i, tempData);
 			writeFlashWord((void*)&eedata_addr[0][i],tempSeg.data);
-//		}
+		}
 	}
 }
 
