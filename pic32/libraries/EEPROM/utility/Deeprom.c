@@ -243,14 +243,11 @@ BOOL readEeprom(uint32_t address, uint8_t * data)
 **		invalidates that location and writes the address and data
 **		to a new unused location.
 */
-extern uint32_t __nextAvalible__; 
+uint32_t __deeprom_c_next_available__;
 BOOL putEeprom(eeSeg * eeprom, uint32_t address, uint8_t data)
 {
 	eeSeg tempSeg;
-
 	int i;
-
-	uint32_t nextAvalible;
 
 	//Check if address exists 
 	for(i=0; i < _EEPROM_PAGE_SIZE; i++) {
@@ -280,8 +277,7 @@ BOOL putEeprom(eeSeg * eeprom, uint32_t address, uint8_t data)
 		}
 		//If empty eeSeg found save location and break
 		else if(getValid(eeprom[i]) && getTaken(eeprom[i])) {
-			nextAvalible = i;
-      __nextAvalible__ = i;
+      __deeprom_c_next_available__ = i;
 			break;
 		}
 	}

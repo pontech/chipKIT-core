@@ -54,6 +54,8 @@ typedef union {
 	unsigned int data;
 } eeSeg;
 
+extern uint32_t __deeprom_c_next_available__;
+
 BOOL setMax(uint32_t value);
 uint32_t getMax();
 void clearEeprom();
